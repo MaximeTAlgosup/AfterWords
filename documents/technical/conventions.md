@@ -11,13 +11,15 @@ This document aims to list all the conventions for this project.
 The name of a folder should be written in `camelCase`.
 
 **Bad Example**:
-```
+
+```txt
 This_Folder
 SeconfFolder
 ```
 
 **Good Examples**:
-```
+
+```txt
 thisFolder
 secondFolder
 ```
@@ -27,13 +29,15 @@ secondFolder
 Files' names should be written in `camelCase`.
 
 **Bad Example**:
-```
+
+```txt
 this_file.md
 SeconfFile.md
 ```
 
 **Good Examples**:
-```
+
+```txt
 thisFile.md
 seconfFile.md
 ```

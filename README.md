@@ -22,4 +22,4 @@ This Moonshot would encounter many technical challenges, some harder than others
 
 | Picture                                                                    | Full name      | Links                                                                                                         |
 | -------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------- |
-| <img src="https://avatars.githubusercontent.com/u/145995586?v=4" width=80> | Maxime THIZEAU | [LinkedIn](https://www.linkedin.com/in/maxime-thizeau-0b311a293/) [GitHub](https://github.com/MaximeTAlgosup) |
+| <img alt="profile-picture" src="https://avatars.githubusercontent.com/u/145995586?v=4" width=80> | Maxime THIZEAU | [LinkedIn](https://www.linkedin.com/in/maxime-thizeau-0b311a293/) [GitHub](https://github.com/MaximeTAlgosup) |

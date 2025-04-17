@@ -1,43 +1,35 @@
 <!-- TODO -->
 
-# Functional Specification Document - AfterWords
+# Functional Specification Document - AfterWords <!-- omit in toc -->
 
 <details>
 <summary> Table Of Contents </summary>
 
-- [Introduction](#introduction)  
-    - [Purpose](#purpose)  
-    - [Scope](#scope)  
-    - [Audience](#audience)  
-    - [Definitions And Acronyms](#definitions-and-acronyms)  
-- [System Overview](#system-overview)  
-    - [Background](#background)  
-    - [System Architecture](#system-architecture)  
-    - [Assumptions And Dependencies](#assumptions-and-dependencies)  
-- [Functional Requirements](#functional-requirements)  
-    - [Use Cases](#use-cases)  
-    - [User Roles And Permissions](#user-roles-and-permissions)  
-    - [System Features And Functions](#system-features-and-functions)  
-- [Non-Functional Requirements](#non-functional-requirements)  
-    - [Performance](#performance)  
-    - [Security](#security)  
-    - [Usability](#usability)  
-    - [Availability And Reliability](#availability-and-reliability)  
-- [Data Management](#data-management)  
-    - [Data Flow](#data-flow)  
-    - [Database Schema](#database-schema)  
-- [External Interfaces](#external-interfaces)  
-    - [APIs](#apis)  
-    - [Third-Party Integrations](#third-party-integrations)  
-    - [Hardware Interfaces](#hardware-interfaces)  
-- [Constraints And Limitations](#constraints-and-limitations)  
-- [Acceptance Criteria](#acceptance-criteria)  
-- [Appendices](#appendices)  
-
+- [Introduction](#introduction)
+  - [Purpose](#purpose)
+  - [Scope](#scope)
+  - [Audience](#audience)
+  - [Definitions And Acronyms](#definitions-and-acronyms)
+- [System Overview](#system-overview)
+  - [Background](#background)
+  - [System Architecture](#system-architecture)
+  - [Assumptions And Dependencies](#assumptions-and-dependencies)
+- [Functional Requirements](#functional-requirements)
+  - [Use Cases](#use-cases)
+  - [User Roles And Permissions](#user-roles-and-permissions)
+  - [System Features And Functions](#system-features-and-functions)
+- [Non-Functional Requirement](#non-functional-requirement)
+- [Data Management](#data-management)
+  - [Data Flow](#data-flow)
+  - [Database Schema](#database-schema)
+- [External Interfaces](#external-interfaces)
+- [Constraints And Limitations](#constraints-and-limitations)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Appendices](#appendices)
 
 </details>
 
-## Introduction 
+## Introduction
 
 ### Purpose  
 <!-- - Briefly describe the purpose of the document and the system/product it defines.   -->
