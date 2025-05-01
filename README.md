@@ -1,6 +1,10 @@
-# AfterWords
+# AfterWords <!-- omit in toc -->
 
-## Overview
+## Description <!-- omit in toc -->
+
+### Overview
+
+---
 
 AfterWords would be a tool allowing people to get rid of an interminable administration path.
 
@@ -9,7 +13,9 @@ The bereaved should only inform the tool which instances they'd like to send a m
 Once this is done, the bereaved would give the tool all the papers and documents needed for the different instances. \
 After getting all the documents (in PDF format for now), the tool will link the given documents to the instances that need them. E-mails would be written to them following a template (with documents linked), and the sending would be done in one click, saving a lot of time for the bereaved.
 
-## Technical Challenges
+---
+
+### Technical Challenges
 
 This Moonshot would encounter many technical challenges, some harder than others:
 
@@ -18,8 +24,75 @@ This Moonshot would encounter many technical challenges, some harder than others
 - **Tool Support**: AfterWords should be accessible to everyone, including the diseased and elders. Consequently, the support should be easy to handle, and either a site (everyone can access it) or an application on Android and iOS (responsive).
 - **DataBase**: AfterWords should have a database where all the information for each API and templates for mail are stored. (Examples non-exhaustive)
 
-## Contributors
+---
+
+## Project Status
+
+---
+
+## Table of Content <!-- omit in toc -->
+
+- [Project Status](#project-status)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contains](#contains)
+- [Contributing](#contributing)
+- [Common Errors](#common-errors)
+- [Troubleshooting](#troubleshooting)
+- [Copyrights \& Licenses](#copyrights--licenses)
+  - [Copyrights](#copyrights)
+  - [Licenses](#licenses)
+- [Changelog](#changelog)
+- [Authors \& Acknowledgement](#authors--acknowledgement)
+
+## Installation
+
+---
+
+## Usage
+
+---
+
+## Contains
+
+---
+
+## Contributing
+
+---
+
+## Common Errors
+
+---
+
+## Troubleshooting
+
+---
+
+## Copyrights & Licenses
+
+### Copyrights
+
+---
+
+---
+
+### Licenses
+
+---
+
+---
+
+## Changelog
+
+---
+
+## Authors & Acknowledgement
 
 | Picture                                                                    | Full name      | Links                                                                                                         |
 | -------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------- |
 | <img alt="profile-picture" src="https://avatars.githubusercontent.com/u/145995586?v=4" width=80> | Maxime THIZEAU | [LinkedIn](https://www.linkedin.com/in/maxime-thizeau-0b311a293/) [GitHub](https://github.com/MaximeTAlgosup) |
+
+---
+
+[Back to top](#afterwords)
