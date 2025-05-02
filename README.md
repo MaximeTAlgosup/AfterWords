@@ -28,6 +28,8 @@ This Moonshot would encounter many technical challenges, some harder than others
 
 ## Project Status
 
+This project is currently in progress, it will be updated with regular commits all along its realization. You could help us by contributing. Loom for more information in [Contributing](#contributing).
+
 ---
 
 ## Table of Content <!-- omit in toc -->
@@ -47,25 +49,65 @@ This Moonshot would encounter many technical challenges, some harder than others
 
 ## Installation
 
+<!-- TODO -->
+
+For now, AfterWords cannot be installed because there is no code yet.
+
 ---
 
 ## Usage
+
+1. Connect to AfterWords on your device.
+2. Check the different instances and companies you want/ have to inform of your loved one.
+3. Link all necessary/asked documents to AfterWords.
+4. Complete the letters missing sections (security number, etc.).
+5. Click on the Send button.
+
+Well done, AfterWords can now send the letter to all the instances you checked with their necessary documents. The administration part is done.
 
 ---
 
 ## Contains
 
+This repository will contain all the necessary documents for AfterWords alongside the code source of the application.
+
+The code source can be found inside the [src folder](./src/) whereas the document would be stored within the [documents folder](./documents/).
+
+The main documents inside this folder would be:
+
+[**Functional Specifications**](./documents/functional/functionalSpecifications.md): Will explain what composed the project and visuals.
+
+[**Technical Specifications**](./documents/technical/technicalSpecifications.md): Will contain how AfterWords is built, with which technology, and all the technical aspects of the project.
+
+[**Test Plan**](./documents/qualityAssurance/testPlan.md): This document will explain how the project will be tested, with which strategy, and so on. It would be also linked to the test cases, another document listing all the tests for this project.
+
+[**Management Artifacts**](./documents/management/managementArtifacts.md): This document will list all the management artifacts used during this project, such as RACI Matrix, Gantt Chart, Tasks, Percentage Calculation, Kanban, etc.
+
+[**User Manual**](./documents/manuals/): This manual will guide users through the application for them to understand how to use the product.
+
+Finally, other documents will be added to the repository with time.
+
 ---
 
 ## Contributing
+
+To contribute to this project, please, ensure to follow the conventions that can be found within the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
 
 ---
 
 ## Common Errors
 
+Here will be displayed common errors you can have/find while utilizing AfterWords. Some of them would be avoidable/solvable by following their solving procedure in the [Troubleshooting](#troubleshooting) part just below.
+
+For now, this section is empty, as there is no code source.
+
 ---
 
 ## Troubleshooting
+
+Here will be displayed ways to solve common errors that could happen during your journey on AfterWords. There would be links between them for ease of use.
+
+For now, this section is empty, as there is no code source.
 
 ---
 
@@ -75,15 +117,23 @@ This Moonshot would encounter many technical challenges, some harder than others
 
 ---
 
+<!-- TODO: Search for copyrights -->
+
 ---
 
 ### Licenses
 
 ---
 
+<!-- TODO: Search for licenses -->
+
 ---
 
 ## Changelog
+
+**Latest**: NULL \
+**Curren**t: NULL \
+**Version List**: [Click to view](https://github.com/MaximeTAlgosup/AfterWords/tags)
 
 ---
 
