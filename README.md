@@ -28,7 +28,7 @@ This Moonshot would encounter many technical challenges, some harder than others
 
 ## Project Status
 
-This project is currently in progress, it will be updated with regular commits all along its realization. You could help us by contributing. Loom for more information in [Contributing](#contributing).
+This project is currently in progress, it will be updated with regular commits all along its realization. You could help us by contributing. Look for more information in [Contributing](#contributing).
 
 ---
 
@@ -58,7 +58,7 @@ For now, AfterWords cannot be installed because there is no code yet.
 ## Usage
 
 1. Connect to AfterWords on your device.
-2. Check the different instances and companies you want/ have to inform of your loved one.
+2. Check the different instances and companies you want/ have to inform of your loved one death.
 3. Link all necessary/asked documents to AfterWords.
 4. Complete the letters missing sections (security number, etc.).
 5. Click on the Send button.
