@@ -33,7 +33,7 @@
   - [Personas](#personas)
 - [Design](#design)
   - [Wireframes](#wireframes)
-  - [Mock Ups](#mock-ups)
+  - [Mockups](#mockups)
   - [Color Palette](#color-palette)
   - [Logo](#logo)
   - [Font](#font)
@@ -61,6 +61,10 @@
 
 ---
 
+This project is made to help mourners with the french administration system. It would be delivered to undertakers which will deliver it to mourners.
+
+This project is held by Maxime THIZEAU.
+
 ---
 
 ### Project Definition
@@ -68,8 +72,8 @@
 ---
 
 #### Vision
+
 <!-- - Briefly describe the purpose of the document and the system/product it defines.   -->
----
 
 Afterwords is an application allowing mourning people to get some help on the administration part. \
 It would ease the process by gathering all instances in one place. \
@@ -82,11 +86,17 @@ The mourner just have to enter all the different instances and the required docu
 
 ---
 
+The objectives of this project are pretty clear:
+
+- Centralizing mourners in one platform.
+- Helping mourners comnpleting french administration.
+- Allowing mourners to have information gathered on one website.
+
 ---
 
-#### Scope  
+#### Scope
+
 <!-- - Define the boundaries of the system, including what it will and will not cover.   -->
----
 
 ##### In-scope
 
@@ -115,9 +125,9 @@ The following points are what AfterWords will not do:
 
 ---
 
-#### Target Audience  
+#### Target Audience
+
 <!-- - Specify who the intended readers are (developers, testers, stakeholders, etc.).   -->
----
 
 AfterWords will have to target audience. \
 The first hand audience would be undertakers company. AfterWords would be a service they could share, sell to their own customers, the second and final target audience of AfterWords, mourning people.
@@ -130,11 +140,24 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
+This project don't have a lot of deliverables. They are only composed of the code source and docuents that have to be written.
+
+For the documents, there would be:
+
+- The Functional Specifications.
+- The Technical Specifications.
+- The Test Plan.
+- Test Cases.
+- The User Manual.
+- Management Artifacts.
+
+The code source could be find in the `src` folder at the root of the project.
+
 ---
 
-#### Definitions And Acronyms  
+#### Definitions And Acronyms
+
 <!-- - List key terms and abbreviations with their explanations.   -->
----
 
 ---
 
@@ -146,17 +169,44 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
+This project has only one representatives which is Maxime THIZEAU, he would hold every role that a team could possibly have. However, here are the main ones:
+
+| Role              | Description                                                                                                                          |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Project Manager   | Managment (time, resources)<br>Workload distribution<br> Report to stakeholders<br>Risk anticipation and mitigation                  |
+| Program Manager   | Mock-ups and general design of the software<br>Communication with the client<br>Functional specification delivery<br>Risk management |
+| Technical Leader  | Define coding conventions<br>Choose technical tools used<br>Technical specification delivery<br>Manages developer tasks              |
+| Software engineer | Write the code<br>Fix bugs<br>Document the code<br>Create the tests if needed for the code                                           |
+| Quality assurance | Verify documents<br>Test the program<br>Confirm we match the client expectations<br>Test plan delivery                               |
+| Technical Writter | Put itself in user shoes<br>User manual delivery                                                                                     |
+
 ---
 
 #### Stakeholders
 
 ---
 
+| Role            | Representative           | Expectation                                                              |
+| --------------- | ------------------------ | ------------------------------------------------------------------------ |
+| owner           | Maxime THIZEAU           | Finished project while meeting requirements and proof-tested version one |
+| School director | Franck JEANNIN (ALGOSUP) | Clear documentation and management based on the skills learnt in class   |
+
 ---
 
 #### Project Reviewers
 
 ---
+
+This project would be reviewed by other developpers and ALGOSUP students. Moreover, you could be part of the review team by opening an issue on this repository and by following the [CONTRIBUTING document](../../CONTRIBUTING.md).
+
+The main reviewers would be:
+
+| Name            | Role                                                 | Personal Links                                                                                             | Company Links                                                                                                                          |
+| --------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Evan UHRING     | Woopsie Creations Co-founder and ACS Founder         | [GitHub](https://github.com/FlouffyDaWolf)                                                                 | [Woopsie Creation GitHub](https://github.com/woopsie-creations)                                                                        |
+| Enzo GUILOUCHE  | Woopsie Creations Co-founder and SeismoSense Founder | [GitHub](https://github.com/EnzoGuillouche) \| [LinkedIn](https://www.linkedin.com/in/enzoguillouche/)     | [Woopsie Creation GitHub](https://github.com/woopsie-creations) \| [SeismoSense GitHub](https://github.com/EnzoGuillouche/SeismoSense) |
+| Lucas MEGNAN    | Tomodachi Sport Founder                              | [GitHub](https://github.com/LucasMegnan) \| [LinkedIn](https://www.linkedin.com/in/lucas-megnan/)          | [Tomodachi Sport](https://github.com/LucasMegnan/Tomodachi-Sport)                                                                      |
+| Antoine PREVOST | Inkom Founder and CEO                                | [GitHub](https://github.com/TechXplorerFR) \| [LinkedIn](https://www.linkedin.com/in/antoine-prevost-dev/) | [Inkom](https://inkom.ai) \| [Inkom LinkedIn](https://www.linkedin.com/company/in-kom/)                                                |
 
 ---
 
@@ -168,11 +218,52 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
+**End Goal and Deadline**:
+
+The project should be done (version one) before June, 2026.
+
+**Key Milestones**:
+
+- The Version one should be completed by the 15 of May, 2026.
+- The MVP should be completed before the end of September, 2025.
+- The Functional Specifications should be done by the end of July, 2025.
+
+**Task Breakdown**:
+
+<!-- TODO: Complete lines with sentence and dates -->
+
+- Oral Presentation
+- Version 1
+- User Manual
+- Test Report
+- Test Plan
+- Admin Side
+- Undertaker Side
+- MVP
+- Mourner Side
+- Tech Spec
+- Func Spec
+- Figma
+- wireframe
+
+**Critical Path**:
+
+<!-- TODO: find the 2 or 3 most time consuming tasks -->
+
+**Timeline Visualization**:
+
+The Gantt Chart could be seen in the [Management Artifacts Document](../management/managementArtifacts.md).
+
 ---
 
 #### Milestones
 
 ---
+
+<!-- TODO: Complete Milestones -->
+
+| Date       | Time   | Milestones                        |
+| ---------- | ------ | --------------------------------- |
 
 ---
 
@@ -180,11 +271,27 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
+**Task Dependencies**:
+
+<!-- TODO: Create dependencies between tasks -->
+
+**Resource Dependencies**:
+
+<!-- TODO: Create dependencies between resource -->
+
 ---
 
 #### Assumptions/Constraints
 
 ---
+
+**Assumptions**:
+
+<!-- TODO: Write down some assumptions about the project -->
+
+**Constraints**:
+
+<!-- TODO: Write down some constraints about the project -->
 
 ---
 
@@ -192,13 +299,15 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
+<!-- TODO: Create a table for risks and mitigation -->
+
 ---
 
 ## Use Cases and Personas
 
 ### Use Cases
+
 <!-- - Describe major use cases and user interactions with the system.   -->
----
 
 #### Creating A New Account
 
@@ -326,6 +435,8 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
+<!-- TODO: Create three personas, mourner, undertaker, admin -->
+
 ---
 
 ## Design
@@ -334,11 +445,15 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
----
-
-### Mock Ups
+<!-- TODO: insert excalidraw and describe each part/page -->
 
 ---
+
+### Mockups
+
+---
+
+<!-- TODO:  Figma to be done -->
 
 ---
 
@@ -346,11 +461,15 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
+<!-- TODO: dark blue, purple, black, gold or white, light green, light blue, yellow, light pink -->
+
 ---
 
 ### Logo
 
 ---
+
+<!-- TODO: Create a logo, maybe on krita -->
 
 ---
 
@@ -358,13 +477,15 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
+<!-- TODO: Inter -->
+
 ---
 
 ## Functional Requirements
 
 ### User Roles And Permissions
+
 <!-- - Define different user roles and their access levels.   -->
----
 
 #### Administrator
 
@@ -442,11 +563,13 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
-### System Features And Functions  
-<!-- - Provide detailed functional requirements, such as:  
-  - **Feature 1**: Description, inputs, outputs, behavior.  
-  - **Feature 2**: Description, inputs, outputs, behavior.  
+### System Features And Functions
+
+<!-- - Provide detailed functional requirements, such as:
+  - **Feature 1**: Description, inputs, outputs, behavior.
+  - **Feature 2**: Description, inputs, outputs, behavior.
   - (Continue for all key functionalities.)   -->
+
 ---
 
 ---
@@ -454,6 +577,8 @@ The mourning people are the main audience of this project. AfterWords is meant t
 ### Application Workflow
 
 ---
+
+<!-- TODO: Redo mermaids to fit excalidraw -->
 
 ```mermaid
 graph TD
@@ -463,7 +588,7 @@ graph TD
     A1 -->|Returning User| A3[Login: password, username]
     A2 --> HP[Home Page]
     A3 --> HP[Home Page]
-    
+
     HP --> PP[Profile Page]
     HP --> UP[User Page]
 
@@ -486,7 +611,7 @@ graph TD
     A1 -->|Returning User| A3[Login: password, username]
     A2 --> HP[Home Page]
     A3 --> HP[Home Page]
-    
+
     HP --> PP[Profile Page]
     HP --> IP[Instance Page]
     HP --> TP[Template Page]
@@ -497,10 +622,12 @@ graph TD
 ---
 
 ## Non-Functional Requirement
-<!-- - **Performance**: Expected response times, scalability, etc.  
-- **Security**: Authentication, authorization, encryption needs.  
-- **Usability**: UI/UX expectations, accessibility.  
+
+<!-- - **Performance**: Expected response times, scalability, etc.
+- **Security**: Authentication, authorization, encryption needs.
+- **Usability**: UI/UX expectations, accessibility.
 - **Availability and Reliability**: Uptime, fault tolerance, backups.   -->
+
 ---
 
 ---
@@ -508,22 +635,28 @@ graph TD
 ## Data Management
 
 ### Data Flow
-<!-- - Describe how data moves through the system.  
+
+<!-- - Describe how data moves through the system.
 - Include data flow diagrams if necessary.   -->
 
 ### Database Schema
+
 <!-- - Define key tables and relationships if applicable.   -->
 
 ## External Interfaces
-<!-- - **APIs**: Describe any APIs the system will expose or consume.  
-- **Third-Party Integrations**: List any integrations with external systems.  
+
+<!-- - **APIs**: Describe any APIs the system will expose or consume.
+- **Third-Party Integrations**: List any integrations with external systems.
 - **Hardware Interfaces**: Describe interactions with physical devices if applicable.   -->
 
 ## Constraints And Limitations
+
 <!-- - Highlight known constraints, such as technology limitations or compliance requirements.   -->
 
 ## Acceptance Criteria
+
 <!-- - Define what constitutes successful implementation and acceptance by stakeholders.   -->
 
 ## Appendices
+
 <!-- - Any additional supporting information, such as diagrams, references, or links to related documents. -->
