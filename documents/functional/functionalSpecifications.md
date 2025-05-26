@@ -1,25 +1,43 @@
-<!-- TODO -->
-
 # Functional Specification Document - AfterWords <!-- omit in toc -->
 
 <details>
 <summary> Table Of Contents </summary>
 
 - [Introduction](#introduction)
-  - [Purpose](#purpose)
-  - [Scope](#scope)
-    - [In-scope](#in-scope)
-    - [Out-of-scope](#out-of-scope)
-  - [Audience](#audience)
-  - [Definitions And Acronyms](#definitions-and-acronyms)
-- [Overview](#overview)
-- [Functional Requirements](#functional-requirements)
+  - [Project Overview](#project-overview)
+  - [Project Definition](#project-definition)
+    - [Vision](#vision)
+    - [Objectives](#objectives)
+    - [Scope](#scope)
+      - [In-scope](#in-scope)
+      - [Out-of-scope](#out-of-scope)
+    - [Target Audience](#target-audience)
+    - [Deliverables](#deliverables)
+    - [Definitions And Acronyms](#definitions-and-acronyms)
+  - [Project Organisation](#project-organisation)
+    - [Project Representatives](#project-representatives)
+    - [Stakeholders](#stakeholders)
+    - [Project Reviewers](#project-reviewers)
+  - [Project Plan](#project-plan)
+    - [Retroplanning](#retroplanning)
+    - [Milestones](#milestones)
+    - [Dependencies](#dependencies)
+    - [Assumptions/Constraints](#assumptionsconstraints)
+    - [Risks/Mitigation](#risksmitigation)
+- [Use Cases and Personas](#use-cases-and-personas)
   - [Use Cases](#use-cases)
     - [Creating A New Account](#creating-a-new-account)
     - [Select Instances](#select-instances)
     - [Uploading Documents](#uploading-documents)
     - [Send Letters To All Instances](#send-letters-to-all-instances)
   - [Personas](#personas)
+- [Design](#design)
+  - [Wireframes](#wireframes)
+  - [Mock Ups](#mock-ups)
+  - [Color Palette](#color-palette)
+  - [Logo](#logo)
+  - [Font](#font)
+- [Functional Requirements](#functional-requirements)
   - [User Roles And Permissions](#user-roles-and-permissions)
     - [Administrator](#administrator)
     - [Undertakers](#undertakers)
@@ -27,11 +45,6 @@
   - [System Features And Functions](#system-features-and-functions)
   - [Application Workflow](#application-workflow)
 - [Non-Functional Requirement](#non-functional-requirement)
-- [Design](#design)
-  - [Wireframes](#wireframes)
-  - [Mock Ups](#mock-ups)
-    - [Colors](#colors)
-    - [Visuals](#visuals)
 - [Data Management](#data-management)
   - [Data Flow](#data-flow)
   - [Database Schema](#database-schema)
@@ -44,7 +57,17 @@
 
 ## Introduction
 
-### Purpose
+### Project Overview
+
+---
+
+---
+
+### Project Definition
+
+---
+
+#### Vision
 <!-- - Briefly describe the purpose of the document and the system/product it defines.   -->
 ---
 
@@ -55,11 +78,17 @@ The mourner just have to enter all the different instances and the required docu
 
 ---
 
-### Scope  
+#### Objectives
+
+---
+
+---
+
+#### Scope  
 <!-- - Define the boundaries of the system, including what it will and will not cover.   -->
 ---
 
-#### In-scope
+##### In-scope
 
 ---
 
@@ -73,7 +102,7 @@ AfterwWords will cover the different subject hereunder:
 
 ---
 
-#### Out-of-scope
+##### Out-of-scope
 
 ---
 
@@ -86,7 +115,7 @@ The following points are what AfterWords will not do:
 
 ---
 
-### Audience  
+#### Target Audience  
 <!-- - Specify who the intended readers are (developers, testers, stakeholders, etc.).   -->
 ---
 
@@ -97,17 +126,75 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
-### Definitions And Acronyms  
+#### Deliverables
+
+---
+
+---
+
+#### Definitions And Acronyms  
 <!-- - List key terms and abbreviations with their explanations.   -->
 ---
 
 ---
 
-## Overview
+### Project Organisation
 
 ---
 
-## Functional Requirements
+#### Project Representatives
+
+---
+
+---
+
+#### Stakeholders
+
+---
+
+---
+
+#### Project Reviewers
+
+---
+
+---
+
+### Project Plan
+
+---
+
+#### Retroplanning
+
+---
+
+---
+
+#### Milestones
+
+---
+
+---
+
+#### Dependencies
+
+---
+
+---
+
+#### Assumptions/Constraints
+
+---
+
+---
+
+#### Risks/Mitigation
+
+---
+
+---
+
+## Use Cases and Personas
 
 ### Use Cases
 <!-- - Describe major use cases and user interactions with the system.   -->
@@ -240,6 +327,40 @@ The mourning people are the main audience of this project. AfterWords is meant t
 ---
 
 ---
+
+## Design
+
+### Wireframes
+
+---
+
+---
+
+### Mock Ups
+
+---
+
+---
+
+### Color Palette
+
+---
+
+---
+
+### Logo
+
+---
+
+---
+
+### Font
+
+---
+
+---
+
+## Functional Requirements
 
 ### User Roles And Permissions
 <!-- - Define different user roles and their access levels.   -->
@@ -380,28 +501,6 @@ graph TD
 - **Security**: Authentication, authorization, encryption needs.  
 - **Usability**: UI/UX expectations, accessibility.  
 - **Availability and Reliability**: Uptime, fault tolerance, backups.   -->
----
-
----
-
-## Design
-
-### Wireframes
-
----
-
----
-
-### Mock Ups
-
-#### Colors
-
----
-
----
-
-#### Visuals
-
 ---
 
 ---
