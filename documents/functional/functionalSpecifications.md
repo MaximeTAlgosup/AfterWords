@@ -36,6 +36,28 @@
     - [Persona 3: Alexandre Moutarde](#persona-3-alexandre-moutarde)
 - [Design](#design)
   - [Wireframes](#wireframes)
+    - [1. Redirection Page](#1-redirection-page)
+    - [2. Mourners Side](#2-mourners-side)
+      - [2.1. Login Section](#21-login-section)
+      - [2.2. Home Section](#22-home-section)
+      - [2.3. Profile Section](#23-profile-section)
+      - [2.4. Instance Section](#24-instance-section)
+      - [2.5. Letters Section](#25-letters-section)
+      - [2.6. Undertaker Section](#26-undertaker-section)
+      - [2.7. Procedure Section](#27-procedure-section)
+    - [3. Undertakers Side](#3-undertakers-side)
+      - [3.1. Login Section](#31-login-section)
+      - [3.2. Home Section](#32-home-section)
+      - [3.3. Profile Section](#33-profile-section)
+      - [3.4. Clients Section](#34-clients-section)
+      - [3.5. Employees Section](#35-employees-section)
+    - [4. Administrator Section](#4-administrator-section)
+      - [4.1. Login Section](#41-login-section)
+      - [4.2. Home Section](#42-home-section)
+      - [4.3. Application Section](#43-application-section)
+      - [4.4. Undertakers Section](#44-undertakers-section)
+      - [4.5. Mourners Section](#45-mourners-section)
+      - [4.6. Profile Section](#46-profile-section)
   - [Mockups](#mockups)
   - [Color Palette](#color-palette)
   - [Logo](#logo)
@@ -460,27 +482,25 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-<!-- TODO: Create three personas, mourner, undertaker, admin -->
-
 #### Persona 1: Janice LeBlanc
 
 ---
 
-**Name**:
+**Name**: Janice LeBlanc
 
-**Age Range**:
+**Age Range**: 60-90
 
 **Frustrations**:
 
--
--
--
+- Can't understand how the administration system works anymore.
+- Don't know how to contact efficeietnly all of the instances needed for procedures.
+- Would rather spend time with her family than doing papers.
 
 **Goals**:
 
--
--
--
+- Wants to finalize all the procedure in a shorter amount of time.
+- Wants to lose less time doing procedures.
+- Should understand how to do it on internet.
 
 ---
 
@@ -488,21 +508,21 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-**Name**:
+**Name**: Sean McPhil
 
-**Age Range**:
+**Age Range**: 35-55
 
 **Frustrations**:
 
--
--
--
+- Can't help the mourners coming to his company efficiently enough.
+- Already saw people struggling completing procedural papers.
+- Can't complete the work for mourners in need.
 
 **Goals**:
 
--
--
--
+- Would like to add mourners on a single application that helps them completing procedures.
+- Would like to add other employees to it to have some help.
+- Would like to complete procedure for those who wants it.
 
 ---
 
@@ -510,21 +530,21 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-**Name**:
+**Name**: Alexandre Moutarde
 
-**Age Range**:
+**Age Range**: 25-45
 
 **Frustrations**:
 
--
--
--
+- Don't know all the procedures needed.
+- Can't pass much time with his family due to the amount of work.
+- have enough to search for every instance needed.
 
 **Goals**:
 
--
--
--
+- Would like a documented application to help him.
+- Would like to spend more time grieving than doing paperworks.
+- Would like having a list of steps guiding him across the procedure.
 
 ---
 
@@ -535,6 +555,245 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 ---
 
 <!-- TODO: insert excalidraw and describe each part/page -->
+
+The application would be parted in three different parts, for mourners, undertakers, and administrators. Therefore, more page has been designed for all of them.
+
+This section will start with the common redirection page and then will go through each side independently.
+
+The wireframe (Excalidraw) can also be access as raw file in the [Design Follder](./design/designAfterWords.excalidraw).
+
+---
+
+#### 1. Redirection Page
+
+---
+
+The redirection Page will be accessible from everyone and would look like this:
+
+---
+
+#### 2. Mourners Side
+
+---
+
+Once the user has clicked on the Mourner button, they would be redirected on this section of the application. It would be composed of many sections which are:
+
+- [Login](#21-login-section)
+- [Home](#22-home-section)
+- [Profile](#23-profile-section)
+- [Instance](#24-instance-section)
+- [Letters](#25-letters-section)
+- [Undertaker](#26-undertaker-section)
+- [Procedure](#27-procedure-section)
+
+Each of those are accessible below or you can click on them to be redirected instantly to the intended section description.
+
+---
+
+##### 2.1. Login Section
+
+---
+
+This section is composed of those pages:
+
+| Name         | Complement | Description                                                             |
+| ------------ | ---------- | ----------------------------------------------------------------------- |
+| Welcome Page | /          | This page is designed to welcome users into the application.            |
+| Login Page   | /          | This section ask for a first name, last name, and password to the user. |
+| Login Page   | Error      | Showcase potential error handling on the login page.                    |
+
+It would look like this:
+
+---
+
+##### 2.2. Home Section
+
+---
+
+**Pages**:
+
+| Name      | Complement | Description                                                                                          |
+| --------- | ---------- | ---------------------------------------------------------------------------------------------------- |
+| Home Page | /          | Center of the navigation between all pages. it also display basic information about the app/mourner. |
+
+**Visuals**:
+
+---
+
+##### 2.3. Profile Section
+
+---
+
+**Pages**:
+
+| Name            | Complement                     | Description                                                                                      |
+| --------------- | ------------------------------ | ------------------------------------------------------------------------------------------------ |
+| Profile Page    | Without Document               | Display information about user and deceased as well as an empty list of documents.               |
+| Profile Page    | With Document                  | Display information about user and deceased as well as a list of documents.                      |
+| Profile Pop-up  | Verification                   | Pop-up to double check before leaving the page.                                                  |
+| Document Pop-up | Cancel                         | Pop-up to double check exiting the document addition.                                            |
+| Document Pop-up | Phase 1 - Empty                | Pop-up with all the list of documents you need to add to your profile. The list is empty.        |
+| Document Pop-up | Phase 1 - In Validation        | Appears when a document is valid and you you haven't close the pop-up.                           |
+| Document Pop-up | Phase 1 - Validated            | Appears when a document is valid and after opening the pop-up a second time.                     |
+| Document Pop-up | Phase 2                        | Pop-up to add documents via drag and drop or file explorer.                                      |
+| Document Pop-up | Phase 2 - Error                | Pop-up displaying an error on the type of document.                                              |
+| Document Pop-up | Phase 2 - New Document         | Pop-up with a form to complete to add a document which is not predefined within the application. |
+| Document Pop-up | Phase 2 - New Document - Error | Pop-up displaying an error of type or field.                                                     |
+
+**Visuals**:
+
+---
+
+##### 2.4. Instance Section
+
+---
+
+**Pages**:
+
+| Name | Complement | Description |
+| ---- | ---------- | ----------- |
+
+**Visuals**:
+
+---
+
+##### 2.5. Letters Section
+
+---
+
+**Pages**:
+
+| Name | Complement | Description |
+| ---- | ---------- | ----------- |
+
+**Visuals**:
+
+---
+
+##### 2.6. Undertaker Section
+
+---
+
+**Pages**:
+
+| Name | Complement | Description |
+| ---- | ---------- | ----------- |
+
+**Visuals**:
+
+---
+
+##### 2.7. Procedure Section
+
+---
+
+**Pages**:
+
+| Name | Complement | Description |
+| ---- | ---------- | ----------- |
+
+**Visuals**:
+
+---
+
+#### 3. Undertakers Side
+
+---
+
+As for the mourners, by clicking on the undertaker button, the user will be redirected into this side of the application. \
+This one would be composed of the following sections:
+
+- [Login](#31-login-section)
+- [Home](#32-home-section)
+- [Profile](#33-profile-section)
+- [Clients](#34-clients-section)
+- [Employees](#35-employees-section)
+
+Each of those are written under and can be access threw the links above.
+
+---
+
+##### 3.1. Login Section
+
+---
+
+---
+
+##### 3.2. Home Section
+
+---
+
+---
+
+##### 3.3. Profile Section
+
+---
+
+---
+
+##### 3.4. Clients Section
+
+---
+
+---
+
+##### 3.5. Employees Section
+
+---
+
+---
+
+#### 4. Administrator Section
+
+---
+
+Lastly, as for the two previous side, the administrator part could be access by clicking on the administrator button. \
+This section will be composed of the section listed hereunder:
+
+- Login
+- Home
+- Application
+- Undertakers
+- Mourners
+- Profile
+
+Those can be access via links or on the following section of the document.
+
+---
+
+##### 4.1. Login Section
+
+---
+
+---
+
+##### 4.2. Home Section
+
+---
+
+---
+
+##### 4.3. Application Section
+
+---
+
+---
+
+##### 4.4. Undertakers Section
+
+---
+
+---
+
+##### 4.5. Mourners Section
+
+---
+
+---
+
+##### 4.6. Profile Section
+
+---
 
 ---
 
