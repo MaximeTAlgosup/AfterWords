@@ -31,6 +31,9 @@
     - [Uploading Documents](#uploading-documents)
     - [Send Letters To All Instances](#send-letters-to-all-instances)
   - [Personas](#personas)
+    - [Persona 1: Janice LeBlanc](#persona-1-janice-leblanc)
+    - [Persona 2: Sean McPhil](#persona-2-sean-mcphil)
+    - [Persona 3: Alexandre Moutarde](#persona-3-alexandre-moutarde)
 - [Design](#design)
   - [Wireframes](#wireframes)
   - [Mockups](#mockups)
@@ -73,8 +76,6 @@ This project is held by Maxime THIZEAU.
 
 #### Vision
 
-<!-- - Briefly describe the purpose of the document and the system/product it defines.   -->
-
 Afterwords is an application allowing mourning people to get some help on the administration part. \
 It would ease the process by gathering all instances in one place. \
 How would that work?
@@ -95,8 +96,6 @@ The objectives of this project are pretty clear:
 ---
 
 #### Scope
-
-<!-- - Define the boundaries of the system, including what it will and will not cover.   -->
 
 ##### In-scope
 
@@ -127,8 +126,6 @@ The following points are what AfterWords will not do:
 
 #### Target Audience
 
-<!-- - Specify who the intended readers are (developers, testers, stakeholders, etc.).   -->
-
 AfterWords will have to target audience. \
 The first hand audience would be undertakers company. AfterWords would be a service they could share, sell to their own customers, the second and final target audience of AfterWords, mourning people.
 
@@ -156,6 +153,8 @@ The code source could be find in the `src` folder at the root of the project.
 ---
 
 #### Definitions And Acronyms
+
+---
 
 <!-- - List key terms and abbreviations with their explanations.   -->
 
@@ -230,25 +229,26 @@ The project should be done (version one) before June, 2026.
 
 **Task Breakdown**:
 
-<!-- TODO: Complete lines with sentence and dates -->
-
-- Oral Presentation
-- Version 1
-- User Manual
-- Test Report
-- Test Plan
-- Admin Side
-- Undertaker Side
-- MVP
-- Mourner Side
-- Tech Spec
-- Func Spec
-- Figma
-- wireframe
+- The Oral Presentation will be completed by the end of June, 2026.
+- The User Manual will be written by the end of May, 2026
+- The application would be in its first version by the end of April, 2026.
+- The last Test Report will be done and written on the 12 of April, 2026.
+- The Admin side of the product would be completed on the 5 of April, 2026.
+- The Undertaker side would be completed by the end of February, 2026.
+- The Test Plan and Test Cases would be created and completed early December, 2025.
+- The MVP should be coded before October 19th, 2025.
+- The Mourner Side of the application should be finished current September, 2025.
+- The Technical Specification should be finished by the start of August, 2025.
+- The Functional Specification should be written before July 12th, 2025.
+- The Figma should be designed before the end of June, 2025.
+- The Wireframe should be done before the end of June, 2025.
 
 **Critical Path**:
 
-<!-- TODO: find the 2 or 3 most time consuming tasks -->
+This project has many critical tasks which are:
+
+- Each side of the application (Mourners, Undertakers, Admin).
+- The Technical Specifiaction.
 
 **Timeline Visualization**:
 
@@ -260,10 +260,17 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-<!-- TODO: Complete Milestones -->
-
-| Date       | Time   | Milestones                        |
-| ---------- | ------ | --------------------------------- |
+| Date       | Milestones                        |
+| ---------- | --------------------------------- |
+| 07/12/2025 | Functional Specification Delivery |
+| 08/05/2025 | Technical Specification Delivery  |
+| 10/19/2025 | MVP Release                       |
+| 12/03/2025 | Test Plan Delivery                |
+| 12/03/2025 | Test Cases Delivery               |
+| 04/25/2026 | Version One Release               |
+| 05/27/2026 | User Manual Delivery              |
+| 05/30/2026 | Management Artifacts Delivery     |
+| 06/20/2026 | Oral Presentation Delivery        |
 
 ---
 
@@ -273,11 +280,14 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 **Task Dependencies**:
 
-<!-- TODO: Create dependencies between tasks -->
+- The Functional Specification would be only completed once the Figma (design) and Excalidraw (Wireframe) would be entirely done.
+- The Last Testing phase will start only after the first version is completed.
+- The First Version of the application would need all three sides to be completed.
 
 **Resource Dependencies**:
 
-<!-- TODO: Create dependencies between resource -->
+- All resources will be available at any point in the project since only one person complete every role.
+- Reviewers will be required on different testing phases lasting one to two weeks after every code advancement (Mourner Side, MVP, Undertakers Side, Admin Side).
 
 ---
 
@@ -287,11 +297,21 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 **Assumptions**:
 
-<!-- TODO: Write down some assumptions about the project -->
+- The team assume undertakers would spead the application as much as possible in their clients.
+- The team assume the application will be used only by mourners having an account.
+- The team assume deadlines will be met.
+- The team assume connection will be provided by the client.
+- The team assume mourners will have all necessary documents.
+- The team assume Undertakers and client will respect the code of concuct.
 
 **Constraints**:
 
-<!-- TODO: Write down some constraints about the project -->
+- The application needs to be connected to internet.
+- The application can't reach out mourners without passing by undertakers.
+- The application won't be used by everyone.
+- The application isn't free.
+- The application should be developped in a short periiod of time.
+- The team power is low.
 
 ---
 
@@ -299,7 +319,12 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-<!-- TODO: Create a table for risks and mitigation -->
+| Type             | Description                                                    | Likelihood | Impact                                                      | Mitigation                                                                 |
+| ---------------- | -------------------------------------------------------------- | ---------- | ----------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Sickness         | A team member becomes sick.                                    | High       | The project won't be updated while the team member is sick. | Planned more time than necessary to still be on track in case of sickness. |
+| No user          | AfterWords is not appealing enough to consumers.               | Low        | The Product won'y be selled and the project obsolete.       | Having an important and efficient marketing campaign.                      |
+| Data Leak        | The database leak and private information is lost on internet. | Medium     | AfterWords will lost undertakers and mourners trust.        | Having a solid data privacy and security on the database.                  |
+| Unfunctional API | An API is not accessible from the application.                 | High       | This instance won't be accessible from the application.     | Finding another way to send and retrieve data from them.                   |
 
 ---
 
@@ -307,7 +332,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ### Use Cases
 
-<!-- - Describe major use cases and user interactions with the system.   -->
+<!-- TODO: Add Use Cases, at least 2. And verify accuracy of already existing ones. -->
 
 #### Creating A New Account
 
@@ -436,6 +461,70 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 ---
 
 <!-- TODO: Create three personas, mourner, undertaker, admin -->
+
+#### Persona 1: Janice LeBlanc
+
+---
+
+**Name**:
+
+**Age Range**:
+
+**Frustrations**:
+
+-
+-
+-
+
+**Goals**:
+
+-
+-
+-
+
+---
+
+#### Persona 2: Sean McPhil
+
+---
+
+**Name**:
+
+**Age Range**:
+
+**Frustrations**:
+
+-
+-
+-
+
+**Goals**:
+
+-
+-
+-
+
+---
+
+#### Persona 3: Alexandre Moutarde
+
+---
+
+**Name**:
+
+**Age Range**:
+
+**Frustrations**:
+
+-
+-
+-
+
+**Goals**:
+
+-
+-
+-
 
 ---
 
