@@ -1054,13 +1054,21 @@ For the light theme, AfterWords would be on a spring, pastel theme. Following th
 
 <!-- TODO: Create a logo, maybe on krita -->
 
+The logo of AfterWords was made on [Krita](https://krita.org/en/) and is a dove escaping from a pile of documents.
+
+The logo would be done in both color palettes to fit light or dark theme.
+
+| Light Logo | Dark Logo |
+| ---------- | --------- |
+|            |           |
+
 ---
 
 ### 3.5. Font
 
 ---
 
-<!-- TODO: Inter -->
+About the application font, AfterWords will entirely use Inter. This font is widely spread around websites and is easily readable.
 
 ---
 
@@ -1068,7 +1076,7 @@ For the light theme, AfterWords would be on a spring, pastel theme. Following th
 
 ### 4.1. User Roles And Permissions
 
-<!-- - Define different user roles and their access levels.   -->
+---
 
 #### 4.1.1. Administrator
 
