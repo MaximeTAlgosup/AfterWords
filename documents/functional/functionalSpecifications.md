@@ -140,7 +140,7 @@ AfterwWords will cover the different subject hereunder:
 The following points are what AfterWords will not do:
 
 - AfterWords won't display user's information withinvthe application.
-- It would not do administartion pe=rocedures for the user.
+- It would not do administartion procedures for the user.
 - It won't dispose of a messagerie within the application, the user will need to have an e-mail address of there own.
 - Users can't organize funerals within the application.
 
@@ -825,7 +825,7 @@ _Employees_:
 | Profile Page   | /                      | Contains company information, can modify the words to mourners section.               |
 | Profile Pop-up | Request                | Contains a list of all the fields that can't be accessed directly by the employee.    |
 | Profile Pop-up | Request - Category     | Contains a display of previous category's data and an input field for the suggestion. |
-| Profile Pop-up | Request - Verification | Double check before validatio=ng the suggestion.                                      |
+| Profile Pop-up | Request - Verification | Double check before validating the suggestion.                                        |
 
 **Visuals**:
 
@@ -1012,7 +1012,39 @@ Those can be access via links or on the following section of the document.
 
 ---
 
-<!-- TODO: dark blue, purple, black, gold or white, light green, light blue, yellow, light pink -->
+AfterWords would have to theme, a light one and a dark one. They would be set corresponding to the user computer preferences.
+
+The dark theme would be composed of these five colors:
+
+| Name                | Preview                                | Hexacode | RGB Code           |
+| ------------------- | -------------------------------------- | -------- | ------------------ |
+| Midnight Black      | <span style="color: #00040D;">■</span> | #00040D  | rgb(0, 4, 13)      |
+| Oxford Blue         | <span style="color: #0E2148;">■</span> | #0E2148  | rgb(32, 22, 88)    |
+| Blue-Magenta Violet | <span style="color: #483AA0;">■</span> | #483AA0  | rgb(29, 36, 202)   |
+| Blue-Violet         | <span style="color: #7965C1;">■</span> | #7965C1  | rgb(152, 171, 238) |
+| Gold                | <span style="color: #E3D095;">■</span> | #E3D095  | rgb(249, 232, 201) |
+
+<!-- #131862	(19,24,98)
+#2e4482	(46,68,130)
+#546bab	(84,107,171)
+#87889c	(135,136,156)
+#bea9de	(190,169,222) -->
+
+For the light theme, AfterWords would be on a spring, pastel theme. Following this theme, the colors would be:
+
+| Name           | Preview                                | Hexacode | RGB Code           |
+| -------------- | -------------------------------------- | -------- | ------------------ |
+| Flower White   | <span style="color: #F8F3EF;">■</span> | #F8F3EF  | rgb(248, 243, 239) |
+| Middle Blue    | <span style="color: #7BD3EA;">■</span> | #7BD3EA  | rgb(123, 211, 234) |
+| Sea Foam Green | <span style="color: #A1EEBD;">■</span> | #A1EEBD  | rgb(161, 238, 189) |
+| Blond          | <span style="color: #F6F7C4;">■</span> | #F6F7C4  | rgb(246, 247, 196) |
+| Pale Pink      | <span style="color: #F6D6D6;">■</span> | #F6D6D6  | rgb(246, 214, 214) |
+
+<!-- #ffe7e1	(255,231,225)
+#eef9e4	(238,249,228)
+#cefbe8	(206,251,232)
+#c6dcf4	(198,220,244)
+#efd5fd	(239,213,253) -->
 
 ---
 
