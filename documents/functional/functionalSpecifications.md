@@ -13,7 +13,6 @@
       - [1.2.3.2. Out-of-scope](#1232-out-of-scope)
     - [1.2.4. Target Audience](#124-target-audience)
     - [1.2.5. Deliverables](#125-deliverables)
-    - [1.2.6. Definitions And Acronyms](#126-definitions-and-acronyms)
   - [1.3. Project Organisation](#13-project-organisation)
     - [1.3.1. Project Representatives](#131-project-representatives)
     - [1.3.2. Stakeholders](#132-stakeholders)
@@ -77,6 +76,8 @@
 - [8. Constraints And Limitations](#8-constraints-and-limitations)
 - [9. Acceptance Criteria](#9-acceptance-criteria)
 - [10. Appendices](#10-appendices)
+  - [10.1. Glossary](#101-glossary)
+  - [10.2. Resources](#102-resources)
 
 </details>
 
@@ -171,14 +172,6 @@ For the documents, there would be:
 - Management Artifacts.
 
 The code source could be find in the `src` folder at the root of the project.
-
----
-
-#### 1.2.6. Definitions And Acronyms
-
----
-
-<!-- - List key terms and abbreviations with their explanations.   -->
 
 ---
 
@@ -1300,3 +1293,21 @@ graph TD
 ## 10. Appendices
 
 <!-- - Any additional supporting information, such as diagrams, references, or links to related documents. -->
+
+### 10.1. Glossary
+
+---
+
+---
+
+### 10.2. Resources
+
+---
+
+**Color-name**: <https://www.color-name.com>
+
+**Color Hunt**: <https://colorhunt.co>
+
+**Krita**: <https://krita.org/en/>
+
+---
