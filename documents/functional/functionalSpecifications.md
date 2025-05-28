@@ -1192,6 +1192,24 @@ About the application font, AfterWords will entirely use Inter. This font is wid
   - **Feature 2**: Description, inputs, outputs, behavior.
   - (Continue for all key functionalities.)   -->
 
+**Mourners Side**:
+
+| Feature Name | Description | Inputs | Outputs | Behavior |
+| ------------ | ----------- | ------ | ------- | -------- |
+|              |             |        |         |          |
+
+**Undertakers Side**:
+
+| Feature Name | Description | Inputs | Outputs | Behavior |
+| ------------ | ----------- | ------ | ------- | -------- |
+|              |             |        |         |          |
+
+**Administrators Side**:
+
+| Feature Name | Description | Inputs | Outputs | Behavior |
+| ------------ | ----------- | ------ | ------- | -------- |
+|              |             |        |         |          |
+
 ---
 
 ---
