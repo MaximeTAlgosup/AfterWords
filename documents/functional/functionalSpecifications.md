@@ -3,86 +3,86 @@
 <details>
 <summary> Table Of Contents </summary>
 
-- [Introduction](#introduction)
-  - [Project Overview](#project-overview)
-  - [Project Definition](#project-definition)
-    - [Vision](#vision)
-    - [Objectives](#objectives)
-    - [Scope](#scope)
-      - [In-scope](#in-scope)
-      - [Out-of-scope](#out-of-scope)
-    - [Target Audience](#target-audience)
-    - [Deliverables](#deliverables)
-    - [Definitions And Acronyms](#definitions-and-acronyms)
-  - [Project Organisation](#project-organisation)
-    - [Project Representatives](#project-representatives)
-    - [Stakeholders](#stakeholders)
-    - [Project Reviewers](#project-reviewers)
-  - [Project Plan](#project-plan)
-    - [Retroplanning](#retroplanning)
-    - [Milestones](#milestones)
-    - [Dependencies](#dependencies)
-    - [Assumptions/Constraints](#assumptionsconstraints)
-    - [Risks/Mitigation](#risksmitigation)
-- [Use Cases and Personas](#use-cases-and-personas)
-  - [Use Cases](#use-cases)
-    - [Creating A New Account](#creating-a-new-account)
-    - [Select Instances](#select-instances)
-    - [Uploading Documents](#uploading-documents)
-    - [Send Letters To All Instances](#send-letters-to-all-instances)
-  - [Personas](#personas)
-    - [Persona 1: Janice LeBlanc](#persona-1-janice-leblanc)
-    - [Persona 2: Sean McPhil](#persona-2-sean-mcphil)
-    - [Persona 3: Alexandre Moutarde](#persona-3-alexandre-moutarde)
-- [Design](#design)
-  - [Wireframes](#wireframes)
-    - [1. Redirection Page](#1-redirection-page)
-    - [2. Mourners Side](#2-mourners-side)
-      - [2.1. Login Section](#21-login-section)
-      - [2.2. Home Section](#22-home-section)
-      - [2.3. Profile Section](#23-profile-section)
-      - [2.4. Instance Section](#24-instance-section)
-      - [2.5. Letters Section](#25-letters-section)
-      - [2.6. Undertaker Section](#26-undertaker-section)
-      - [2.7. Procedure Section](#27-procedure-section)
-    - [3. Undertakers Side](#3-undertakers-side)
-      - [3.1. Login Section](#31-login-section)
-      - [3.2. Home Section](#32-home-section)
-      - [3.3. Profile Section](#33-profile-section)
-      - [3.4. Clients Section](#34-clients-section)
-      - [3.5. Employees Section](#35-employees-section)
-    - [4. Administrator Section](#4-administrator-section)
-      - [4.1. Login Section](#41-login-section)
-      - [4.2. Home Section](#42-home-section)
-      - [4.3. Application Section](#43-application-section)
-      - [4.4. Undertakers Section](#44-undertakers-section)
-      - [4.5. Mourners Section](#45-mourners-section)
-      - [4.6. Profile Section](#46-profile-section)
-  - [Mockups](#mockups)
-  - [Color Palette](#color-palette)
-  - [Logo](#logo)
-  - [Font](#font)
-- [Functional Requirements](#functional-requirements)
-  - [User Roles And Permissions](#user-roles-and-permissions)
-    - [Administrator](#administrator)
-    - [Undertakers](#undertakers)
-    - [Mourners](#mourners)
-  - [System Features And Functions](#system-features-and-functions)
-  - [Application Workflow](#application-workflow)
-- [Non-Functional Requirement](#non-functional-requirement)
-- [Data Management](#data-management)
-  - [Data Flow](#data-flow)
-  - [Database Schema](#database-schema)
-- [External Interfaces](#external-interfaces)
-- [Constraints And Limitations](#constraints-and-limitations)
-- [Acceptance Criteria](#acceptance-criteria)
-- [Appendices](#appendices)
+- [1. Introduction](#1-introduction)
+  - [1.1. Project Overview](#11-project-overview)
+  - [1.2. Project Definition](#12-project-definition)
+    - [1.2.1. Vision](#121-vision)
+    - [1.2.2. Objectives](#122-objectives)
+    - [1.2.3. Scope](#123-scope)
+      - [1.2.3.1. In-scope](#1231-in-scope)
+      - [1.2.3.2. Out-of-scope](#1232-out-of-scope)
+    - [1.2.4. Target Audience](#124-target-audience)
+    - [1.2.5. Deliverables](#125-deliverables)
+    - [1.2.6. Definitions And Acronyms](#126-definitions-and-acronyms)
+  - [1.3. Project Organisation](#13-project-organisation)
+    - [1.3.1. Project Representatives](#131-project-representatives)
+    - [1.3.2. Stakeholders](#132-stakeholders)
+    - [1.3.3. Project Reviewers](#133-project-reviewers)
+  - [1.4. Project Plan](#14-project-plan)
+    - [1.4.1. Retroplanning](#141-retroplanning)
+    - [1.4.2. Milestones](#142-milestones)
+    - [1.4.3. Dependencies](#143-dependencies)
+    - [1.4.4. Assumptions/Constraints](#144-assumptionsconstraints)
+    - [1.4.5. Risks/Mitigation](#145-risksmitigation)
+- [2. Use Cases and Personas](#2-use-cases-and-personas)
+  - [2.1. Use Cases](#21-use-cases)
+    - [2.1.1. Creating A New Account](#211-creating-a-new-account)
+    - [2.1.2. Select Instances](#212-select-instances)
+    - [2.1.3. Uploading Documents](#213-uploading-documents)
+    - [2.1.4. Send Letters To All Instances](#214-send-letters-to-all-instances)
+  - [2.2. Personas](#22-personas)
+    - [2.2.1. Persona 1: Janice LeBlanc](#221-persona-1-janice-leblanc)
+    - [2.2.2. Persona 2: Sean McPhil](#222-persona-2-sean-mcphil)
+    - [2.2.3. Persona 3: Alexandre Moutarde](#223-persona-3-alexandre-moutarde)
+- [3. Design](#3-design)
+  - [3.1. Wireframes](#31-wireframes)
+    - [3.1.1. Redirection Page](#311-redirection-page)
+    - [3.1.2. Mourners Side](#312-mourners-side)
+      - [3.1.2.1. Login Section](#3121-login-section)
+      - [3.1.2.2. Home Section](#3122-home-section)
+      - [3.1.2.3. Profile Section](#3123-profile-section)
+      - [3.1.2.4. Instance Section](#3124-instance-section)
+      - [3.1.2.5. Letters Section](#3125-letters-section)
+      - [3.1.2.6. Undertaker Section](#3126-undertaker-section)
+      - [3.1.2.7. Procedure Section](#3127-procedure-section)
+    - [3.1.3. Undertakers Side](#313-undertakers-side)
+      - [3.1.3.1. Login Section](#3131-login-section)
+      - [3.1.3.2. Home Section](#3132-home-section)
+      - [3.1.3.3. Profile Section](#3133-profile-section)
+      - [3.1.3.4. Clients Section](#3134-clients-section)
+      - [3.1.3.5. Employees Section](#3135-employees-section)
+    - [3.1.4. Administrator Section](#314-administrator-section)
+      - [3.1.4.1. Login Section](#3141-login-section)
+      - [3.1.4.2. Home Section](#3142-home-section)
+      - [3.1.4.3. Application Section](#3143-application-section)
+      - [3.1.4.4. Undertakers Section](#3144-undertakers-section)
+      - [3.1.4.5. Mourners Section](#3145-mourners-section)
+      - [3.1.4.6. Profile Section](#3146-profile-section)
+  - [3.2. Mockups](#32-mockups)
+  - [3.3. Color Palette](#33-color-palette)
+  - [3.4. Logo](#34-logo)
+  - [3.5. Font](#35-font)
+- [4. Functional Requirements](#4-functional-requirements)
+  - [4.1. User Roles And Permissions](#41-user-roles-and-permissions)
+    - [4.1.1. Administrator](#411-administrator)
+    - [4.1.2. Undertakers](#412-undertakers)
+    - [4.1.3. Mourners](#413-mourners)
+  - [4.1.4. System Features And Functions](#414-system-features-and-functions)
+  - [4.1.5. Application Workflow](#415-application-workflow)
+- [5. Non-Functional Requirement](#5-non-functional-requirement)
+- [6. Data Management](#6-data-management)
+  - [6.1. Data Flow](#61-data-flow)
+  - [6.2. Database Schema](#62-database-schema)
+- [7. External Interfaces](#7-external-interfaces)
+- [8. Constraints And Limitations](#8-constraints-and-limitations)
+- [9. Acceptance Criteria](#9-acceptance-criteria)
+- [10. Appendices](#10-appendices)
 
 </details>
 
-## Introduction
+## 1. Introduction
 
-### Project Overview
+### 1.1. Project Overview
 
 ---
 
@@ -92,11 +92,11 @@ This project is held by Maxime THIZEAU.
 
 ---
 
-### Project Definition
+### 1.2. Project Definition
 
 ---
 
-#### Vision
+#### 1.2.1. Vision
 
 Afterwords is an application allowing mourning people to get some help on the administration part. \
 It would ease the process by gathering all instances in one place. \
@@ -105,7 +105,7 @@ The mourner just have to enter all the different instances and the required docu
 
 ---
 
-#### Objectives
+#### 1.2.2. Objectives
 
 ---
 
@@ -117,9 +117,9 @@ The objectives of this project are pretty clear:
 
 ---
 
-#### Scope
+#### 1.2.3. Scope
 
-##### In-scope
+##### 1.2.3.1. In-scope
 
 ---
 
@@ -133,7 +133,7 @@ AfterwWords will cover the different subject hereunder:
 
 ---
 
-##### Out-of-scope
+##### 1.2.3.2. Out-of-scope
 
 ---
 
@@ -146,7 +146,7 @@ The following points are what AfterWords will not do:
 
 ---
 
-#### Target Audience
+#### 1.2.4. Target Audience
 
 AfterWords will have to target audience. \
 The first hand audience would be undertakers company. AfterWords would be a service they could share, sell to their own customers, the second and final target audience of AfterWords, mourning people.
@@ -155,7 +155,7 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
-#### Deliverables
+#### 1.2.5. Deliverables
 
 ---
 
@@ -174,7 +174,7 @@ The code source could be find in the `src` folder at the root of the project.
 
 ---
 
-#### Definitions And Acronyms
+#### 1.2.6. Definitions And Acronyms
 
 ---
 
@@ -182,11 +182,11 @@ The code source could be find in the `src` folder at the root of the project.
 
 ---
 
-### Project Organisation
+### 1.3. Project Organisation
 
 ---
 
-#### Project Representatives
+#### 1.3.1. Project Representatives
 
 ---
 
@@ -203,7 +203,7 @@ This project has only one representatives which is Maxime THIZEAU, he would hold
 
 ---
 
-#### Stakeholders
+#### 1.3.2. Stakeholders
 
 ---
 
@@ -214,7 +214,7 @@ This project has only one representatives which is Maxime THIZEAU, he would hold
 
 ---
 
-#### Project Reviewers
+#### 1.3.3. Project Reviewers
 
 ---
 
@@ -231,11 +231,11 @@ The main reviewers would be:
 
 ---
 
-### Project Plan
+### 1.4. Project Plan
 
 ---
 
-#### Retroplanning
+#### 1.4.1. Retroplanning
 
 ---
 
@@ -278,7 +278,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-#### Milestones
+#### 1.4.2. Milestones
 
 ---
 
@@ -296,7 +296,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-#### Dependencies
+#### 1.4.3. Dependencies
 
 ---
 
@@ -313,7 +313,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-#### Assumptions/Constraints
+#### 1.4.4. Assumptions/Constraints
 
 ---
 
@@ -337,7 +337,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-#### Risks/Mitigation
+#### 1.4.5. Risks/Mitigation
 
 ---
 
@@ -350,13 +350,13 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-## Use Cases and Personas
+## 2. Use Cases and Personas
 
-### Use Cases
+### 2.1. Use Cases
 
 <!-- TODO: Add Use Cases, at least 2. And verify accuracy of already existing ones. -->
 
-#### Creating A New Account
+#### 2.1.1. Creating A New Account
 
 ---
 
@@ -376,7 +376,8 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 3. Enter Mourner personal information (parenthood, full name).
 4. Confirm.
 
-> [!Warning] Alternate Flows
+> [!Warning]
+> Alternate Flows:
 >
 > - The deceased already have an account.
 > - Failed due to missing information.
@@ -388,7 +389,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-#### Select Instances
+#### 2.1.2. Select Instances
 
 ---
 
@@ -406,7 +407,9 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 2. Click the checkbox to add it to `Instance to contact`.
 3. Repeat the process for every instance.
 
-> [!Warning] Alternate Flows
+> [!Warning]
+> Alternate Flows:
+>
 > Instance not registered
 
 **Postconditions**:
@@ -415,7 +418,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-#### Uploading Documents
+#### 2.1.3. Uploading Documents
 
 ---
 
@@ -434,7 +437,8 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 3. Drag & drop them into the `Document container`.
 4. Confirm the upload.
 
-> [!Warning] Alternate Flows
+> [!Warning]
+> Alternate Flows:
 >
 > - The document the user want to upload already is uploaded.
 > - No document given to the `Document container`.
@@ -445,7 +449,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-#### Send Letters To All Instances
+#### 2.1.4. Send Letters To All Instances
 
 ---
 
@@ -466,7 +470,8 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 3. Complete blank space with personal information.
 4. Confirm.
 
-> [!Warning] Alternate Flows
+> [!Warning]
+> Alternate Flows:
 >
 > - Blank space empty.
 > - Failed due to lack of document.
@@ -478,11 +483,11 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-### Personas
+### 2.2. Personas
 
 ---
 
-#### Persona 1: Janice LeBlanc
+#### 2.2.1. Persona 1: Janice LeBlanc
 
 ---
 
@@ -504,7 +509,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-#### Persona 2: Sean McPhil
+#### 2.2.2. Persona 2: Sean McPhil
 
 ---
 
@@ -526,7 +531,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-#### Persona 3: Alexandre Moutarde
+#### 2.2.3. Persona 3: Alexandre Moutarde
 
 ---
 
@@ -548,9 +553,9 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-## Design
+## 3. Design
 
-### Wireframes
+### 3.1. Wireframes
 
 ---
 
@@ -564,7 +569,7 @@ The wireframe (Excalidraw) can also be access as raw file in the [Design Follder
 
 ---
 
-#### 1. Redirection Page
+#### 3.1.1. Redirection Page
 
 ---
 
@@ -572,25 +577,25 @@ The redirection Page will be accessible from everyone and would look like this:
 
 ---
 
-#### 2. Mourners Side
+#### 3.1.2. Mourners Side
 
 ---
 
 Once the user has clicked on the Mourner button, they would be redirected on this section of the application. It would be composed of many sections which are:
 
-- [Login](#21-login-section)
-- [Home](#22-home-section)
-- [Profile](#23-profile-section)
-- [Instance](#24-instance-section)
-- [Letters](#25-letters-section)
-- [Undertaker](#26-undertaker-section)
-- [Procedure](#27-procedure-section)
+- [Login](#3121-login-section)
+- [Home](#3122-home-section)
+- [Profile](#3123-profile-section)
+- [Instance](#3124-instance-section)
+- [Letters](#3125-letters-section)
+- [Undertaker](#3126-undertaker-section)
+- [Procedure](#3127-procedure-section)
 
 Each of those are accessible below or you can click on them to be redirected instantly to the intended section description.
 
 ---
 
-##### 2.1. Login Section
+##### 3.1.2.1. Login Section
 
 ---
 
@@ -604,9 +609,11 @@ This section is composed of those pages:
 
 It would look like this:
 
+![Login Section Mourners Picture](./img/wireframe/mourners/loginSection.png)
+
 ---
 
-##### 2.2. Home Section
+##### 3.1.2.2. Home Section
 
 ---
 
@@ -618,9 +625,11 @@ It would look like this:
 
 **Visuals**:
 
+![Home Section Mourners Picture](./img/wireframe/mourners/homeSection.png)
+
 ---
 
-##### 2.3. Profile Section
+##### 3.1.2.3. Profile Section
 
 ---
 
@@ -642,162 +651,203 @@ It would look like this:
 
 **Visuals**:
 
----
-
-##### 2.4. Instance Section
+![Profile Section Mourners Picture](./img/wireframe/mourners/profileSection.png)
 
 ---
 
-**Pages**:
-
-| Name | Complement | Description |
-| ---- | ---------- | ----------- |
-
-**Visuals**:
-
----
-
-##### 2.5. Letters Section
+##### 3.1.2.4. Instance Section
 
 ---
 
 **Pages**:
 
-| Name | Complement | Description |
-| ---- | ---------- | ----------- |
+| Name            | Complement             | Description                                                     |
+| --------------- | ---------------------- | --------------------------------------------------------------- |
+| Instance Page   | Your Instances         | Displays Instances linked to the account.                       |
+| Instance Page   | Your Instances - Empty | Page to add instances when none are linked to the account.      |
+| Instance Pop-up | Verification           | Pop-up to double check if the user wants to remove an instance. |
+| Instance Page   | Add Instances          | Page listing all the instances.                                 |
+| Instance Page   | Search                 | Page with a filtered list of instances following user choices.  |
+| Instance Page   | No Result              | Page when no instances match filters.                           |
+| Tags Pop-up     | /                      | Pop-up with all the tags related to instances.                  |
+| Instance Page   | Instance Info          | Description of the instance the user clicked on.                |
 
 **Visuals**:
 
+![Instance Section Mourners Picture](./img/wireframe/mourners/instanceSection.png)
+
 ---
 
-##### 2.6. Undertaker Section
+##### 3.1.2.5. Letters Section
 
 ---
 
 **Pages**:
 
-| Name | Complement | Description |
-| ---- | ---------- | ----------- |
+| Name            | Complement                 | Description                                                                                                |
+| --------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Letters Page    | Your Letters               | Display list of needed letter templates to fill and letters already selected.                              |
+| Letters Pop-up  | Verification               | Double check before removing a letter.                                                                     |
+| Letters Page    | Select Letters Template    | Slideshow with all the letters corresponding to one kind of instance.                                      |
+| Letters Page    | Template Creation          | Form to complete to create a brand new template.                                                           |
+| Letters Page    | Template Creation - Errors | Form not valid, showcase errors.                                                                           |
+| Letters Page    | Your Template              | Page to view a template already selected.                                                                  |
+| Template Pop-up | Preview                    | Page to view the template while in creation.                                                               |
+| Template Pop-up | Import                     | Pop-up to drag and drop an already existing template, could also find if through file explorer navigation. |
+| Template Pop-up | Import - Error             | The document is not in the good format/empty.                                                              |
 
 **Visuals**:
 
+![Letters Section Mourners Picture](./img/wireframe/mourners/lettersSection.png)
+
 ---
 
-##### 2.7. Procedure Section
+##### 3.1.2.6. Undertaker Section
 
 ---
 
 **Pages**:
 
-| Name | Complement | Description |
-| ---- | ---------- | ----------- |
+| Name            | Complement              | Description                                                                                     |
+| --------------- | ----------------------- | ----------------------------------------------------------------------------------------------- |
+| Undertaker Page | Your Undertaker Company | Description of the company containing description, words to mourners, and way of communication. |
 
 **Visuals**:
 
+![Undertaker Section Mourners Picture](./img/wireframe/mourners/undertakerSection.png)
+
 ---
 
-#### 3. Undertakers Side
+##### 3.1.2.7. Procedure Section
+
+---
+
+**Pages**:
+
+| Name             | Complement                  | Description                                                                                        |
+| ---------------- | --------------------------- | -------------------------------------------------------------------------------------------------- |
+| Procedure Page   | Introduction                | Describes all the steps the user will need to complete through the procedure.                      |
+| Procedure Page   | Step 1                      | Page to complete all templates for each instances.                                                 |
+| Procedure Page   | Step 1 - Completed          | Page when a template is validated.                                                                 |
+| Procedure Page   | Step 1 - Error              | Page when templates are not completed yet.                                                         |
+| Procedure Page   | Template Completion         | Page with the template and inputs to field missing parts of the template.                          |
+| Procedure Page   | Template Completion - Error | When an input is empty, will appear with a red stroke.                                             |
+| Procedure Page   | Step 2                      | Same as step 1 for another type of instances.                                                      |
+| Procedure Page   | Step 3                      | Same as step 1 for another type of instances.                                                      |
+| Procedure Page   | Step 4                      | Same as step 1 for another type of instances.                                                      |
+| Procedure Page   | Step 5                      | Finalization step, the user needs to validate the procedure to send emails.                        |
+| Procedure Page   | Step 5 - Yes                | Finalization step, same as above. The user can write feedback about AfterWords and/or undertakers. |
+| Procedure Pop-up | Validation                  | Double check before sending emails to all instances.                                               |
+| Procedure Page   | Last Step                   | Showed to inform the procedure is completed.                                                       |
+
+**Visuals**:
+
+![Procedure Section Mourners Picture](./img/wireframe/mourners/procedureSection.png)
+
+---
+
+#### 3.1.3. Undertakers Side
 
 ---
 
 As for the mourners, by clicking on the undertaker button, the user will be redirected into this side of the application. \
 This one would be composed of the following sections:
 
-- [Login](#31-login-section)
-- [Home](#32-home-section)
-- [Profile](#33-profile-section)
-- [Clients](#34-clients-section)
-- [Employees](#35-employees-section)
+- [Login](#3131-login-section)
+- [Home](#3132-home-section)
+- [Profile](#3133-profile-section)
+- [Clients](#3134-clients-section)
+- [Employees](#3135-employees-section)
 
 Each of those are written under and can be access threw the links above.
 
 ---
 
-##### 3.1. Login Section
+##### 3.1.3.1. Login Section
 
 ---
 
 ---
 
-##### 3.2. Home Section
+##### 3.1.3.2. Home Section
 
 ---
 
 ---
 
-##### 3.3. Profile Section
+##### 3.1.3.3. Profile Section
 
 ---
 
 ---
 
-##### 3.4. Clients Section
+##### 3.1.3.4. Clients Section
 
 ---
 
 ---
 
-##### 3.5. Employees Section
+##### 3.1.3.5. Employees Section
 
 ---
 
 ---
 
-#### 4. Administrator Section
+#### 3.1.4. Administrator Section
 
 ---
 
 Lastly, as for the two previous side, the administrator part could be access by clicking on the administrator button. \
 This section will be composed of the section listed hereunder:
 
-- Login
-- Home
-- Application
-- Undertakers
-- Mourners
-- Profile
+- [Login](#3141-login-section)
+- [Home](#3142-home-section)
+- [Application](#3143-application-section)
+- [Undertakers](#3144-undertakers-section)
+- [Mourners](#3145-mourners-section)
+- [Profile](#3146-profile-section)
 
 Those can be access via links or on the following section of the document.
 
 ---
 
-##### 4.1. Login Section
+##### 3.1.4.1. Login Section
 
 ---
 
 ---
 
-##### 4.2. Home Section
+##### 3.1.4.2. Home Section
 
 ---
 
 ---
 
-##### 4.3. Application Section
+##### 3.1.4.3. Application Section
 
 ---
 
 ---
 
-##### 4.4. Undertakers Section
+##### 3.1.4.4. Undertakers Section
 
 ---
 
 ---
 
-##### 4.5. Mourners Section
+##### 3.1.4.5. Mourners Section
 
 ---
 
 ---
 
-##### 4.6. Profile Section
+##### 3.1.4.6. Profile Section
 
 ---
 
 ---
 
-### Mockups
+### 3.2. Mockups
 
 ---
 
@@ -805,7 +855,7 @@ Those can be access via links or on the following section of the document.
 
 ---
 
-### Color Palette
+### 3.3. Color Palette
 
 ---
 
@@ -813,7 +863,7 @@ Those can be access via links or on the following section of the document.
 
 ---
 
-### Logo
+### 3.4. Logo
 
 ---
 
@@ -821,7 +871,7 @@ Those can be access via links or on the following section of the document.
 
 ---
 
-### Font
+### 3.5. Font
 
 ---
 
@@ -829,13 +879,13 @@ Those can be access via links or on the following section of the document.
 
 ---
 
-## Functional Requirements
+## 4. Functional Requirements
 
-### User Roles And Permissions
+### 4.1. User Roles And Permissions
 
 <!-- - Define different user roles and their access levels.   -->
 
-#### Administrator
+#### 4.1.1. Administrator
 
 ---
 
@@ -843,7 +893,8 @@ Those can be access via links or on the following section of the document.
 
 **Permissions**:
 
-> [!Tip] Can
+> [!Tip]
+> Can:
 >
 > - See all users.
 > - See database.
@@ -852,25 +903,28 @@ Those can be access via links or on the following section of the document.
 > - Add new instances.
 > - Add new templates.
 
-> [!Caution] Can't
+> [!Caution]
+> Can't:
 >
 > - See mourners' personal information.
 > - Have access to uploaded documents.
 
 ---
 
-#### Undertakers
+#### 4.1.2. Undertakers
 
 ---
 
 **Role owners**: Undertakers
 
-> [!Tip] Can
+> [!Tip]
+> Can:
 >
 > - See users account they created.
 > - Access low privacy user database (full name, deceased information).
 
-> [!Caution] Can't
+> [!Caution]
+> Can't:
 >
 > - See other users accounts.
 > - Access other users accounts.
@@ -881,13 +935,14 @@ Those can be access via links or on the following section of the document.
 
 ---
 
-#### Mourners
+#### 4.1.3. Mourners
 
 ---
 
 **Role owners**: Mourners
 
-> [!Tip] Can
+> [!Tip]
+> Can:
 >
 > - Upload documents.
 > - Delete documents.
@@ -902,7 +957,8 @@ Those can be access via links or on the following section of the document.
 > - Add specification to deceased information.
 > - Request a modification on deceased information.
 
-> [!Caution] Can't
+> [!Caution]
+> Can't:
 >
 > - See database.
 > - Access undertakers account.
@@ -911,7 +967,7 @@ Those can be access via links or on the following section of the document.
 
 ---
 
-### System Features And Functions
+### 4.1.4. System Features And Functions
 
 <!-- - Provide detailed functional requirements, such as:
   - **Feature 1**: Description, inputs, outputs, behavior.
@@ -922,7 +978,7 @@ Those can be access via links or on the following section of the document.
 
 ---
 
-### Application Workflow
+### 4.1.5. Application Workflow
 
 ---
 
@@ -969,7 +1025,7 @@ graph TD
 
 ---
 
-## Non-Functional Requirement
+## 5. Non-Functional Requirement
 
 <!-- - **Performance**: Expected response times, scalability, etc.
 - **Security**: Authentication, authorization, encryption needs.
@@ -980,31 +1036,31 @@ graph TD
 
 ---
 
-## Data Management
+## 6. Data Management
 
-### Data Flow
+### 6.1. Data Flow
 
 <!-- - Describe how data moves through the system.
 - Include data flow diagrams if necessary.   -->
 
-### Database Schema
+### 6.2. Database Schema
 
 <!-- - Define key tables and relationships if applicable.   -->
 
-## External Interfaces
+## 7. External Interfaces
 
 <!-- - **APIs**: Describe any APIs the system will expose or consume.
 - **Third-Party Integrations**: List any integrations with external systems.
 - **Hardware Interfaces**: Describe interactions with physical devices if applicable.   -->
 
-## Constraints And Limitations
+## 8. Constraints And Limitations
 
 <!-- - Highlight known constraints, such as technology limitations or compliance requirements.   -->
 
-## Acceptance Criteria
+## 9. Acceptance Criteria
 
 <!-- - Define what constitutes successful implementation and acceptance by stakeholders.   -->
 
-## Appendices
+## 10. Appendices
 
 <!-- - Any additional supporting information, such as diagrams, references, or links to related documents. -->
