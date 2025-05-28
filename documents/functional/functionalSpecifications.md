@@ -1108,13 +1108,17 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 
 ---
 
-**Role owners**: Undertakers
+**Role owners**: Undertakers (Admin)
 
 > [!Tip]
 > Can:
 >
 > - See users account they created.
 > - Access low privacy user database (full name, deceased information).
+> - Add new employees
+> - Manage employees
+> - Add new mourners
+> - Update company inforamtion
 
 > [!Caution]
 > Can't:
@@ -1125,6 +1129,27 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 > - See database.
 > - Modify instances.
 > - Modify templates.
+
+**Role owners**: Undertakers (Employee)
+
+> [!Tip]
+> Can:
+>
+> - See users account they created.
+> - Access low privacy user database (full name, deceased information).
+> - Add new mourners
+
+> [!Caution]
+> Can't:
+>
+> - See other users accounts.
+> - Access other users accounts.
+> - See mourner's personal information.
+> - See database.
+> - Modify instances.
+> - Modify templates.
+> - Manage other Employees.
+> - Change company information.
 
 ---
 
