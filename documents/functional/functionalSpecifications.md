@@ -559,13 +559,11 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-<!-- TODO: insert excalidraw and describe each part/page -->
-
 The application would be parted in three different parts, for mourners, undertakers, and administrators. Therefore, more page has been designed for all of them.
 
 This section will start with the common redirection page and then will go through each side independently.
 
-The wireframe (Excalidraw) can also be access as raw file in the [Design Follder](./design/designAfterWords.excalidraw).
+The wireframe (Excalidraw) can also be access as raw file in the [Design Folder](./design/designAfterWords.excalidraw).
 
 ---
 
@@ -573,7 +571,9 @@ The wireframe (Excalidraw) can also be access as raw file in the [Design Follder
 
 ---
 
-The redirection Page will be accessible from everyone and would look like this:
+The Redirection Page will be accessible from everyone and would look like this:
+
+![Redirection Page Picture](./img/wireframe/redirectionPage.png)
 
 ---
 
@@ -767,11 +767,36 @@ Each of those are written under and can be access threw the links above.
 
 ---
 
+**Pages**:
+
+| Name         | Complement | Description                                          |
+| ------------ | ---------- | ---------------------------------------------------- |
+| Welcome Page | /          | Display of text to welcome user in.                  |
+| Login Page   | /          | Form to fill when the user already have an account.  |
+| Login Page   | Error      | Shows error when a part of the form is wrong/empty.  |
+| Sign-up Page | /          | Form to fill when the user does not have an account. |
+| Sign-up Page | Error      | Show errors when a field is empty.                   |
+
+**Visuals**:
+
+![Login Section Undertakers Picture](./img/wireframe/undertakers/loginSection.png)
+
 ---
 
 ##### 3.1.3.2. Home Section
 
 ---
+
+**Pages**:
+
+| Name      | Complement | Description                                                                                |
+| --------- | ---------- | ------------------------------------------------------------------------------------------ |
+| Home Page | Admin      | Display all the information about the company and is the center of all the other sections. |
+| Home Page | Employee   | Center of the other sections, less information display than the admin.                     |
+
+**Visuals**:
+
+![Home Section Undertakers Picture](./img/wireframe/undertakers/homeSection.png)
 
 ---
 
@@ -779,17 +804,77 @@ Each of those are written under and can be access threw the links above.
 
 ---
 
+**Pages**:
+
+_Admin_:
+
+| Name           | Complement             | Description                                                                                          |
+| -------------- | ---------------------- | ---------------------------------------------------------------------------------------------------- |
+| Profile Page   | /                      | Contains a form about the company, each field can be completed.                                      |
+| Profile Page   | Error                  | One of the fields is empty or incorrect.                                                             |
+| Profile Page   | Request                | One of the fields was requested to changes.                                                          |
+| Profile Pop-up | Request - Selection    | Contains a list of all the elements where changes are requested.                                     |
+| Profile Pop-up | Request - Result       | Contains the same list as above, validated requests are displayed in green, disapproved ones in red. |
+| Profile Pop-up | Request - Category     | Pop-up to compare previous data to new one.                                                          |
+| Profile Pop-up | Request - Verification | Double check before denying/accepting proposal.                                                      |
+
+_Employees_:
+
+| Name           | Complement             | Description                                                                           |
+| -------------- | ---------------------- | ------------------------------------------------------------------------------------- |
+| Profile Page   | /                      | Contains company information, can modify the words to mourners section.               |
+| Profile Pop-up | Request                | Contains a list of all the fields that can't be accessed directly by the employee.    |
+| Profile Pop-up | Request - Category     | Contains a display of previous category's data and an input field for the suggestion. |
+| Profile Pop-up | Request - Verification | Double check before validatio=ng the suggestion.                                      |
+
+**Visuals**:
+
+![Profile Section Undertakers Picture](./img/wireframe/undertakers/profileSection.png)
+
 ---
 
 ##### 3.1.3.4. Clients Section
 
 ---
 
+**Pages**:
+
+| Name          | Complement                       | Description                                                                                                                      |
+| ------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Client Page   | Admin - With Feedback            | Display basic information about consumers, and a list of all the clients. There is a list of feedback on the side of the screen. |
+| Client Page   | Admin - With Feedback - Error    | Appears when a search is made and no client match the search.                                                                    |
+| Client Page   | Admin - Without Feedback         | Display basic information about consumers, and a list of all the clients.                                                        |
+| Client Page   | Admin - Without Feedback - Error | Appears when a search is made and no client match the search.                                                                    |
+| Client Page   | Add Client                       | Displays a form with deceased and client information to fill.                                                                    |
+| Client Page   | Add Client - Error               | Appears when a field is empty.                                                                                                   |
+| Client Page   | Client Profile                   | Displays all the information about the client that undertakers wrote. A personal message could also be written.                  |
+| Client Page   | Modify Client                    | Same form as Add Client but input fields are already filled.                                                                     |
+| Client Pop-up | Regenerate - Verification        | Douvle check if a password should be regenerated or not.                                                                         |
+| Client Pop-up | Modify - Verification            | Double check if the modification are correct before validating them.                                                             |
+
+**Visuals**:
+
+![Clients Section Undertakers Picture](./img/wireframe/undertakers/clientsSection.png)
+
 ---
 
 ##### 3.1.3.5. Employees Section
 
 ---
+
+**Pages**:
+
+| Name            | Complement            | Description                                                                   |
+| --------------- | --------------------- | ----------------------------------------------------------------------------- |
+| Employees Page  | /                     | Displays a list of employee and a button to add new ones.                     |
+| Employee Pop-up | Remove                | Double check before removing an employee of the list.                         |
+| Employee Pop-up | Add                   | Form to fill to add a new employee (Full Name, Email, Password, Permissions). |
+| Employee Pop-up | Modify                | Same form as above but filled with already existing information.              |
+| Employee Pop-up | Modify - Verification | Double Check before updating database.                                        |
+
+**Visuals**:
+
+![Employees Section Undertakers Picture](./img/wireframe/undertakers/employeesSection.png)
 
 ---
 
