@@ -51,7 +51,7 @@
       - [3.1.3.3. Profile Section](#3133-profile-section)
       - [3.1.3.4. Clients Section](#3134-clients-section)
       - [3.1.3.5. Employees Section](#3135-employees-section)
-    - [3.1.4. Administrator Section](#314-administrator-section)
+    - [3.1.4. Administrator Side](#314-administrator-side)
       - [3.1.4.1. Login Section](#3141-login-section)
       - [3.1.4.2. Home Section](#3142-home-section)
       - [3.1.4.3. Application Section](#3143-application-section)
@@ -878,7 +878,7 @@ _Employees_:
 
 ---
 
-#### 3.1.4. Administrator Section
+#### 3.1.4. Administrator Side
 
 ---
 
@@ -900,11 +900,33 @@ Those can be access via links or on the following section of the document.
 
 ---
 
+**Pages**:
+
+| Name         | Complement | Description                             |
+| ------------ | ---------- | --------------------------------------- |
+| Welcome Page | /          | Page to welcome user in.                |
+| Login Page   | /          | Displays a form to fill.                |
+| Login Page   | Error      | Appears when a field is emoty or wrong. |
+
+**Visuals**:
+
+![Login Section Administrator Picture](./img/wireframe/administrators/loginSection.png)
+
 ---
 
 ##### 3.1.4.2. Home Section
 
 ---
+
+**Pages**:
+
+| Name      | Complement | Description                                             |
+| --------- | ---------- | ------------------------------------------------------- |
+| Home Page | /          | Center of the sections and display of basic statistics. |
+
+**Visuals**:
+
+![Home Section Administrators Picture](./img/wireframe/administrators/homeSection.png)
 
 ---
 
@@ -912,11 +934,32 @@ Those can be access via links or on the following section of the document.
 
 ---
 
+**Pages**:
+
+| Name             | Complement | Description                                                         |
+| ---------------- | ---------- | ------------------------------------------------------------------- |
+| Application Page | /          | Contains more advanced statistics, graphs, and payment information. |
+
+**Visuals**:
+
+![Application Section Administrator Picture](./img/wireframe/administrators/applicationSection.png)
+
 ---
 
 ##### 3.1.4.4. Undertakers Section
 
 ---
+
+**Pages**:
+
+| Name             | Complement         | Description                                                               |
+| ---------------- | ------------------ | ------------------------------------------------------------------------- |
+| Undertakers Page | /                  | Displays a list of undertakers with colors defining the payment deadline. |
+| Undertakers Page | Undertaker Profile | Displays undertaker profile (company, admin, due date, fee amount).       |
+
+**Visuals**:
+
+![Undertakers Section Administrators Picture](./img/wireframe/administrators/undertakersSection.png)
 
 ---
 
@@ -924,11 +967,36 @@ Those can be access via links or on the following section of the document.
 
 ---
 
+**Pages**:
+
+| Name          | Complement       | Description                                                                                     |
+| ------------- | ---------------- | ----------------------------------------------------------------------------------------------- |
+| Mourners Page | /                | List of all the clients link to their undertakers.                                              |
+| Mourners Page | Mourners Profile | Displays information about mourners (full name, company name, account creation date, feedback). |
+
+**Visuals**:
+
+![Mourners Section Administrators Picture](./img/wireframe/administrators/mournersSection.png)
+
 ---
 
 ##### 3.1.4.6. Profile Section
 
 ---
+
+**Pages**:
+
+| Name           | Complement                  | Description                                                                                |
+| -------------- | --------------------------- | ------------------------------------------------------------------------------------------ |
+| Profile Page   | /                           | Displays admin information and a list of feedback.                                         |
+| Profile Page   | Modify                      | Displays a form filled with administrator information (photo, full name, email, password). |
+| Profile Page   | Error                       | Appears when empty field.                                                                  |
+| Profile Pop-up | Modification - Verification | Double Check before updating database.                                                     |
+| Profile Pop-up | Website URL - Verification  | Double Check before changing URL.                                                          |
+
+**Visuals**:
+
+![Profile Section Administrators Picture](./img/wireframe/administrators/profileSection.png)
 
 ---
 
