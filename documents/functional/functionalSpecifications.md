@@ -1211,44 +1211,149 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 
 ---
 
-<!-- TODO: Redo mermaids to fit excalidraw -->
-
 ```mermaid
 graph TD
-  %% Undertaker Flow
-  subgraph Undertaker Flow
-    A1[Registration/Login] -->|New User| A2[Register: Input company name, user name, password, email]
-    A1 -->|Returning User| A3[Login: password, username]
-    A2 --> HP[Home Page]
-    A3 --> HP[Home Page]
+  %% Mourner Flow
+  subgraph Mourner Flow
+    A[Welcome Page] --> B[Login Page]
+    B -->|If error| BE[Login Page Error]
+    B -->|If no error| C[Home Page]
 
-    HP --> PP[Profile Page]
-    HP --> UP[User Page]
+    C --> D[Profile Page]
+    C --> E[Instances Page]
+    C --> F[Letters Page]
+    C --> G[Undertaker Page]
+    C --> H[Procedure Page]
 
-    PP --> PP1[Edit Profile]
-    PP --> PP2[Logout]
+    D --> D1[Pop-up Verifiaction]
+    D --> D2[Pop-up Phase 1]
+    D2 --> D3[Pop-up Cancel]
+    D2 --> D4[Pop-up Phase 2] 
+    D2 --> D5[Pop-up Phase 2 New Document]
+    D4 -->|If error| D4E[Pop-up Phase 2 Error]
+    D5 -->|If error| D5E[Pop-up Phase 2 New Document Error]
 
-    UP --> UP1[Create Account]
-    UP --> UP2[Delete Account]
+    E --> E1[Pop-up Verification]
+    E --> E2[Add Instance]
+    E2 -->|If results| E3[Search]
+    E2 -->|If no result| E3E[No Result]
+    E2 & E3 & E3E --> E4[Pop-up Tags]
+    E2 & E3 --> E5[Instance Info]
 
-    UP1 --> UP1.1[Add deceased information]
-    UP1 --> UP1.2[Add mourner information]
+    F --> F1[Pop Verification]
+    F --> F2[Select Letters Template]
+    F --> F3[Your Template]
+    F --> F4[Template Creation]
+    F4 --> F5[Pop-up Preview]
+    F4 --> F6[Pop-up Import]
+    F4 -->|If error| F4E[Template Creation Error]
+    F6 -->|If error| F6E[Pop-up Import Error]
+
+    H --> H1[Step 1]
+    H1 -->|If error| H1E[Step 1 Error]
+    H1 --> H2[Step 2]
+    H2 -->|If error| H2E[Step 2 Error]
+    H2 --> H3[Step 3]
+    H3 -->|If error| H3E[Step 3 Error]
+    H3 --> H4[Step 4]
+    H4 -->|If error| H5[Step 5]
+    H5 -->|If yes checked| H5B[Step 5 Feedback]
+    H5 & H5B --> H6[Pop-up Validation]
+    H6 --> H7[Last Step]
+
+    H1 & H2 & H3 & H4 --> H8[Template Completion]
+    H8 -->|If error| H8E[Template Completion Error]   
   end
 ```
 
 ```mermaid
 graph TD
-  %% Mourner Flow
-  subgraph Mourner Flow
-    A1[Registration/Login] -->|New User| A2[Register: Input company name, user name, password, email]
-    A1 -->|Returning User| A3[Login: password, username]
-    A2 --> HP[Home Page]
-    A3 --> HP[Home Page]
+  %% Undertaker Flow
+  subgraph Undertaker Admin Flow
+    A[Welcome Page] --> A1[Login Page]
+    A1 -->|If error| A1E[Login Page Error]
+    A1 --> A2[Sign-up Page]
+    A1 --> B[Home Page Admin]
+    A2 -->|If error| A2E[Sign-up Page Error]
 
-    HP --> PP[Profile Page]
-    HP --> IP[Instance Page]
-    HP --> TP[Template Page]
-    HP --> LP[Letter Page]
+    B --> C[Profile Page]
+    B --> D[Clients Page]
+    B --> E[Employees page]
+
+    C -->|If error| CE[Profile Page Error]
+    C -->|If request| CR[Profile Page Request]
+    C --> C1[Pop-up Request Selection]
+    C1 --> C2[Pop-up Request Category]
+    C2 -->|If accept| C3[Pop-up Request Verification]
+    C2 -->|If denied| C3[Pop-up Request Verification]
+
+    D -->|If error| DE[Client Page No Result]
+    D -->|If no feedback| DF[Client Page No Feedback]
+    D -->|If no feedback and error| DFE[Client Page No Feedback and No Result]
+    D --> D1[Add Client]
+    D --> D2[Client Profile]
+    D1 -->|If error| D1E[Add Client Error]
+    D2 --> D3[Modify Client]
+    D2 & D3 --> D4[Pop-up Regenerate Verification] 
+    D3 --> D3E[Modify Client Error]
+    D3 --> D5[Pop-up Modify verification]
+
+    E --> E1[Pop-up Remove]
+    E --> E2[Pop-up Add]
+    E --> E3[Pop-up Modify Employee]
+    E2 -->|If error| E2E[Pop-up Add Error]
+    E3 -->|If error| E3E[Pop-up Modify Employee Error]
+    E3 --> E4[Pop-up Modify Verification]
+  end
+
+  subgraph Undertaker Employee Flow
+    ZA[Welcome Page] --> ZA1[Login Page]
+    ZA1 -->|If error| ZA1E[Login Page Error]
+    ZA1 --> ZA2[Sign-up Page]
+    ZA1 --> ZB[Home Page Employee]
+    ZA2 -->|If error| ZA2E[Sign-up Page Error]
+
+    ZB --> ZC[Profile Page]
+    ZB --> ZD[Clients Page]
+
+    ZC --> ZC1[Pop-up Request]
+    ZC1 --> ZC2[Pop-up Request Category]
+    ZC1 & ZC2 --> ZC3[Pop-up Request Verification]
+
+    ZD -->|If error| ZDE[Client Page No Result]
+    ZD -->|If no feedback| ZDF[Client Page No Feedback]
+    ZD -->|If no feedback and error| ZDFE[Client Page No Feedback and No Result]
+    ZD --> ZD1[Add Client]
+    ZD --> ZD2[Client Profile]
+    ZD1 -->|If error| ZD1E[Add Client Error]
+    ZD2 --> ZD3[Modify Client]
+    ZD2 & ZD3 --> ZD4[Pop-up Regenerate Verification] 
+    ZD3 --> ZD3E[Modify Client Error]
+    ZD3 --> ZD5[Pop-up Modify verification]
+  end
+```
+
+```mermaid
+graph TD
+  %% Administrator Flow
+  subgraph Administrator Flow
+    A[Welcome Page] --> A1[Login Page]
+    A1 -->|If error| A1E[Login Page Error]
+    A1 --> B[Home Page]
+
+    B --> C[Application Page]
+    B --> D[Undertakers Page]
+    B --> E[Mourners Page]
+    B --> F[Profile Page]
+
+    D --> D1[Undertaker Profile]
+
+    E --> E1[Mourner Profile]
+
+    F --> F1[Modify]
+    F1 -->|If error| F1E[Modify Error]
+    F1 --> F2[Pop-up Verification]
+    F1 --> F3[Pop-up URL]
   end
 ```
 
