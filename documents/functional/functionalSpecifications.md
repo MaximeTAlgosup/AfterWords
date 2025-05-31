@@ -1180,30 +1180,60 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 
 ### 4.1.4. System Features And Functions
 
-<!-- - Provide detailed functional requirements, such as:
-  - **Feature 1**: Description, inputs, outputs, behavior.
-  - **Feature 2**: Description, inputs, outputs, behavior.
-  - (Continue for all key functionalities.)   -->
+---
 
 **Mourners Side**:
 
-| Feature Name | Description | Inputs | Outputs | Behavior |
-| ------------ | ----------- | ------ | ------- | -------- |
-|              |             |        |         |          |
+| Feature Name             | Description                                                                        | Inputs                         | Outputs                                   | Behavior                                                                                                                                                                             |
+| ------------------------ | ---------------------------------------------------------------------------------- | ------------------------------ | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Add Document             | Mourners should add documents to their profile in order to complete the procedure. | Document                       | Documents added to the profile.           | Mourners click on Add Document. They select the intended category. They upload their document. It is added to the profile page and in database.                                      |
+| Delete Document          | Mourners want to remove a document that is not necessary for the procedure.        | Document to remove.            | No document.                              | Mourners Click on remove button on the same line as the document they want to remove. Click on validate on the Pop-up Verification.                                                  |
+| See Document             | Mourners can see in another tab documents they already inputs.                     | Document                       | New Tab with Document's display.          | Click on see button to preview the page. Open a new tab with the document.                                                                                                           |
+| Add Deceased Information | Mourners can precise information about deceased.                                   | Typed information.             | Information in deceased information card. | Click on add infprmation button. Type the information you want to precise. Enter.                                                                                                    |
+| Add Instances            | Mourners should add instances to their profile in order to complete the procedure. | Instances checked.             | List of instances in Instances Page.      | Click on add instances. Add tags. Type instance name. Check instances needed. Click on the Validate button.                                                                          |
+| Remove Instances         | Mourners want to remove an instances not needed to contact.                        | Instance to remove.            | Instance removed.                         | Click on remove button on the same line as the instance they want to remove. Click on validate on the Pop-up Verification.                                                           |
+| See Instances            | Mourners can see in another tab instances they already inputs.                     | Instance                       | New Tab with Instance's display.          | Click on see button. A new tab open with instance information.                                                                                                                       |
+| Add Letters              | Mourners should add letters to their profile in order to complete the procedure.   | Letters                        | Letters add to the Letters Page.          | Click on add button. Slide to find the good template. Click on Select Button.                                                                                                        |
+| Remove Letters           | Mourners want to remove a letter that is not good enough for them.                 | Letter to remove.              | Letter removed.                           | Click on remove button. The letter is removed from the database and the input cleared.                                                                                               |
+| See Letters              | Mourners can see letters in another page.                                          | Letter                         | New Page with letter's display.           | Click on see button. A new page appears with letter's display.                                                                                                                       |
+| Create Letters           | Mourners can create their own letters if needed.                                   | Form to complete.              | New letter in pdf format.                 | Click on add button next to other field. Complete every input field. Click on validate button.                                                                                       |
+| Ask Undertakers For Help | Mourners can ask help to complete the procedure to undertakers.                    | Email.                         | Procedure                                 | Go on the Undertaker Profile Page. Click on ask for help button. Undertakers can accept or deny your request.                                                                        |
+| Complete Procedure       | Mourners need to complete the procedure.                                           | Documents, Letters, Instances. | Emails.                                   | Click on Start button. Complete each step by fullfilling blanks in letters templates for every instance. Give a feedback to AfterWords and/or Undertakers. Click on validate button. |
+
+---
 
 **Undertakers Side**:
 
-| Feature Name | Description | Inputs | Outputs | Behavior |
-| ------------ | ----------- | ------ | ------- | -------- |
-|              |             |        |         |          |
+| Feature Name                 | Role     | Description                                                                 | Inputs                              | Outputs                           | Behavior                                                                                                          |
+| ---------------------------- | -------- | --------------------------------------------------------------------------- | ----------------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Sign-up                      | Admin    | Complete a form to create an account                                        | Forms field                         | New account created               | Complete Form. Click on Sign-up.                                                                                  |
+| Login                        | Both     | Access to account.                                                          | Username, password, email.          | Access to account                 | Complete form. Click on Login.                                                                                    |
+| Change profile               | Admin    | Admin can change profile on the application to make it up to date.          | field inputs.                       | Profile page.                     | Click on modify button. Change needed fields. Click on validate button.                                           |
+| Request Changes on profile   | Employee | Employees can change directly profile page, they need to ask requests.      | Fields to change, modifications.    | Send a request to admin.          | Click on ask for changes button. Check fields you want to modify. Write your suggestion. Click on Request button. |
+| Review Request               | Admin    | Review Employee's suggestions to change the profile page.                   | Employee's request.                 | accept or denied changes.         | Click on review changes. Click on the desired field. Accept or deny changes. Validate choice.                     |
+| Write kind words to mourners | Both     | Undertakers can assess small words to mourners.                             | Typed Text.                         | Text display.                     | Click on Small Words Field. Write your Words. Press Enter.                                                        |
+| Add Client                   | Both     | Undertakers need to create accounts to mourners.                            | Mourners and deceaseds information. | new mourner account.              | Click on add Client Button. Fill the form. Create account.                                                        |
+| Modify Client                | Both     | Undertakers can do mistakes and need to apply changes on clients if needed. | Client Profile.                     | Modified Client Profile.          | Click on the Client Profile. Click on modify Button. Change necessary fields. Validate Choices.                   |
+| View Client Profile          | Both     | Undertakers can access Client information.                                  | Client on list.                     | New page with client information. | Search for your client. Click on its line in the list.                                                            |
+| Regenerate password          | Both     | Password can be forbiden and so regenerated.                                | Regenerate Button.                  | New password.                     | Go on the Client Profile. Click on the regenerate button. Click on Yes in the Pop-up.                             |
+| Add Employee                 | Admin    | Admin undertaker can add employees to lighten his work amount.              | Employees information.              | New Employee Account.             | Click on add Employee button. Fill the form. Click on add new employee button.                                    |
+| Remove Employee              | Admin    | Employees can leave company so employees can be removed.                    | Employee accounts.                  | Empty section.                    | Search for employee. Click on remove button. Click on validate.                                                   |
+| Modify Employee              | Admin    | Admin undertaker can do mistakes and need to correct them.                  | Employee Account.                   | Modified employee account.        | Go to Employee Profile. Click on Modify Employee button. Change needed fields. Click on Validate.                 |
+| Promote Employee             | Admin    | Admin can give admin role to employee.                                      | Employee's role.                    | Admin role given.                 | Search for the employee. Click on the promote icon.                                                               |
+
+---
 
 **Administrators Side**:
 
-| Feature Name | Description | Inputs | Outputs | Behavior |
-| ------------ | ----------- | ------ | ------- | -------- |
-|              |             |        |         |          |
-
----
+| Feature Name                | Description                                                                    | Inputs                             | Outputs                             | Behavior                                                                                                  |
+| --------------------------- | ------------------------------------------------------------------------------ | ---------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| View Application Statistics | Administrator can view the advancement of the application, number of use, ect. | Statistics.                        | Display.                            | Looks for desired statistics. Display them in a page.                                                     |
+| View Undertakers List       | Administrator need to survey undertakers.                                      | Undertakers accounts.              | List of Undertakers.                | Displays undertakers in green if they paid, in orange if they are near due date, in red if they are late. |
+| View Undertakers Profile    | Administrator can look at undertaker profiles.                                 | Undertaker account.                | Display                             | Search for the undertaker. Click on the line.                                                             |
+| Request Monthly Fee         | Administrator need to remind undertakers to pay fees.                          | Email address and predefined body. | Email sent.                         | Go to undertaker's profile. Click on Send email button.                                                   |
+| View Mourners List          | Administrators need to survey mourners.                                        | Mourners account.                  | List of Mourners.                   | Collects all Mourners account in database. Display them as a list.                                        |
+| View Mourners Profile       | Administrator can access a precise account.                                    | Mourner Account.                   | New page with mourners information. | Search for the mourner. Click on the line.                                                                |
+| Edit Admin Profile          | Administrator can change fields in profile if needed.                          | Admin Profile.                     | Modified Profile.                   | Click on modify button. Change intended fields. Click on validate button.                                 |
 
 ---
 
@@ -1228,7 +1258,7 @@ graph TD
     D --> D1[Pop-up Verifiaction]
     D --> D2[Pop-up Phase 1]
     D2 --> D3[Pop-up Cancel]
-    D2 --> D4[Pop-up Phase 2] 
+    D2 --> D4[Pop-up Phase 2]
     D2 --> D5[Pop-up Phase 2 New Document]
     D4 -->|If error| D4E[Pop-up Phase 2 Error]
     D5 -->|If error| D5E[Pop-up Phase 2 New Document Error]
@@ -1262,7 +1292,7 @@ graph TD
     H6 --> H7[Last Step]
 
     H1 & H2 & H3 & H4 --> H8[Template Completion]
-    H8 -->|If error| H8E[Template Completion Error]   
+    H8 -->|If error| H8E[Template Completion Error]
   end
 ```
 
@@ -1294,7 +1324,7 @@ graph TD
     D --> D2[Client Profile]
     D1 -->|If error| D1E[Add Client Error]
     D2 --> D3[Modify Client]
-    D2 & D3 --> D4[Pop-up Regenerate Verification] 
+    D2 & D3 --> D4[Pop-up Regenerate Verification]
     D3 --> D3E[Modify Client Error]
     D3 --> D5[Pop-up Modify verification]
 
@@ -1327,7 +1357,7 @@ graph TD
     ZD --> ZD2[Client Profile]
     ZD1 -->|If error| ZD1E[Add Client Error]
     ZD2 --> ZD3[Modify Client]
-    ZD2 & ZD3 --> ZD4[Pop-up Regenerate Verification] 
+    ZD2 & ZD3 --> ZD4[Pop-up Regenerate Verification]
     ZD3 --> ZD3E[Modify Client Error]
     ZD3 --> ZD5[Pop-up Modify verification]
   end
