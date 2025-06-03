@@ -69,9 +69,16 @@
   - [4.1.4. System Features And Functions](#414-system-features-and-functions)
   - [4.1.5. Application Workflow](#415-application-workflow)
 - [5. Non-Functional Requirement](#5-non-functional-requirement)
-- [6. Data Management](#6-data-management)
-  - [6.1. Data Flow](#61-data-flow)
-  - [6.2. Database Schema](#62-database-schema)
+  - [5.1. Security](#51-security)
+  - [5.2. Responsiveness](#52-responsiveness)
+  - [5.3. Performance](#53-performance)
+  - [5.4. Connectivity](#54-connectivity)
+  - [5.5. Marketing](#55-marketing)
+- [6. Data](#6-data)
+  - [6.1. Templates](#61-templates)
+  - [6.2. Data Management](#62-data-management)
+    - [6.2.1. Data Flow](#621-data-flow)
+    - [6.2.2. Database Schema](#622-database-schema)
 - [7. External Interfaces](#7-external-interfaces)
 - [8. Constraints And Limitations](#8-constraints-and-limitations)
 - [9. Acceptance Criteria](#9-acceptance-criteria)
@@ -1396,20 +1403,103 @@ graph TD
 - **Usability**: UI/UX expectations, accessibility.
 - **Availability and Reliability**: Uptime, fault tolerance, backups.   -->
 
----
+### 5.1. Security
 
 ---
 
-## 6. Data Management
+AfterWords will have security and data privacy on many aspects.
 
-### 6.1. Data Flow
+**Authentification**:
+
+Authentification will be done for every accounts. They will need to register a username and a password to connect to their account. However, Password would be automatically generated for Clients and it would be transferred to them by email via undertakers.
+
+**Authorization**:
+
+Every roles will have different authorization on the application and database.
+
+- Clients will only view data related to their account and will have access to the template and instance list.
+- Undertakers Admin will have access to very feature on the undertaker account and could access every client account they created.
+- Undertakers Employees have fewer access on the undertaker account and can't modify profile or add/remove employee. They could access every client account the company has created.
+- Administrators can view every client and undertakers profile. However, they cannot access employees account.
+
+**Encryption**:
+
+All passwords will be necrypted. When an undertaker creates a new account for a mourner, they should not see the password. This one would be send directly via email to the mourner.
+
+---
+
+### 5.2. Responsiveness
+
+---
+
+This application is a web application and should be compatible on every operating system to touch a wider range of clients/mourners. Moreover, the application would be accessible only for computers as tablets and smartphone aren't relevant enough to fulfill this kind of procedure.
+
+In other words, AfterWords should be usable on every operating system, chrome, mozilla firefox, and google. With various screen sizes.
+
+<!-- TODO: Research screen sizes -->
+
+---
+
+### 5.3. Performance
+
+---
+
+AfterWords should be really performant on two aspects.
+
+First, it needs to load entirely in less than 4 seconds, and to change pages in less than 1. Mourners are already in a difficult time and don't want to spend to much time waiting for the website to load.
+
+Secondly, AfterWords would have to be performant under an important amount of user at the same time. A lot of deceased are identified each day (1,800 deceased a day). In case a huge amount of people dies the same day, the application should not crash under 10,000 users at the same time.
+
+---
+
+### 5.4. Connectivity
+
+---
+
+This application would be a web application, therefore, an internet connecrtion should be provided by the user to acces the website.
+
+---
+
+### 5.5. Marketing
+
+---
+
+Concerning the marketing of the application, it would be sold as a subscription plan with three offers. The offers would be mensual, trimestrial and anual. They would respectively cost, ..., ..., and ....
+
+The application would be promoted by the administrator, Maxime THIZEAU. The promotion would be done by phone call or email exchange to the different underatker companies, firstly in Bourges, Cher, then in a wider region to end to the globality of France.
+
+---
+
+## 6. Data
+
+### 6.1. Templates
+
+---
+
+AfterWords would contain templates for mourners to complete. However, it would be too long to describe them all in this specifications. Therefore, they would be stored in a subfolder called [templates](./templates/).
+
+---
+
+### 6.2. Data Management
+
+---
+
+#### 6.2.1. Data Flow
 
 <!-- - Describe how data moves through the system.
 - Include data flow diagrams if necessary.   -->
 
-### 6.2. Database Schema
+---
+
+---
+
+#### 6.2.2. Database Schema
 
 <!-- - Define key tables and relationships if applicable.   -->
+
+---
+
+---
 
 ## 7. External Interfaces
 
@@ -1426,8 +1516,6 @@ graph TD
 <!-- - Define what constitutes successful implementation and acceptance by stakeholders.   -->
 
 ## 10. Appendices
-
-<!-- - Any additional supporting information, such as diagrams, references, or links to related documents. -->
 
 ### 10.1. Glossary
 
