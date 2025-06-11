@@ -77,9 +77,16 @@
 - [6. Data](#6-data)
   - [6.1. Templates](#61-templates)
   - [6.2. Documents To Obtain](#62-documents-to-obtain)
-  - [6.3. Data Management](#63-data-management)
-    - [6.3.1. Data Flow](#631-data-flow)
-    - [6.3.2. Database Schema](#632-database-schema)
+  - [6.3. Urgent Procedure (In The Week Following The Death)](#63-urgent-procedure-in-the-week-following-the-death)
+    - [6.3.1. Finance](#631-finance)
+    - [6.3.2. Employer And Estate](#632-employer-and-estate)
+    - [6.3.3. Health Insurance](#633-health-insurance)
+    - [6.3.4. Insurances](#634-insurances)
+    - [6.3.5. Mutual](#635-mutual)
+  - [6.4. No Urgent Procedure (Within Six Months After Death)](#64-no-urgent-procedure-within-six-months-after-death)
+  - [6.5. Data Management](#65-data-management)
+    - [6.5.1. Data Flow](#651-data-flow)
+    - [6.5.2. Database Schema](#652-database-schema)
 - [7. External Interfaces](#7-external-interfaces)
 - [8. Constraints And Limitations](#8-constraints-and-limitations)
 - [9. Acceptance Criteria](#9-acceptance-criteria)
@@ -1468,7 +1475,20 @@ The application would be promoted by the administrator, Maxime THIZEAU. The prom
 
 ---
 
-AfterWords would contain templates for mourners to complete. However, it would be too long to describe them all in this specifications. Therefore, they would be stored in a subfolder called [templates](./templates/).
+AfterWords would contain templates for mourners to complete. However, it would be too long to describe them all in this specification. Therefore, they would be stored in a subfolder called [templates](./templates/).
+
+They would be ordered in subcategories which are the following:
+
+- To Obtain
+- Finance
+- Employer and ASSEDIC
+- Health Insurance
+- Insurances
+- Mutual
+- Pensions
+- Family Allowance
+- Notary and Estate Taxation
+- Subscriptions
 
 ---
 
@@ -1554,11 +1574,51 @@ In case the mourner don't know how to get these documents or what they are, more
 
 ---
 
-### 6.3. Data Management
+### 6.3. Urgent Procedure (In The Week Following The Death)
 
 ---
 
-#### 6.3.1. Data Flow
+#### 6.3.1. Finance
+
+---
+
+---
+
+#### 6.3.2. Employer And Estate
+
+---
+
+---
+
+#### 6.3.3. Health Insurance
+
+---
+
+---
+
+#### 6.3.4. Insurances
+
+---
+
+---
+
+#### 6.3.5. Mutual
+
+---
+
+---
+
+### 6.4. No Urgent Procedure (Within Six Months After Death)
+
+---
+
+---
+
+### 6.5. Data Management
+
+---
+
+#### 6.5.1. Data Flow
 
 <!-- - Describe how data moves through the system.
 - Include data flow diagrams if necessary.   -->
@@ -1567,7 +1627,7 @@ In case the mourner don't know how to get these documents or what they are, more
 
 ---
 
-#### 6.3.2. Database Schema
+#### 6.5.2. Database Schema
 
 <!-- - Define key tables and relationships if applicable.   -->
 
