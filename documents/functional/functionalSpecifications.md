@@ -79,7 +79,7 @@
   - [6.2. Documents To Obtain](#62-documents-to-obtain)
   - [6.3. Urgent Procedure (In The Week Following The Death)](#63-urgent-procedure-in-the-week-following-the-death)
     - [6.3.1. Finance](#631-finance)
-    - [6.3.2. Employer And Estate](#632-employer-and-estate)
+    - [6.3.2. Employer And ASSEDIC](#632-employer-and-assedic)
     - [6.3.3. Health Insurance](#633-health-insurance)
     - [6.3.4. Insurances](#634-insurances)
     - [6.3.5. Mutual](#635-mutual)
@@ -1582,17 +1582,268 @@ In case the mourner don't know how to get these documents or what they are, more
 
 ---
 
+**Chequing accounts**:
+
+| Name                   | Template                                                                                                                  | Description                                                                       | Documents                                                                                                                                                                       |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Les comptes personnels | [Clôture de compte personnel](./templates/finance/clôtureDeCompte.md)                                                     | Blocked after the death. The bank must be informed of it.                         | - Un acte de décès <br> - Un relevé d'identité bancaire, postal ou Caisse d'Épargne du bénéficiare. <br> - S'informer auprès de la banque de la somme disponible sur le compte. |
+| Les comptes joints     | [Transformation Du Compte Joint En Compte Personnel](./templates/finance/transformationDuCompteJointEnComptePersonnel.md) | Not blocked, need to contact the bank to transform the account to a personal one. | - Un acte de décès <br> - Un relevé d'identité bancaire, postal ou Caisse d'Épargne du bénéficiare. <br> - S'informer auprès de la banque de la somme disponible sur le compte. |
+
+> [!NOTE]
+> Heirs can visit la FICOBA to know which count was held by the deceased. \
+> To do this the heirs should provide:
+>
+> - "certificat d'hérédité"
+> - "extrait d'acte de naissance avec filiation"
+
+**Savings accounts**:
+
+To obtain available funds on a deceased account to the CNE (Caisse Nationale d'Épargne), the mourner will need a "certificat de notoriété" written by the notary.
+
+**The safes**:
+
+The bank must block access to the safe deposit box. Only the co-holder of the safe deposit box may access it; otherwise, the notary in charge of the estate.
+
+**Credit organizations**:
+
+If a loan had been taken out by the deceased, the bank OR the financial institution must be notified.
+
+[This template](./templates/finance/priseEnChargeDeCréditParLAssuranceInvaliditéDécès.md) can be used to complete this procedure.
+
+The mourner would also needs the following documents to link:
+
+- "Un acte de décès"
+- "Un original des conditions particulières du contrat"
+- "Un certificat médical"
+- "Une photocopie du livret de famille"
+
 ---
 
-#### 6.3.2. Employer And Estate
+#### 6.3.2. Employer And ASSEDIC
 
 ---
+
+**Employer**:
+
+If the person was still employed, the following steps must be taken:
+
+- Notify the employer of the death as soon as possible by registered letter with acknowledgment of receipt. [Template](./templates/employerAndAssedic/declarationDeDécèsMatriculeSécuritéSociale.md)
+- Request a salary certificate and the payment of the final balance (any remaining amounts owed).
+- If applicable, request early release of the employee savings plan while retaining the benefit of tax exemptions.
+
+> [!NOTE]
+> If applicable, the works council may offer a lump-sum benefit upon written request.
+>
+> The employer may also assist with formalities related to supplementary pension and death insurance.
+>
+> In case of a work-related accident or illness, additional benefits may be granted to the beneficiaries.
+
+**ASSEDIC**:
+
+In the event of the death of a benefits recipient, ASSEDIC (French unemployment agency) pays a death benefit to the surviving spouse.
+
+_Beneficiaries_:
+
+The spouse or common-law partner, residing in France or abroad, may claim the death benefit. \
+In the case of separation, as long as a divorce has not been finalized, the legal spouse remains the beneficiary.
+
+_Conditions_:
+
+At the time of death, the recipient may have been in different situations, such as:
+
+- Receiving unemployment benefits,
+- Or eligible to receive them (i.e., the recipient was in a waiting period, deferral of payment, or benefits were temporarily suspended due to entering a training program or due to illness).
+
+The death benefit is not payable if the death occurred during a non-compensated period following a rejection decision for seasonal unemployment.
+
+_Where to apply_:
+
+Send a letter to the ASSEDIC office the deceased was affiliated with. [Template](./templates/employerAndAssedic/declarationDeDécèsAssedic.md)
+
+_Amount_:
+
+The death benefit equals 120 times the daily unemployment allowance that was due on the day of death. \
+This amount is increased by 45 daily allowances per dependent child, as defined by Social Security.
+
+Needed Documents:
+
+- "Un acte de décès"
+- "Un acte de mariage ou un certificat de concubinage notoire"
+- "Le livret de famille ou une attestation de la Sécurité Sociale pour la majoration relative ux enfants à charge"
+
+Other documents will be sent to you, which must be completed and returned.
+
+> [!NOTE]
+> Unpaid unemployment benefits owed as of the date of death are paid to the estate, while the death benefit is paid only to the surviving spouse.
 
 ---
 
 #### 6.3.3. Health Insurance
 
 ---
+
+Whatever the deceased's situation, the death must be reported as soon as possible to the health insurance fund they were affiliated with (the contact details are listed on their health insurance card), in order to:
+
+- Request the payment of the death benefit (capital décès)
+- Submit an application for personal registration
+- Request the payment of outstanding health benefits owed to the deceased spouse
+- Request the payment of other benefits due as a result of the new situation
+
+**The death benefit for insured employees (CPAM or MSA)**:
+
+More on that subject can be read at this link to [service-public](https://www.service-public.fr/particuliers/vosdroits/F1544).
+
+_Beneficiaries_:
+
+The spouse; failing that, the children; failing that, the ascendants; and if none, any other collateral relatives, in-laws, or third parties.
+
+There are two categories:
+
+- **Priority beneficiaries**: if, on the day of death, they were fully, effectively, and permanently dependent on the insured person and if they submit the request within one month following the death.
+- **Non-priority beneficiaries**: if none of the individuals qualify as priority beneficiaries, or if no priority is claimed within the one-month period, the death benefit may be paid to the legal (non-separated) spouse or to the partner bound to the deceased by a civil union (PACS). Failing that, it may be paid to the descendants, and if none, to the ascendants who submit the request within two years after the death.
+
+> [!NOTE]
+> When two persons have the same priority hierarchy, the death benefit would be parted equally.
+
+_Conditions_:
+
+The insured person who was actively employed or maintaining certain rights (including unemployed individuals receiving benefits) is eligible for the death benefit if they met one of the following conditions within the year prior to death or work stoppage:
+
+| **Condition**                                                 | **Details**                                                    |
+| ------------------------------------------------------------- | -------------------------------------------------------------- |
+| Contributed based on 60 times the hourly minimum wage (SMIC)  | Or worked 60 hours in a calendar month, or 30 consecutive days |
+| Contributed based on 120 times the hourly minimum wage (SMIC) | Over a period of 3 calendar months                             |
+| Worked 120 hours                                              | Over a period of 3 calendar months                             |
+
+> [!NOTE]
+> If the beneficiary is a minor, the request must be submitted by their legal representative.
+
+_Amount_:
+
+The death benefit is equal to the salary earned by the deceased during the last 3 months of employment.
+
+> [!WARNING]
+> The amount of death benefit would lie between €375.48 and €9,387.00.
+
+The death benefit is not subject to C.S.G. (Generalized Social Contribution), C.R.D.S. (Contribution for the Repayment of the Social Debt), and Social Security contributions.
+
+> [!NOTE]
+> Single phone number: 3646
+
+_death benefit application_:
+
+It must be requested by the potential beneficiary (or beneficiaries) from the CPAM (Primary Health Insurance Fund) to which the insured person was affiliated at the time of death. [Template](./templates/healthInsurance/declarationDeDécèsMatriculeSécuritéSocialeCapitalDécès.md)
+
+The user would need to linked the following documents with it:
+
+- "Document CERFA n°10431\*02 ([CERFA](https://www.ameli.fr/sites/default/files/formualires/169/s3180.pdf))
+- "Un acte de décès"
+- "Une attestation de l'employeur"
+- The last three "bulletins de salaire" of the deceased or "l'attestation de Pôle Emploi"
+- "Un RIB au nom du demandeur"
+
+**Death benefits for self-employed workers (Non-agricultural – RSI)**:
+
+<ins>Death benefits for retailers</ins>
+
+_Beneficiaries_:
+
+As of January 1, 2013, the death benefit entitlement was extended to all beneficiaries regardless of whether the deceased was an active contributor or a retiree. Previously, retired merchants’ beneficiaries were not eligible. The benefit amount corresponds to 8% of the Social Security annual ceiling at the time of death.
+
+_Terms and conditions_:
+
+- The deceased retired merchant insured must have acquired 80 quarters of insurance as a merchant or artisan.
+- Depending on whether they were a retired artisan or merchant, the independent artisanal or commercial activity must have been their last activity.
+- The beneficiaries must submit the claim within a maximum period of 2 years following the death of the retiree. [Template](./templates/healthInsurance/declarationDeDécèsMatriculeSécuritéSocialeCapitalDécès.md)
+
+_Amount for the death of an insured contributor_:
+
+The amount would be at 20% of the Social Security's annual cap at the death date.
+
+_ORPHAN BENEFIT_:
+
+Entitlement extended to shopkeepers' children: From January 1, 2013, the Orphan Capital is delivered to every deceased merchant's children.
+
+<ins>Death benefits for craftsmen</ins>
+
+Principal benefit:
+
+| Situation                                          | Benefit Amount                            | Details                                                                                                  |
+| -------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Death of an active insured or disability pensioner | 20% of the annual Social Security ceiling | As of January 1, 2013, this amount equals €7,406.40                                                      |
+| Death of a retiree                                 | 8% of the annual Social Security ceiling  | Subject to having completed 80 insurance quarters<br>As of January 1, 2013, this amount equals €2,962.56 |
+
+_Beneficiaries_:
+
+The death benefit is granted in the following order of priority:
+
+1. The non-separated spouse
+2. Dependent children:
+   - Under age 16, or under 20 if they are still in school
+   - Children receiving disability benefits are also included, regardless of age
+3. Any person who was dependent on the insured at the time of death,
+provided that their annual personal income does not exceed one-fifth of the Social Security ceiling
+4. All other descendants not already mentioned
+5. All ascendants
+
+[Template](./templates/healthInsurance/declarationDeDécèsMatriculeSécuritéSocialeCapitalDécès.md)
+
+_ORPHAN BENEFIT_:
+
+In addition, for each dependent child of the deceased insured person, a sum equal to 5% of the annual Social Security ceiling is paid.
+
+As of January 1, 2013, the orphan’s death benefit amounts to €1,851.60 per child.
+
+**Personal registration**:
+
+_Beneficiaries_:
+
+If the surviving spouse is not personally insured, they remain entitled to benefits:
+
+- For one year following the death,
+- Or until the youngest dependent child turns three, whichever is longer.
+
+If the spouse receives the single parent allowance, they are automatically covered by Social Security.
+
+After these periods, the spouse must apply for personal registration using a special form provided by the Primary Health Insurance Fund (CPAM) the deceased was affiliated with. [Template](./templates/healthInsurance/demandeDImmatriculationPersonnelleMatriculeSécuritéSociale.md)
+
+If the surviving spouse is over 45 years old and has had three children, they may receive lifetime health coverage under certain conditions.
+
+Receiving a survivor’s pension (pension de réversion) also grants entitlement to health insurance under the Social Security system.
+
+The following pieces would be needed:
+
+- "Un imprimé spécial qui vous sera adressé après avoir informé la Caisse Primaire d'Assurance Maladie du décès à retourner dans un délai de 1 mois"
+- "Une photocopie du livret de famille"
+- "Un acte de décès"
+
+Other documents would be requested according to your case.
+
+**Exceptional Assistance**:
+
+Exceptional assistance is a financial payment granted to an insured person in addition to reimbursements provided by the Social Security Code, to help cover expenses that remain their responsibility.
+
+- Based on a standard list, the Board of Directors of each Primary Health Insurance Fund (CPAM) determines:
+  - The type and amount of these benefits,
+  - The income ceiling not to be exceeded in order to qualify.
+- A formal request must be submitted to the CPAM the deceased was affiliated with. [Template](./templates/healthInsurance/demandeDeSecoursExceptionnelMatriculeSécuritéSociale.md)
+
+**Amounts due to the deceased**:
+
+REIMBURSEMENT OF MEDICAL BENEFITS
+
+Medical benefits are paid to the heir(s) of the deceased insured person, or to the notary responsible for settling the estate, by the Health Insurance Fund (CPAM) of the deceased, upon presentation of the death certificate and a certificate of inheritance issued by the notary. \
+When the amount of benefits due does not exceed €2,400, it may be paid to the heir who requests it and acts on behalf of the other co-heirs.
+
+The user would have to linked the following documents:
+
+- "Un acte de décès"
+- "Un acte de notoriété"
+- "Un relevé d'identité bancaire, postal ou Caisse d'Épargne du bénéficiaire"
+- In the case of joint heirs, "une attestation de porte-fort (délivrée par l'organisme)"
+
+> [!NOTE]
+> Attach the deceased’s health insurance card (Carte Vitale) to the letter, making sure to keep a copy.
 
 ---
 
