@@ -1100,6 +1100,8 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 > - Add new instances.
 > - Add new templates.
 
+---
+
 > [!Caution]
 > Can't:
 >
@@ -1124,6 +1126,8 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 > - Add new mourners
 > - Update company inforamtion
 
+---
+
 > [!Caution]
 > Can't:
 >
@@ -1142,6 +1146,8 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 > - See users account they created.
 > - Access low privacy user database (full name, deceased information).
 > - Add new mourners
+
+---
 
 > [!Caution]
 > Can't:
@@ -1178,6 +1184,8 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 > - See deceased information.
 > - Add specification to deceased information.
 > - Request a modification on deceased information.
+
+---
 
 > [!Caution]
 > Can't:
@@ -1570,7 +1578,7 @@ As well as the deceased papers:
   - Procès-verbaux d’assemblée de copropriété
   - Travaux (factures, devis)
 
-In case the mourner don't know how to get these documents or what they are, more information are displayed in the [documents to get file](./documentsToGet.md)
+In case the mourner don't know how to get these documents or what they are, more information are displayed in the [documents to get file](./documentsToGet.md).
 
 ---
 
@@ -2010,11 +2018,35 @@ Assistance organizations may cover the repatriation costs from the place of deat
 
 ---
 
+Regarding funeral expenses, many mutual insurance companies often settle directly with the funeral home or reimburse the funeral costs upon receipt of a paid invoice and a proof of payment.
+
+Be sure to notify the various mutual insurance organizations of the policyholder’s death in order to:
+
+- Request the payment of a death benefit:
+  - If the deceased was affiliated with a private mutual insurance. [Template](./templates/mutual/versementDuCapitalDécèsInscriptionMutuelle.md)
+  - If the deceased was affiliated with a mutual insurance through their employer. [Template](./templates/mutual/versementDuCapitalDécèsInscriptionMutuelleImmatriculéSécuritéSociale.md)
+- Cancel any subscribed contracts. [Template](./templates/mutual/résiliationDeMutuelle.md)
+- Maintain any subscribed contracts. [Template](./templates/mutual/reconduiteDAdhésionMutuelle.md)
+- Request reimbursement of arrears owed up to the date of death (in the case where the deceased was widowed or single). [Template](./templates/mutual/remboursementDArrérages.md)
+
+> [!NOTE]
+> Certain pension funds provide survivor benefits in the form of:
+>
+> - Orphan's pensions (reversion pensions) for children who have lost both parents.
+> - Education allowances or annuities (rente éducation) for dependent children, under certain conditions.
+
+---
+
+> [!TIP]
+> Don’t forget to send all your letters by registered mail with acknowledgment of receipt.
+
 ---
 
 ### 6.4. No Urgent Procedure (Within Six Months After Death)
 
 ---
+
+<!-- TODO: Complete this section following the guide. -->
 
 ---
 
