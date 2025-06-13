@@ -1934,21 +1934,14 @@ _Survivor's Pension (Rente)_:
 A pension may be granted to the deceased’s beneficiaries, calculated based on their annual base salary:
 
 - Spouse (not divorced or legally separated), civil union partner (PACS), or cohabiting partner (concubin):
-
   - 40% of the deceased's annual base salary.
   - Increased to 60% if the surviving partner is aged 55 or older or has a disability of at least 50%.
-
 - Divorced or legally separated spouse (if receiving alimony from the deceased):
-
   - 20% of the annual base salary.
-
 - Children (legitimate, natural, or adopted), up to their 20th birthday:
-
   - 25% of the annual base salary for each of the first two children.
   - 20% for each additional child beyond the second.
-
 - Ascendants (e.g. parents) who were financially dependent on the deceased:
-
   - 10% of the annual base salary.
 
 > [!NOTE]
@@ -1977,6 +1970,39 @@ A pension may be granted to the deceased’s beneficiaries, calculated based on 
 #### 6.3.4. Insurances
 
 ---
+
+The main insurances in case of death are:
+
+- Whole life insurance
+- Term life insurance
+
+**Whole life insurance**:
+
+The capital is paid out regardless of the cause of death. This type of policy is similar to a financial capitalization operation. It allows parents to ensure a means of subsistence for their children after their death. \
+In life insurance contracts, insurance companies pay the capital or annuity directly to the beneficiary.
+
+**Term life insurance**:
+
+It guarantees the payment of a lump sum or annuity in the event of death during the term of the contract. This could be an education annuity to fund a child’s studies in the event of the premature death of a parent, or insurance taken out to repay a loan. Term life insurance is subscribed on a “non-refundable” basis — regardless of when premium payments stop, the amounts already paid remain with the insurance company.
+
+- Notify the insurance company as soon as possible of the death (check any documents left by the deceased). Send a registered letter along with:
+  - the death certificate
+  - a photocopy of the family record book so that the company can process the payment of the death benefit. [Template](./templates/insurances/versementDuCapitalDécèsPolice.md)
+- Transfer the policy into the name of the surviving beneficiary or into the name of the estate, depending on the situation. Specify that the survivor is released from any future premium payments, in the case of life insurance. [Template](./templates/insurances/transfertNominatifDeLaPoliceDAssurance.md)
+- Cancel the contracts (if the deceased was widowed or single). [Template](./templates/insurances/résiliationDeContratDAssurance.md)
+
+Those letters should contain the following documents:
+
+- "Un acte de décès"
+- "Un original des conditions particulières"
+- "Un certificat médical"
+- "Une photocopie du livret de famille du bénéficiaire"
+- "Un relevé d'identité bancaire, postal ou Caisse d'Épargne du bénéficiaire"
+
+If the death results from an accident caused by a third party (such as a road accident), the surviving spouse must immediately notify their car insurance provider. \
+A provisional compensation may be granted amicably if the third party’s liability is clearly established.
+
+Assistance organizations may cover the repatriation costs from the place of death to the home or burial location.
 
 ---
 
