@@ -1782,7 +1782,7 @@ The death benefit is granted in the following order of priority:
    - Under age 16, or under 20 if they are still in school
    - Children receiving disability benefits are also included, regardless of age
 3. Any person who was dependent on the insured at the time of death,
-provided that their annual personal income does not exceed one-fifth of the Social Security ceiling
+   provided that their annual personal income does not exceed one-fifth of the Social Security ceiling
 4. All other descendants not already mentioned
 5. All ascendants
 
@@ -1844,6 +1844,133 @@ The user would have to linked the following documents:
 
 > [!NOTE]
 > Attach the deceased’s health insurance card (Carte Vitale) to the letter, making sure to keep a copy.
+
+**Widow's or widower's disability pension**:
+
+Upon the death of a disabled insured person, their surviving spouse — if not remarried and suffering from a permanent disability — is entitled to a pension.
+
+_Conditions_:
+
+To obtain it, the following conditions should be met:
+
+- Be a widow or widower and under the age of 55
+- The medical service must certify a reduction of at least two-thirds in your ability to work or earn a living
+- Provide proof that your spouse either received a disability pension, was eligible for one, received an old-age pension, or would have been entitled to one.
+
+_Amount_:
+
+The survivor’s pension amounts to 54% of the pension the deceased was receiving or would have been entitled to.
+
+| Pension Category | Pension Rate                                                     | Monthly Minimum | Monthly Maximum | Notes                                             |
+| ---------------- | ---------------------------------------------------------------- | --------------- | --------------- | ------------------------------------------------- |
+| 1st Category     | 30% of the base salary                                           | €279.98         | €925.80         | For those still capable of some work              |
+| 2nd Category     | 50% of the base salary                                           | €279.98         | €1,543.00       | For those unable to work                          |
+| 3rd Category     | 50% of the average annual salary + fixed supplement of €1,096.50 | €1,376.48       | €2,639.50       | For those requiring assistance from a third party |
+
+_Where to apply_:
+
+Submit your application to the Health Insurance Fund (CPAM) the deceased was affiliated with, using the official form:
+“Application for a Widower’s or Widow’s Disability Pension” (disability benefits department).
+
+You will need the following documents as link parts:
+
+- [CERFA Form No. 50815*03](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://demarchesadministratives.fr/formulaires/apercu/1973&ved=2ahUKEwjDkKeuku6NAxXDZqQEHZg3JloQFnoECCEQAQ&usg=AOvVaw21CvWChafytkNgxdywXk_h)
+- A medical certificate issued by your attending physician
+- The completed form: Application for a Widower’s or Widow’s Disability Pension – Form No. S4153
+- The deceased’s health insurance card (Carte Vitale)
+- A photocopy of the family record book (livret de famille)
+- A photocopy of your tax notice
+- Your disability pension award notification or accident-at-work annuity
+- The deceased’s notification of disability or retirement pension award(s)
+
+> [!NOTE]
+> The disabled widower's or widow's pension is automatically converted into an old-age survivor’s pension once you reach the age of 55. \
+> Once the pension is granted, you are reimbursed at 100%.
+
+**Social protection for dependants**:
+
+From the date of the insured person's death, their dependents retain the right to reimbursement of healthcare and maternity expenses for:
+
+- 4 years, or
+- Indefinitely, if the surviving spouse has had three dependent children.
+
+Under certain conditions, the dependents may also be eligible to receive family benefits, such as:
+
+- Single parent allowance
+- Family support allowance
+
+These benefits are provided by the Caisse d'Allocations Familiales (CAF).
+
+**Workers' compensation**:
+
+_Beneficiaries_:
+
+Heirs under the age of 20, the surviving spouse, the cohabiting partner, the partner bound by a civil union (PACS), and ascendants who were financially dependent on the deceased.
+
+_Where to apply_:
+
+To the fund (Caisse) the deceased was affiliated with, specifically the Work Accident Department
+
+Documents required only upon request by the institution:
+
+- "Un acte de décès"
+- "Un acte de notoriété"
+- "Un relevé d'identité bancaire, postal, ou Caisse d'Épargne du bénéficiaire:
+- In the case of joint heirs, "une attestation de porte-fort" (delivered by the company)
+- "Copie de la facture des Pompes Funèbres"
+
+> [!WARNING]
+> If death results from an accident at work:
+
+When a work accident leads to the death of the victim, specific benefits may be granted:
+
+_Funeral Allowance_:
+
+- A funeral allowance is paid up to a maximum amount, upon presentation of the invoice from the person who covered the funeral costs.
+- This amount is deducted from any potential death benefit.
+
+_Survivor's Pension (Rente)_:
+
+A pension may be granted to the deceased’s beneficiaries, calculated based on their annual base salary:
+
+- Spouse (not divorced or legally separated), civil union partner (PACS), or cohabiting partner (concubin):
+
+  - 40% of the deceased's annual base salary.
+  - Increased to 60% if the surviving partner is aged 55 or older or has a disability of at least 50%.
+
+- Divorced or legally separated spouse (if receiving alimony from the deceased):
+
+  - 20% of the annual base salary.
+
+- Children (legitimate, natural, or adopted), up to their 20th birthday:
+
+  - 25% of the annual base salary for each of the first two children.
+  - 20% for each additional child beyond the second.
+
+- Ascendants (e.g. parents) who were financially dependent on the deceased:
+
+  - 10% of the annual base salary.
+
+> [!NOTE]
+> For assistance, you may contact the FNATH (National Federation for Workplace Accident Victims and the Disabled):
+>
+> Address: 47, rue des Alliés – 42030 SAINT-ÉTIENNE CEDEX 2 \
+> Phone: 04 77 49 42 42 \
+> Fax: 04 77 49 42 48
+
+---
+
+> [!NOTE]
+> The employee is entitled, with no length of service requirement, to 2 days of paid leave for:
+>
+> - the death of their spouse or civil union partner (PACS),
+> - the death of a child.
+>
+> They are also entitled to 1 day of paid leave for:
+>
+> - the death of their father or mother,
+> - the death of their spouse’s father or mother,
+> - the death of a brother or sister.
 
 ---
 
