@@ -79,15 +79,11 @@
   - [6.2. Documents To Obtain](#62-documents-to-obtain)
   - [6.3. Urgent Procedure (In The Week Following The Death)](#63-urgent-procedure-in-the-week-following-the-death)
   - [6.4. No Urgent Procedure (Within Six Months After Death)](#64-no-urgent-procedure-within-six-months-after-death)
-  - [6.5. Data Management](#65-data-management)
-    - [6.5.1. Data Flow](#651-data-flow)
-    - [6.5.2. Database Schema](#652-database-schema)
 - [7. External Interfaces](#7-external-interfaces)
 - [8. Constraints And Limitations](#8-constraints-and-limitations)
-- [9. Acceptance Criteria](#9-acceptance-criteria)
-- [10. Appendices](#10-appendices)
-  - [10.1. Glossary](#101-glossary)
-  - [10.2. Resources](#102-resources)
+- [9. Appendices](#9-appendices)
+  - [9.1. Glossary](#91-glossary)
+  - [9.2. Resources](#92-resources)
 
 </details>
 
@@ -1597,27 +1593,6 @@ This appendix can be find following [this link](./appendices/noUrgentProcedureGu
 
 ---
 
-### 6.5. Data Management
-
----
-
-#### 6.5.1. Data Flow
-
-<!-- - Describe how data moves through the system.
-- Include data flow diagrams if necessary.   -->
-
----
-
----
-
-#### 6.5.2. Database Schema
-
-<!-- - Define key tables and relationships if applicable.   -->
-
----
-
----
-
 ## 7. External Interfaces
 
 <!-- - **APIs**: Describe any APIs the system will expose or consume.
@@ -1628,19 +1603,15 @@ This appendix can be find following [this link](./appendices/noUrgentProcedureGu
 
 <!-- - Highlight known constraints, such as technology limitations or compliance requirements.   -->
 
-## 9. Acceptance Criteria
+## 9. Appendices
 
-<!-- - Define what constitutes successful implementation and acceptance by stakeholders.   -->
-
-## 10. Appendices
-
-### 10.1. Glossary
+### 9.1. Glossary
 
 ---
 
 ---
 
-### 10.2. Resources
+### 9.2. Resources
 
 ---
 
