@@ -79,6 +79,7 @@
   - [6.2. Documents To Obtain](#62-documents-to-obtain)
   - [6.3. Urgent Procedure (In The Week Following The Death)](#63-urgent-procedure-in-the-week-following-the-death)
   - [6.4. No Urgent Procedure (Within Six Months After Death)](#64-no-urgent-procedure-within-six-months-after-death)
+  - [G.5. Tags](#g5-tags)
 - [7. External Interfaces](#7-external-interfaces)
 - [8. Constraints And Limitations](#8-constraints-and-limitations)
 - [9. Appendices](#9-appendices)
@@ -1011,6 +1012,8 @@ Those can be access via links or on the following section of the document.
 
 ---
 
+<!-- TODO: Change colors with actual ones -->
+
 AfterWords would have to theme, a light one and a dark one. They would be set corresponding to the user computer preferences.
 
 The dark theme would be composed of these five colors:
@@ -1432,9 +1435,12 @@ All passwords will be necrypted. When an undertaker creates a new account for a 
 
 This application is a web application and should be compatible on every operating system to touch a wider range of clients/mourners. Moreover, the application would be accessible only for computers as tablets and smartphone aren't relevant enough to fulfill this kind of procedure.
 
-In other words, AfterWords should be usable on every operating system, chrome, mozilla firefox, and google. With various screen sizes.
+In other words, AfterWords should be usable on every operating system, chrome, mozilla firefox, and google. It would be responsible on the following screen sizes:
 
-<!-- TODO: Research screen sizes -->
+- 1920×1080px,
+- 1366×768px,
+- 1280×1024px,
+- 1024×768px.
 
 ---
 
@@ -1590,6 +1596,14 @@ This appendix can be find following [this link](./appendices/urgentProcedureGuid
 The procedures are inspired by a physical document that has been translated and reformated into markdown. However, this procedure is too long to put in the Functional Specification at once. Therefore, an appendix was made specialy for the No Urgent Procedure.
 
 This appendix can be find following [this link](./appendices/noUrgentProcedureGuide.md) or in the [appendices folder](./appendices/).
+
+---
+
+### G.5. Tags
+
+---
+
+<!-- TODO: List all the potential tags to ease the search of instances on the client side. -->
 
 ---
 
