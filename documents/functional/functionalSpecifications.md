@@ -1014,39 +1014,35 @@ Those can be access via links or on the following section of the document.
 
 <!-- TODO: Change colors with actual ones -->
 
-AfterWords would have to theme, a light one and a dark one. They would be set corresponding to the user computer preferences.
+AfterWords would have two themes, a light one and a dark one. They would be set corresponding to the user computer preferences.
 
-The dark theme would be composed of these five colors:
+The dark theme would be composed of the following colors:
 
-| Name                | Preview                                | Hexacode | RGB Code           |
-| ------------------- | -------------------------------------- | -------- | ------------------ |
-| Midnight Black      | <span style="color: #00040D;">■</span> | #00040D  | rgb(0, 4, 13)      |
-| Oxford Blue         | <span style="color: #0E2148;">■</span> | #0E2148  | rgb(32, 22, 88)    |
-| Blue-Magenta Violet | <span style="color: #483AA0;">■</span> | #483AA0  | rgb(29, 36, 202)   |
-| Blue-Violet         | <span style="color: #7965C1;">■</span> | #7965C1  | rgb(152, 171, 238) |
-| Gold                | <span style="color: #E3D095;">■</span> | #E3D095  | rgb(249, 232, 201) |
+| Name                 | Preview | Hexacode | RGB Code           |
+| -------------------- | ------- | -------- | ------------------ |
+| Dark Gunmetal        | ![alt text](image.png)        | #1F1F2E  | rgb(31, 31, 46)    |
+| Gunmetal             | <img alt="Gunmetal" width="200px" height="100px" src="./image-1.png">        | #2B2B3C  | rgb(43, 43, 60)    |
+| Chinese White        |         | #E0E0E0  | rgb(224, 224, 224) |
+| Cadet Blue (Crayola) |         | #B0B0C0  | rgb(176, 176, 192) |
+| Arsenic              |         | #3A3A4F  | rgb(58, 58, 79)    |
+| Sea Serpent          |         | #4DD0E1  | rgb(77, 208, 225)  |
+| Mustard              |         | #FFD54F  | rgb(255, 213, 79)  |
+| Fire Opal            |         | #EF5350  | rgb(239, 83, 80)   |
+| Dark Sea Green       |         | #81C784  | rgb(129, 199, 132) |
 
-<!-- #131862	(19,24,98)
-#2e4482	(46,68,130)
-#546bab	(84,107,171)
-#87889c	(135,136,156)
-#bea9de	(190,169,222) -->
+For the light theme the colors would be:
 
-For the light theme, AfterWords would be on a spring, pastel theme. Following this theme, the colors would be:
-
-| Name           | Preview                                | Hexacode | RGB Code           |
-| -------------- | -------------------------------------- | -------- | ------------------ |
-| Flower White   | <span style="color: #F8F3EF;">■</span> | #F8F3EF  | rgb(248, 243, 239) |
-| Middle Blue    | <span style="color: #7BD3EA;">■</span> | #7BD3EA  | rgb(123, 211, 234) |
-| Sea Foam Green | <span style="color: #A1EEBD;">■</span> | #A1EEBD  | rgb(161, 238, 189) |
-| Blond          | <span style="color: #F6F7C4;">■</span> | #F6F7C4  | rgb(246, 247, 196) |
-| Pale Pink      | <span style="color: #F6D6D6;">■</span> | #F6D6D6  | rgb(246, 214, 214) |
-
-<!-- #ffe7e1	(255,231,225)
-#eef9e4	(238,249,228)
-#cefbe8	(206,251,232)
-#c6dcf4	(198,220,244)
-#efd5fd	(239,213,253) -->
+| Name             | Preview | Hexacode | RGB Code           |
+| ---------------- | ------- | -------- | ------------------ |
+| Ghost White      |         | #F7F7FA  | rgb(247, 247, 250) |
+| Eerie Black      |         | #1A1A1A  | rgb(26, 26, 26)    |
+| Chinese White    |         | #E0E0E0  | rgb(224, 224, 224) |
+| White            |         | #FFFFFF  | rgb(255, 255, 255) |
+| Anti-Flash White |         | #F0F0F0  | rgb(240, 240, 240) |
+| Sea Serpent      |         | #4DD0E1  | rgb(77, 208, 225)  |
+| Mustard          |         | #FFD54F  | rgb(255, 213, 79)  |
+| Fire Opal        |         | #EF5350  | rgb(239, 83, 80)   |
+| Dark Sea Green   |         | #81C784  | rgb(129, 199, 132) |
 
 ---
 
