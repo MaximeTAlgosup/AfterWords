@@ -1042,6 +1042,8 @@ The mockup (Figma) can also be access as raw file in the [Design Folder](./desig
 
 The Redirection Page will be the first page each user of the application will see when they first connect. It would look like as presented below:
 
+<img alt="Redirection Page" height="340px" src="./img/figma/redirectionPage.png">
+
 ---
 
 #### 3.2.2. Mourners Side
@@ -1066,6 +1068,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 
 ---
 
+![Login Section](./img/figma/mourners/loginSection.png)
+
 ---
 
 ##### 3.2.2.2. Home Section
@@ -1073,6 +1077,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 ---
 
 **Dark Theme**:
+
+<img alt="Dark Theme Home Section" height="340px" src="./img/figma/mourners/darkHomeSection.png">
 
 **Light Theme**:
 
@@ -1084,6 +1090,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 
 **Dark Theme**:
 
+![Dark Theme Profile Section](./img/figma/mourners/darkProfileSection.png)
+
 **Light Theme**:
 
 ---
@@ -1093,6 +1101,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 ---
 
 **Dark Theme**:
+
+<img alt="Dark Theme Instance Section" height="340px" src="./img/figma/mourners/darkInstanceSection.png">
 
 **Light Theme**:
 
@@ -1104,6 +1114,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 
 **Dark Theme**:
 
+![Dark Theme Letters Section](./img/figma/mourners/darkLettersSection.png)
+
 **Light Theme**:
 
 ---
@@ -1113,6 +1125,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 ---
 
 **Dark Theme**:
+
+<img alt="Dark Theme Undertaker Section" height="340px" src="./img/figma/mourners/darkUndertakerSection.png">
 
 **Light Theme**:
 
@@ -1124,7 +1138,7 @@ Each of those are accessible below or you can click on them to be redirected ins
 
 **Dark Theme**:
 
-![alt text](image-2.png)
+![Dark Theme Procedure Section](./img/figma/mourners/darkProcedureSection.png)
 
 **Light Theme**:
 
@@ -1215,6 +1229,8 @@ Those can be access via links or on the following section of the document.
 
 ---
 
+![Login Section](./img/figma/administrators/loginSection.png)
+
 ---
 
 ##### 3.2.4.2. Home Section
@@ -1222,6 +1238,8 @@ Those can be access via links or on the following section of the document.
 ---
 
 **Dark Theme**:
+
+<img alt="Dark Theme Home Section" height="340px" src="./img/figma/administrators/darkHomeSection.png">
 
 **Light Theme**:
 
@@ -1233,6 +1251,8 @@ Those can be access via links or on the following section of the document.
 
 **Dark Theme**:
 
+<img alt="Dark Theme Application Section" height="340px" src="./img/figma/administrators/darkApplicationSection.png">
+
 **Light Theme**:
 
 ---
@@ -1242,6 +1262,8 @@ Those can be access via links or on the following section of the document.
 ---
 
 **Dark Theme**:
+
+<img alt="Dark Theme Undertakers Section" height="340px" src="./img/figma/administrators/darkUndertakersSection.png">
 
 **Light Theme**:
 
@@ -1253,6 +1275,8 @@ Those can be access via links or on the following section of the document.
 
 **Dark Theme**:
 
+<img alt="Dark Theme Mourners Section" height="340px" src="./img/figma/administrators/darkMournersSection.png">
+
 **Light Theme**:
 
 ---
@@ -1262,6 +1286,8 @@ Those can be access via links or on the following section of the document.
 ---
 
 **Dark Theme**:
+
+<img alt="Dark Theme Profile Section" height="340px" src="./img/figma/administrators/darkProfileSection.png">
 
 **Light Theme**:
 
