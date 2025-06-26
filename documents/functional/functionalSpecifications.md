@@ -58,6 +58,28 @@
       - [3.1.4.5. Mourners Section](#3145-mourners-section)
       - [3.1.4.6. Profile Section](#3146-profile-section)
   - [3.2. Mockups](#32-mockups)
+    - [3.2.1. Redirection Page](#321-redirection-page)
+    - [3.2.2. Mourners Side](#322-mourners-side)
+      - [3.2.2.1. Login Section](#3221-login-section)
+      - [3.2.2.2. Home Section](#3222-home-section)
+      - [3.2.2.3. Profile Section](#3223-profile-section)
+      - [3.2.2.4. Instance Section](#3224-instance-section)
+      - [3.2.2.5. Letters Section](#3225-letters-section)
+      - [3.2.2.6. Undertaker Section](#3226-undertaker-section)
+      - [3.2.2.7. Procedure Section](#3227-procedure-section)
+    - [3.2.3. Undertakers Side](#323-undertakers-side)
+      - [3.2.3.1. Login Section](#3231-login-section)
+      - [3.2.3.2. Home Section](#3232-home-section)
+      - [3.2.3.3. Profile Section](#3233-profile-section)
+      - [3.2.3.4. Clients Section](#3234-clients-section)
+      - [3.2.3.5. Employees Section](#3235-employees-section)
+    - [3.2.4. Administrator Side](#324-administrator-side)
+      - [3.2.4.1. Login Section](#3241-login-section)
+      - [3.2.4.2. Home Section](#3242-home-section)
+      - [3.2.4.3. Application Section](#3243-application-section)
+      - [3.2.4.4. Undertakers Section](#3244-undertakers-section)
+      - [3.2.4.5. Mourners Section](#3245-mourners-section)
+      - [3.2.4.6. Profile Section](#3246-profile-section)
   - [3.3. Color Palette](#33-color-palette)
   - [3.4. Logo](#34-logo)
   - [3.5. Font](#35-font)
@@ -1006,13 +1028,157 @@ Those can be access via links or on the following section of the document.
 
 <!-- TODO:  Figma to be done -->
 
+This application contains three main sides which are Mourners, Undertakers, and Administrator.
+
+This section will start with the common redirection page and then will go through each side independently.
+
+The mockup (Figma) can also be access as raw file in the [Design Folder](./design/AfterWords.fig).
+
+---
+
+#### 3.2.1. Redirection Page
+
+---
+
+---
+
+#### 3.2.2. Mourners Side
+
+---
+
+---
+
+##### 3.2.2.1. Login Section
+
+---
+
+---
+
+##### 3.2.2.2. Home Section
+
+---
+
+---
+
+##### 3.2.2.3. Profile Section
+
+---
+
+**Dark Theme**:
+
+![alt text](image.png)
+
+---
+
+##### 3.2.2.4. Instance Section
+
+---
+
+---
+
+##### 3.2.2.5. Letters Section
+
+---
+
+---
+
+##### 3.2.2.6. Undertaker Section
+
+---
+
+---
+
+##### 3.2.2.7. Procedure Section
+
+---
+
+**Dark Theme**:
+
+![alt text](image-1.png)
+
+---
+
+#### 3.2.3. Undertakers Side
+
+---
+
+---
+
+##### 3.2.3.1. Login Section
+
+---
+
+---
+
+##### 3.2.3.2. Home Section
+
+---
+
+---
+
+##### 3.2.3.3. Profile Section
+
+---
+
+---
+
+##### 3.2.3.4. Clients Section
+
+---
+
+---
+
+##### 3.2.3.5. Employees Section
+
+---
+
+---
+
+#### 3.2.4. Administrator Side
+
+---
+
+---
+
+##### 3.2.4.1. Login Section
+
+---
+
+---
+
+##### 3.2.4.2. Home Section
+
+---
+
+---
+
+##### 3.2.4.3. Application Section
+
+---
+
+---
+
+##### 3.2.4.4. Undertakers Section
+
+---
+
+---
+
+##### 3.2.4.5. Mourners Section
+
+---
+
+---
+
+##### 3.2.4.6. Profile Section
+
+---
+
 ---
 
 ### 3.3. Color Palette
 
 ---
-
-<!-- TODO: Change colors with actual ones -->
 
 AfterWords would have two themes, a light one and a dark one. They would be set corresponding to the user computer preferences.
 
