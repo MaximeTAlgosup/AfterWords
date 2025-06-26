@@ -905,7 +905,7 @@ _Employees_:
 ---
 
 Lastly, as for the two previous side, the administrator part could be access by clicking on the administrator button. \
-This section will be composed of the section listed hereunder:
+This section will be composed of the sections listed hereunder:
 
 - [Login](#3141-login-section)
 - [Home](#3142-home-section)
@@ -1040,11 +1040,25 @@ The mockup (Figma) can also be access as raw file in the [Design Folder](./desig
 
 ---
 
+The Redirection Page will be the first page each user of the application will see when they first connect. It would look like as presented below:
+
 ---
 
 #### 3.2.2. Mourners Side
 
 ---
+
+After the mourner button clicked, users will be redirected to this side of AfterWords. It would contain the following sections:
+
+- [Login](#3121-login-section)
+- [Home](#3122-home-section)
+- [Profile](#3123-profile-section)
+- [Instance](#3124-instance-section)
+- [Letters](#3125-letters-section)
+- [Undertaker](#3126-undertaker-section)
+- [Procedure](#3127-procedure-section)
+
+Each of those are accessible below or you can click on them to be redirected instantly to the intended section description.
 
 ---
 
@@ -1058,6 +1072,10 @@ The mockup (Figma) can also be access as raw file in the [Design Folder](./desig
 
 ---
 
+**Dark Theme**:
+
+**Light Theme**:
+
 ---
 
 ##### 3.2.2.3. Profile Section
@@ -1066,7 +1084,7 @@ The mockup (Figma) can also be access as raw file in the [Design Folder](./desig
 
 **Dark Theme**:
 
-![alt text](image.png)
+**Light Theme**:
 
 ---
 
@@ -1074,17 +1092,29 @@ The mockup (Figma) can also be access as raw file in the [Design Folder](./desig
 
 ---
 
+**Dark Theme**:
+
+**Light Theme**:
+
 ---
 
 ##### 3.2.2.5. Letters Section
 
 ---
 
+**Dark Theme**:
+
+**Light Theme**:
+
 ---
 
 ##### 3.2.2.6. Undertaker Section
 
 ---
+
+**Dark Theme**:
+
+**Light Theme**:
 
 ---
 
@@ -1094,17 +1124,26 @@ The mockup (Figma) can also be access as raw file in the [Design Folder](./desig
 
 **Dark Theme**:
 
-![alt text](image-1.png)
-
-**test 2**:
-
 ![alt text](image-2.png)
+
+**Light Theme**:
 
 ---
 
 #### 3.2.3. Undertakers Side
 
 ---
+
+Once the undertaker buttin is clicked, the user will be redirected into this side of the application. \
+This one would be composed of the following sections:
+
+- [Login](#3131-login-section)
+- [Home](#3132-home-section)
+- [Profile](#3133-profile-section)
+- [Clients](#3134-clients-section)
+- [Employees](#3135-employees-section)
+
+Each of those are written under and can be access threw the links above.
 
 ---
 
@@ -1118,11 +1157,19 @@ The mockup (Figma) can also be access as raw file in the [Design Folder](./desig
 
 ---
 
+**Dark Theme**:
+
+**Light Theme**:
+
 ---
 
 ##### 3.2.3.3. Profile Section
 
 ---
+
+**Dark Theme**:
+
+**Light Theme**:
 
 ---
 
@@ -1130,17 +1177,37 @@ The mockup (Figma) can also be access as raw file in the [Design Folder](./desig
 
 ---
 
+**Dark Theme**:
+
+**Light Theme**:
+
 ---
 
 ##### 3.2.3.5. Employees Section
 
 ---
 
+**Dark Theme**:
+
+**Light Theme**:
+
 ---
 
 #### 3.2.4. Administrator Side
 
 ---
+
+Lastly, the administrator part could be access by clicking on the administrator button. \
+This section will be composed of the sections listed hereunder:
+
+- [Login](#3141-login-section)
+- [Home](#3142-home-section)
+- [Application](#3143-application-section)
+- [Undertakers](#3144-undertakers-section)
+- [Mourners](#3145-mourners-section)
+- [Profile](#3146-profile-section)
+
+Those can be access via links or on the following section of the document.
 
 ---
 
@@ -1154,11 +1221,19 @@ The mockup (Figma) can also be access as raw file in the [Design Folder](./desig
 
 ---
 
+**Dark Theme**:
+
+**Light Theme**:
+
 ---
 
 ##### 3.2.4.3. Application Section
 
 ---
+
+**Dark Theme**:
+
+**Light Theme**:
 
 ---
 
@@ -1166,17 +1241,29 @@ The mockup (Figma) can also be access as raw file in the [Design Folder](./desig
 
 ---
 
+**Dark Theme**:
+
+**Light Theme**:
+
 ---
 
 ##### 3.2.4.5. Mourners Section
 
 ---
 
+**Dark Theme**:
+
+**Light Theme**:
+
 ---
 
 ##### 3.2.4.6. Profile Section
 
 ---
+
+**Dark Theme**:
+
+**Light Theme**:
 
 ---
 
