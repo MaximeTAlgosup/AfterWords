@@ -1020,7 +1020,7 @@ The dark theme would be composed of the following colors:
 
 | Name                 | Preview | Hexacode | RGB Code           |
 | -------------------- | ------- | -------- | ------------------ |
-| Dark Gunmetal        | ![alt text](image.png)        | #1F1F2E  | rgb(31, 31, 46)    |
+| Dark Gunmetal        | <img alt="Dark Gunmetal" width="200px" height="50px" src="./image.png">        | #1F1F2E  | rgb(31, 31, 46)    |
 | Gunmetal             | <img alt="Gunmetal" width="200px" height="100px" src="./image-1.png">        | #2B2B3C  | rgb(43, 43, 60)    |
 | Chinese White        |         | #E0E0E0  | rgb(224, 224, 224) |
 | Cadet Blue (Crayola) |         | #B0B0C0  | rgb(176, 176, 192) |
