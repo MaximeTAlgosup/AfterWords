@@ -1050,13 +1050,13 @@ The Redirection Page will be the first page each user of the application will se
 
 After the mourner button clicked, users will be redirected to this side of AfterWords. It would contain the following sections:
 
-- [Login](#3121-login-section)
-- [Home](#3122-home-section)
-- [Profile](#3123-profile-section)
-- [Instance](#3124-instance-section)
-- [Letters](#3125-letters-section)
-- [Undertaker](#3126-undertaker-section)
-- [Procedure](#3127-procedure-section)
+- [Login](#3221-login-section)
+- [Home](#3222-home-section)
+- [Profile](#3223-profile-section)
+- [Instance](#3224-instance-section)
+- [Letters](#3225-letters-section)
+- [Undertaker](#3226-undertaker-section)
+- [Procedure](#3227-procedure-section)
 
 Each of those are accessible below or you can click on them to be redirected instantly to the intended section description.
 
@@ -1137,11 +1137,11 @@ Each of those are accessible below or you can click on them to be redirected ins
 Once the undertaker buttin is clicked, the user will be redirected into this side of the application. \
 This one would be composed of the following sections:
 
-- [Login](#3131-login-section)
-- [Home](#3132-home-section)
-- [Profile](#3133-profile-section)
-- [Clients](#3134-clients-section)
-- [Employees](#3135-employees-section)
+- [Login](#3231-login-section)
+- [Home](#3232-home-section)
+- [Profile](#3233-profile-section)
+- [Clients](#3234-clients-section)
+- [Employees](#3235-employees-section)
 
 Each of those are written under and can be access threw the links above.
 
@@ -1200,12 +1200,12 @@ Each of those are written under and can be access threw the links above.
 Lastly, the administrator part could be access by clicking on the administrator button. \
 This section will be composed of the sections listed hereunder:
 
-- [Login](#3141-login-section)
-- [Home](#3142-home-section)
-- [Application](#3143-application-section)
-- [Undertakers](#3144-undertakers-section)
-- [Mourners](#3145-mourners-section)
-- [Profile](#3146-profile-section)
+- [Login](#3241-login-section)
+- [Home](#3242-home-section)
+- [Application](#3243-application-section)
+- [Undertakers](#3244-undertakers-section)
+- [Mourners](#3245-mourners-section)
+- [Profile](#3246-profile-section)
 
 Those can be access via links or on the following section of the document.
 
