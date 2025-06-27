@@ -2001,7 +2001,10 @@ _Mutual_:
 
 ## 8. Constraints And Limitations
 
-<!-- - Highlight known constraints, such as technology limitations or compliance requirements.   -->
+The main constraint for this application is the document sharing between instances. \
+AfterWords means to gather all the instances in one place and to do the communication at the end of a procedure the user hace to complete. However, it could sometime be difficult to contact some instances. They could be only using papers or just not be implemented.
+
+Another limitation of the application is that he could not have all the instances in its database. They are too many of them and some not known. That is why users can request the addition of instances within the application.
 
 ## 9. Appendices
 
