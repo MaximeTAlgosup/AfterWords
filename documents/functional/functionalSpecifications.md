@@ -586,7 +586,7 @@ The application would be parted in three different parts, for mourners, undertak
 
 This section will start with the common redirection page and then will go through each side independently.
 
-The wireframe (Excalidraw) can also be access as raw file in the [Design Folder](./design/designAfterWords.excalidraw).
+The wireframe (Excalidraw) can also be access as raw file in the [Design Folder](./design/designAfterWords.excalidraw) or via this [read-only link](https://excalidraw.com/#json=rcq1XiBL_v0qxwlxeFciO,e1-z_qXTcy63c2Oqzwb__Q).
 
 ---
 
@@ -1027,13 +1027,11 @@ Those can be access via links or on the following section of the document.
 
 ---
 
-<!-- TODO:  Figma to be done -->
-
 This application contains three main sides which are Mourners, Undertakers, and Administrator.
 
 This section will start with the common redirection page and then will go through each side independently.
 
-The mockup (Figma) can also be access as raw file in the [Design Folder](./design/AfterWords.fig).
+The mockup (Figma) can also be access as raw file in the [Design Folder](./design/AfterWords.fig) or via this [Figma link](https://www.figma.com/design/UOJiwDqyhkzR6SYwiGRAzX/AfterWords?node-id=0-1&t=2sYFQj3ckT0fPBRG-1).
 
 ---
 
