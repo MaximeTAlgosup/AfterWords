@@ -1283,11 +1283,11 @@ Those can be access via links or on the following section of the document.
 
 **Dark Theme**:
 
-![Dark Theme Login Section](./img/figma/administrators/darkloginSection.png)
+![Dark Theme Login Section](./img/figma/administrators/darkLoginSection.png)
 
 **Light Theme**:
 
-![Light Theme Login Section](./img/figma/administrators/lightloginSection.png)
+![Light Theme Login Section](./img/figma/administrators/lightLoginSection.png)
 
 ---
 
