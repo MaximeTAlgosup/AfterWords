@@ -2070,6 +2070,25 @@ Another limitation of the application is that he could not have all the instance
 
 ---
 
+| Term                | Definition                                                                               |
+| ------------------- | ---------------------------------------------------------------------------------------- |
+| Mourner             | A user who lost a loved one and is handling administrative tasks via the platform.       |
+| Undertaker          | A professional who manages funerals and assists mourners with administrative procedures. |
+| Administrator       | Person managing the AfterWords platform and overseeing operations.                       |
+| Instance            | An external organization (e.g., bank, insurance, employer) to contact after a death.     |
+| Template            | Prewritten letter models to assist in administrative communications.                     |
+| Letter              | A document sent to an instance to request services or inform about the death.            |
+| Pop-up              | A modal window used in the UI for forms or notifications.                                |
+| Tags                | Keywords associated with instances to help in classification or search.                  |
+| Procedure           | Step-by-step process for mourners to complete all administrative tasks.                  |
+| Client              | Another term for "mourner" in undertaker-facing features.                                |
+| Employee            | A user working for an undertaker company, possibly assisting clients.                    |
+| Home Page           | The dashboard screen shown after login.                                                  |
+| Feedback            | Comments or suggestions provided by the user (mourner) about the experience.             |
+| Verification        | System process to ensure correctness before confirming user actions.                     |
+| Template Completion | The step where a mourner fills in necessary fields in a letter template.                 |
+| Redirection Page    | The initial page that routes users to login or sign-up screens.                          |
+
 ---
 
 ### 9.2. Resources
