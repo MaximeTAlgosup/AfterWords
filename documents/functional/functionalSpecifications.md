@@ -1948,7 +1948,48 @@ This appendix can be find following [this link](./appendices/noUrgentProcedureGu
 
 ---
 
-<!-- TODO: List all the potential tags to ease the search of instances on the client side. -->
+AfterWords would have a tag system for the instance search on the mourner sides. The aim of this system is to help users to find their instances more quickly.
+
+The tags will be the following:
+
+_Finance_:
+
+| Name                             | Description                                                                                                               |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Bank                             | Financial institution managing the deceased's accounts. Notify them to freeze accounts and initiate succession processes. |
+| CNE (Caisse Nationale d'Épargne) | French savings institution; may hold regulated savings accounts (Livret A, etc.). Contact for fund disbursement.          |
+| Organisme Financier              | Any other financial institution (e.g., loan provider, investment service) related to the deceased.                        |
+
+_Employer & ASSEDIC_:
+
+| Name      | Description                                                                                                                          |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Employeur | Must be notified of the death to stop salary payments and settle any employment-related benefits (unpaid wages, death grants, etc.). |
+| ASSEDIC   | Former unemployment benefits agency (now part of Pôle emploi); contact if the deceased was receiving unemployment benefits.          |
+
+_Health Insurance_:
+
+| Name                       | Description                                                                                                                             |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Caisse d'Assurance Maladie | General health insurance fund that reimburses medical expenses and manages death-related health benefits.                               |
+| CPAM                       | Local branch of the Caisse Primaire d’Assurance Maladie; where death benefits like capital décès are claimed.                           |
+| Sécurité Sociale           | The broader French social security system providing health, retirement, and family coverage; relevant for survivor rights and pensions. |
+
+_Insurances_:
+
+| Name        | Description                                                                                                                                      |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Vie Entière | Whole life insurance: pays a death benefit regardless of when death occurs, often for estate planning.                                           |
+| Temporaire  | Term life insurance: pays a benefit only if death occurs during a specified period; may include mortgage or education coverage.                  |
+| Automobile  | Auto insurance: notify if death was due to a car accident or if the deceased had an active policy. May involve compensation or vehicle transfer. |
+
+_Mutual_:
+
+| Name                    | Description                                                                                                                                  |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mutuelle Privé          | A private mutual health fund; may offer additional death or funeral benefits. Notify to stop contributions and claim due benefits.           |
+| Mutuelle de l'Employeur | Employer-provided mutual insurance; may include group life insurance, supplemental health, or funeral coverage.                              |
+| Mutuelle Publique       | Public-sector mutual insurance (e.g., for teachers, civil servants); similar role as private mutuals, often with more standardized benefits. |
 
 ---
 
