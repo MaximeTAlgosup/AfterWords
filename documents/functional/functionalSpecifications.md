@@ -1956,7 +1956,7 @@ _Finance_:
 
 | Name                             | Description                                                                                                               |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Bank                             | Financial institution managing the deceased's accounts. Notify them to freeze accounts and initiate succession processes. |
+| Banque                           | Financial institution managing the deceased's accounts. Notify them to freeze accounts and initiate succession processes. |
 | CNE (Caisse Nationale d'Épargne) | French savings institution; may hold regulated savings accounts (Livret A, etc.). Contact for fund disbursement.          |
 | Organisme Financier              | Any other financial institution (e.g., loan provider, investment service) related to the deceased.                        |
 
@@ -1969,19 +1969,18 @@ _Employer & ASSEDIC_:
 
 _Health Insurance_:
 
-| Name                       | Description                                                                                                                             |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Caisse d'Assurance Maladie | General health insurance fund that reimburses medical expenses and manages death-related health benefits.                               |
-| CPAM                       | Local branch of the Caisse Primaire d’Assurance Maladie; where death benefits like capital décès are claimed.                           |
-| Sécurité Sociale           | The broader French social security system providing health, retirement, and family coverage; relevant for survivor rights and pensions. |
+| Name             | Description                                                                                                                             |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| CPAM             | Local branch of the Caisse Primaire d’Assurance Maladie; where death benefits like capital décès are claimed.                           |
+| Sécurité Sociale | The broader French social security system providing health, retirement, and family coverage; relevant for survivor rights and pensions. |
 
 _Insurances_:
 
-| Name        | Description                                                                                                                                      |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Vie Entière | Whole life insurance: pays a death benefit regardless of when death occurs, often for estate planning.                                           |
-| Temporaire  | Term life insurance: pays a benefit only if death occurs during a specified period; may include mortgage or education coverage.                  |
-| Automobile  | Auto insurance: notify if death was due to a car accident or if the deceased had an active policy. May involve compensation or vehicle transfer. |
+| Name                  | Description                                                                                                                                      |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Assurance Vie Entière | Whole life insurance: pays a death benefit regardless of when death occurs, often for estate planning.                                           |
+| Assurance Temporaire  | Term life insurance: pays a benefit only if death occurs during a specified period; may include mortgage or education coverage.                  |
+| Assurance Automobile  | Auto insurance: notify if death was due to a car accident or if the deceased had an active policy. May involve compensation or vehicle transfer. |
 
 _Mutual_:
 
@@ -1995,9 +1994,68 @@ _Mutual_:
 
 ## 7. External Interfaces
 
-<!-- - **APIs**: Describe any APIs the system will expose or consume.
-- **Third-Party Integrations**: List any integrations with external systems.
-- **Hardware Interfaces**: Describe interactions with physical devices if applicable.   -->
+AfterWords will recquire a lot of third parties. However, as said in the [Constraints and Limitation section](#8-constraints-and-limitations), all instances can not be implemented on the database at first and would be implemented progressively accross years. The ones that would be implemented at first are listed below:
+
+| Category                                 | Name                                                           | Description                                                                  | Contact                                            |
+| ---------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------- |
+| Banque                                   | Crédit Agricole                                                | Major French retail bank, offers succession and account management services. | <successions@ca-paris.fr> or local branch          |
+| Banque                                   | BNP Paribas                                                    | National and international banking services, manages account succession.     | Contact local agency via <www.bnpparibas.fr>       |
+| Banque                                   | BPCE (Banque Populaire, Caisse d’Épargne)                      | Cooperative banking group; succession managed regionally.                    | <www.bpce.fr> or regional branch                   |
+| Banque                                   | Société Générale                                               | Large bank with specific procedures for account closure and inheritance.     | <www.societegenerale.fr> or branch contact         |
+| Banque                                   | Crédit Mutuel                                                  | Cooperative bank, handles succession matters at local level.                 | Via branch or <www.creditmutuel.fr>                |
+| CNE                                      | Caisse d’Épargne Île-de-France                                 | Regional savings bank under BPCE, handles death-related procedures.          | <www.caisse-epargne.fr/ile-de-france>              |
+| CNE                                      | Caisse d’Épargne Rhône-Alpes                                   | Regional branch of Caisse d'Épargne.                                         | <www.caisse-epargne.fr/rhone-alpes>                |
+| CNE                                      | Caisse d’Épargne Aquitaine Poitou-Charentes                    | Regional branch.                                                             | <www.caisse-epargne.fr/aquitaine-poitou-charentes> |
+| CNE                                      | Caisse d’Épargne Midi-Pyrénées et Languedoc-Roussillon         | Regional branch.                                                             | <www.caisse-epargne.fr/midi-pyrenees>              |
+| CNE                                      | Caisse d’Épargne Loire-Centre                                  | Regional branch.                                                             | <www.caisse-epargne.fr/loire-centre>               |
+| Employeur                                | Ministère de l’Éducation nationale                             | Public employer; pensions & HR succession handled via Rectorat.              | rectorat or <www.education.gouv.fr>                |
+| Employeur                                | Groupe Crédit Agricole                                         | Large private employer; HR department manages notifications.                 | HR department of local office                      |
+| Employeur                                | La Poste (Groupe La Poste)                                     | National postal employer; succession via HR.                                 | <www.laposte.fr>                                   |
+| Employeur                                | Ministère des Armées                                           | Armed forces employer, with dedicated military HR.                           | Defence HR services or <www.defense.gouv.fr>       |
+| Employeur                                | Ministère de l’Intérieur                                       | National civil service; notify via local HR.                                 | <www.interieur.gouv.fr>                            |
+| ASSEDIC                                  | Île-de-France                                                  | Regional unemployment benefits (now Pôle emploi).                            | <www.pole-emploi.fr>                               |
+| ASSEDIC                                  | Auvergne-Rhône-Alpes                                           | Same as above.                                                               | <www.pole-emploi.fr>                               |
+| ASSEDIC                                  | Nouvelle-Aquitaine                                             | Same as above.                                                               | <www.pole-emploi.fr>                               |
+| ASSEDIC                                  | Occitanie                                                      | Same as above.                                                               | <www.pole-emploi.fr>                               |
+| ASSEDIC                                  | Centre-Val de Loire                                            | Same as above.                                                               | <www.pole-emploi.fr>                               |
+| CPAM                                     | CPAM de Paris                                                  | Health insurance fund managing healthcare and death benefits.                | <www.ameli.fr> or call 3646                        |
+| CPAM                                     | CPAM des Hauts-de-Seine                                        | Same services as above.                                                      | <www.ameli.fr> or call 3646                        |
+| CPAM                                     | CPAM du Rhône                                                  | Same services as above.                                                      | <www.ameli.fr> or call 3646                        |
+| CPAM                                     | CPAM des Bouches-du-Rhône                                      | Same services as above.                                                      | <www.ameli.fr> or call 3646                        |
+| CPAM                                     | CPAM du Cher                                                   | Same services as above.                                                      | <www.ameli.fr> or call 3646                        |
+| Sécurité Sociale                         | Maladie (maladie, maternité, invalidité, décès)                | Main healthcare benefits including death compensation.                       | <www.ameli.fr>                                     |
+| Sécurité Sociale                         | Accidents du travail et maladies professionnelles              | Benefits for workplace injuries/death.                                       | via CPAM work accident desk                        |
+| Sécurité Sociale                         | Vieillesse (retraite)                                          | Pensions and survivor’s pensions.                                            | <www.lassuranceretraite.fr>                        |
+| Sécurité Sociale                         | Famille (allocations familiales, aides au logement, handicap…) | Family and housing support.                                                  | <www.caf.fr>                                       |
+| Sécurité Sociale                         | Autonomie (personnes âgées ou en situation de handicap)        | Allowances for loss of autonomy.                                             | <www.cnsa.fr> or local council                     |
+| Sécurité Sociale                         | Le régime agricole (MSA – Mutualité Sociale Agricole)          | Social security for farmers and agricultural workers.                        | <www.msa.fr>                                       |
+| Assurance Vie Entière                    | Linxea Spirit 2                                                | Online life insurance product (whole life).                                  | <www.linxea.com>                                   |
+| Assurance Vie Entière                    | Yomoni Vie                                                     | Digital investment-based life insurance.                                     | <www.yomoni.fr>                                    |
+| Assurance Vie Entière                    | Placement Direct Vie                                           | Online life contract with flexible investment options.                       | <www.placement-direct.fr>                          |
+| Assurance Vie Entière                    | Nalo Patrimoine                                                | Personalized life insurance portfolio service.                               | <www.nalo.fr>                                      |
+| Assurance Vie Entière                    | Boursorama Vie                                                 | Online banking life insurance contract.                                      | <www.boursorama-banque.com>                        |
+| Assurance Temporaire                     | ATEL (Assurance Temporaire En Ligne)                           | Temporary online life insurance.                                             | <www.assurance-atel.com>                           |
+| Assurance Temporaire                     | Direct Assurance Temporaire                                    | Online temp life insurance.                                                  | <www.direct-assurance.fr>                          |
+| Assurance Temporaire                     | Lovys                                                          | Digital insurance platform.                                                  | <www.lovys.com>                                    |
+| Assurance Temporaire                     | Eurofil                                                        | AXA brand offering online term insurance.                                    | <www.eurofil.com>                                  |
+| Assurance Temporaire                     | AcommeAssure                                                   | Online insurance broker.                                                     | <www.acommeassure.com>                             |
+| Assurance Automobile                     | Covéa                                                          | Group (MAAF, MMA, GMF); offers vehicle cover.                                | <www.covea.eu>                                     |
+| Assurance Automobile                     | AXA                                                            | International insurer, includes auto cover.                                  | <www.axa.fr>                                       |
+| Assurance Automobile                     | Macif                                                          | Cooperative insurer; auto and death compensation.                            | <www.macif.fr>                                     |
+| Assurance Automobile                     | Allianz                                                        | Global insurer; must be notified for death during accident.                  | <www.allianz.fr>                                   |
+| Assurance Automobile                     | Groupama                                                       | Agricultural & general insurer; includes death coverage.                     | <www.groupama.fr>                                  |
+| Mutuelle Privé                           | Macif                                                          | Private mutual insurer; may reimburse funeral.                               | <www.macif.fr>                                     |
+| Mutuelle Privé                           | Adréa                                                          | Regional private mutual.                                                     | <www.adrea.fr>                                     |
+| Mutuelle Privé & Mutuelle de l'Employeur | Harmonie Mutuelle                                              | France’s largest mutual; offers full services.                               | <www.harmonie-mutuelle.fr>                         |
+| Mutuelle Privé & Mutuelle de l'Employeur | Mutuelle Générale                                              | Covers private & public employees.                                           | <www.lamutuellegenerale.fr>                        |
+| Mutuelle Privé                           | Aésio Mutuelle & Mutuelle de l'Employeur                       | Part of Aéma group; partner with employers.                                  | <www.aesio.fr>                                     |
+| Mutuelle de l'Employeur                  | Apicil                                                         | Complementary health/pension insurance.                                      | <www.apicil.com>                                   |
+| Mutuelle de l'Employeur                  | Malakoff Humanis                                               | Major mutual group for employees.                                            | <www.malakoffhumanis.com>                          |
+| Mutuelle Publique                        | MGEN (Mutuelle Générale de l’Éducation Nationale)              | For education/public sector; manages health/death benefits.                  | <www.mgen.fr>                                      |
+| Mutuelle Publique                        | MNH (Mutuelle Nationale des Hospitaliers)                      | Public hospital sector mutual.                                               | <www.mnh.fr>                                       |
+| Mutuelle Publique                        | MNT (Mutuelle Nationale Territoriale)                          | For territorial agents.                                                      | <www.mnt.fr>                                       |
+| Mutuelle Publique                        | Intériale                                                      | For police, military & interior ministry agents.                             | <www.interiale.fr>                                 |
+| Mutuelle Publique                        | MGP                                                            | For postal/telecom civil servants.                                           | <www.mgp.fr>                                       |
 
 ## 8. Constraints And Limitations
 
