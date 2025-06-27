@@ -70,9 +70,10 @@
     - [3.2.3. Undertakers Side](#323-undertakers-side)
       - [3.2.3.1. Login Section](#3231-login-section)
       - [3.2.3.2. Home Section](#3232-home-section)
-      - [3.2.3.3. Profile Section](#3233-profile-section)
-      - [3.2.3.4. Clients Section](#3234-clients-section)
-      - [3.2.3.5. Employees Section](#3235-employees-section)
+      - [3.2.3.3. Profile Section Admin](#3233-profile-section-admin)
+      - [3.2.3.4. Profile Section Employee](#3234-profile-section-employee)
+      - [3.2.3.5. Clients Section](#3235-clients-section)
+      - [3.2.3.6. Employees Section](#3236-employees-section)
     - [3.2.4. Administrator Side](#324-administrator-side)
       - [3.2.4.1. Login Section](#3241-login-section)
       - [3.2.4.2. Home Section](#3242-home-section)
@@ -101,7 +102,7 @@
   - [6.2. Documents To Obtain](#62-documents-to-obtain)
   - [6.3. Urgent Procedure (In The Week Following The Death)](#63-urgent-procedure-in-the-week-following-the-death)
   - [6.4. No Urgent Procedure (Within Six Months After Death)](#64-no-urgent-procedure-within-six-months-after-death)
-  - [G.5. Tags](#g5-tags)
+  - [6.5. Tags](#65-tags)
 - [7. External Interfaces](#7-external-interfaces)
 - [8. Constraints And Limitations](#8-constraints-and-limitations)
 - [9. Appendices](#9-appendices)
@@ -1082,6 +1083,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 
 **Light Theme**:
 
+<img alt="Light Theme Home Section" height="340px" src="./img/figma/mourners/lightHomeSection.png">
+
 ---
 
 ##### 3.2.2.3. Profile Section
@@ -1093,6 +1096,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 ![Dark Theme Profile Section](./img/figma/mourners/darkProfileSection.png)
 
 **Light Theme**:
+
+![Light Theme Profile Section](./img/figma/mourners/lightProfileSection.png)
 
 ---
 
@@ -1106,6 +1111,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 
 **Light Theme**:
 
+<img alt="Light Theme Instance Section" height="340px" src="./img/figma/mourners/lightInstanceSection.png">
+
 ---
 
 ##### 3.2.2.5. Letters Section
@@ -1117,6 +1124,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 ![Dark Theme Letters Section](./img/figma/mourners/darkLettersSection.png)
 
 **Light Theme**:
+
+![Light Theme Letters Section](./img/figma/mourners/lightLettersSection.png)
 
 ---
 
@@ -1130,6 +1139,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 
 **Light Theme**:
 
+<img alt="Light Theme Undertaker Section" height="340px" src="./img/figma/mourners/lightUndertakerSection.png">
+
 ---
 
 ##### 3.2.2.7. Procedure Section
@@ -1142,6 +1153,8 @@ Each of those are accessible below or you can click on them to be redirected ins
 
 **Light Theme**:
 
+![Light Theme Procedure Section](./img/figma/mourners/lightProcedureSection.png)
+
 ---
 
 #### 3.2.3. Undertakers Side
@@ -1153,9 +1166,10 @@ This one would be composed of the following sections:
 
 - [Login](#3231-login-section)
 - [Home](#3232-home-section)
-- [Profile](#3233-profile-section)
-- [Clients](#3234-clients-section)
-- [Employees](#3235-employees-section)
+- [Profile Admin](#3233-profile-section-admin)
+- [Profile Employee](#3234-profile-section-employee)
+- [Clients](#3235-clients-section)
+- [Employees](#3236-employees-section)
 
 Each of those are written under and can be access threw the links above.
 
@@ -1165,6 +1179,14 @@ Each of those are written under and can be access threw the links above.
 
 ---
 
+**Dark Theme**:
+
+![Dark Theme Login Section](./img/figma/undertakers/darkLoginSection.png)
+
+**Light Theme**:
+
+![Light Theme Login Section](./img/figma/undertakers/lightLoginSection.png)
+
 ---
 
 ##### 3.2.3.2. Home Section
@@ -1173,37 +1195,67 @@ Each of those are written under and can be access threw the links above.
 
 **Dark Theme**:
 
+<img alt="Dark Theme Home Section" height="340px" src="./img/figma/undertakers/darkHomeSection.png">
+
 **Light Theme**:
+
+<img alt="Light Theme Home Section" height="340px" src="./img/figma/undertakers/lightHomeSection.png">
 
 ---
 
-##### 3.2.3.3. Profile Section
+##### 3.2.3.3. Profile Section Admin
 
 ---
 
 **Dark Theme**:
 
+![Dark Theme Profile Section Admin](./img/figma/undertakers/darkProfileSectionAdmin.png)
+
 **Light Theme**:
+
+![Light Theme Profile Section Admin](./img/figma/undertakers/lightProfileSectionAdmin.png)
 
 ---
 
-##### 3.2.3.4. Clients Section
+##### 3.2.3.4. Profile Section Employee
 
 ---
 
 **Dark Theme**:
 
+<img alt="Dark Theme Profile Section Employee" height="340px" src="./img/figma/undertakers/darkProfileSectionEmployee.png">
+
 **Light Theme**:
+
+<img alt="Light Theme Profile Section Employee" height="340px" src="./img/figma/undertakers/lightProfileSectionEmployee.png">
 
 ---
 
-##### 3.2.3.5. Employees Section
+##### 3.2.3.5. Clients Section
 
 ---
 
 **Dark Theme**:
 
+![Dark Theme Client Section](./img/figma/undertakers/darkClientsSection.png)
+
 **Light Theme**:
+
+![Light Theme Client Section](./img/figma/undertakers/lightClientsSection.png)
+
+---
+
+##### 3.2.3.6. Employees Section
+
+---
+
+**Dark Theme**:
+
+<img alt="Dark Theme Employees Section" height="340px" src="./img/figma/undertakers/darkEmployeesSection.png">
+
+**Light Theme**:
+
+<img alt="Light Theme Employees Section" height="340px" src="./img/figma/undertakers/lightEmployeesSection.png">
 
 ---
 
@@ -1229,7 +1281,13 @@ Those can be access via links or on the following section of the document.
 
 ---
 
-![Login Section](./img/figma/administrators/loginSection.png)
+**Dark Theme**:
+
+![Dark Theme Login Section](./img/figma/administrators/darkloginSection.png)
+
+**Light Theme**:
+
+![Light Theme Login Section](./img/figma/administrators/lightloginSection.png)
 
 ---
 
@@ -1243,6 +1301,8 @@ Those can be access via links or on the following section of the document.
 
 **Light Theme**:
 
+<img alt="Light Theme Home Section" height="340px" src="./img/figma/administrators/lightHomeSection.png">
+
 ---
 
 ##### 3.2.4.3. Application Section
@@ -1254,6 +1314,8 @@ Those can be access via links or on the following section of the document.
 <img alt="Dark Theme Application Section" height="340px" src="./img/figma/administrators/darkApplicationSection.png">
 
 **Light Theme**:
+
+<img alt="Light Theme Application Section" height="340px" src="./img/figma/administrators/lightApplicationSection.png">
 
 ---
 
@@ -1267,6 +1329,8 @@ Those can be access via links or on the following section of the document.
 
 **Light Theme**:
 
+<img alt="Light Theme Undertakers Section" height="340px" src="./img/figma/administrators/lightUndertakersSection.png">
+
 ---
 
 ##### 3.2.4.5. Mourners Section
@@ -1279,6 +1343,8 @@ Those can be access via links or on the following section of the document.
 
 **Light Theme**:
 
+<img alt="Light Theme Mourners Section" height="340px" src="./img/figma/administrators/lightMournersSection.png">
+
 ---
 
 ##### 3.2.4.6. Profile Section
@@ -1290,6 +1356,8 @@ Those can be access via links or on the following section of the document.
 <img alt="Dark Theme Profile Section" height="340px" src="./img/figma/administrators/darkProfileSection.png">
 
 **Light Theme**:
+
+<img alt="Light Theme Profile Section" height="340px" src="./img/figma/administrators/lightProfileSection.png">
 
 ---
 
@@ -1878,7 +1946,7 @@ This appendix can be find following [this link](./appendices/noUrgentProcedureGu
 
 ---
 
-### G.5. Tags
+### 6.5. Tags
 
 ---
 
