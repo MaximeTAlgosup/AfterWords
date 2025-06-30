@@ -117,7 +117,7 @@
 
 ---
 
-This project is made to help mourners with the french administration system. It would be delivered to undertakers which will deliver it to mourners.
+This project is made to help mourners<sup><a id="1-bis" href="#1">[1]</a></sup> with the french administration system. It would be delivered to undertakers<sup><a id="2-bis" href="#2">[2]</a></sup> which will deliver it to mourners.
 
 This project is held by Maxime THIZEAU.
 
@@ -130,9 +130,9 @@ This project is held by Maxime THIZEAU.
 #### 1.2.1. Vision
 
 Afterwords is an application allowing mourning people to get some help on the administration part. \
-It would ease the process by gathering all instances in one place. \
+It would ease the process by gathering all instances<sup><a id="3-bis" href="#3">[3]</a></sup> in one place. \
 How would that work?
-The mourner just have to enter all the different instances and the required documents. Once it would be done, they would have to complete some templates of letters to send them all in one click.
+The mourner just have to enter all the different instances and the required documents. Once it would be done, they would have to complete some templates<sup><a id="4-bis" href="#4">[4]</a></sup> of letters<sup><a id="5-bis" href="#5">[5]</a></sup> to send them all in one click.
 
 ---
 
@@ -170,8 +170,8 @@ AfterwWords will cover the different subject hereunder:
 
 The following points are what AfterWords will not do:
 
-- AfterWords won't display user's information withinvthe application.
-- It would not do administartion procedures for the user.
+- AfterWords won't display user's information within the application.
+- It would not do administration procedures<sup><a id="6-bis" href="#6">[6]</a></sup> for the user.
 - It won't dispose of a messagerie within the application, the user will need to have an e-mail address of there own.
 - Users can't organize funerals within the application.
 
@@ -190,7 +190,7 @@ The mourning people are the main audience of this project. AfterWords is meant t
 
 ---
 
-This project don't have a lot of deliverables. They are only composed of the code source and docuents that have to be written.
+This project don't have a lot of deliverables. They are only composed of the code source and documents that have to be written.
 
 For the documents, there would be:
 
@@ -215,14 +215,14 @@ The code source could be find in the `src` folder at the root of the project.
 
 This project has only one representatives which is Maxime THIZEAU, he would hold every role that a team could possibly have. However, here are the main ones:
 
-| Role              | Description                                                                                                                          |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Project Manager   | Managment (time, resources)<br>Workload distribution<br> Report to stakeholders<br>Risk anticipation and mitigation                  |
-| Program Manager   | Mock-ups and general design of the software<br>Communication with the client<br>Functional specification delivery<br>Risk management |
-| Technical Leader  | Define coding conventions<br>Choose technical tools used<br>Technical specification delivery<br>Manages developer tasks              |
-| Software engineer | Write the code<br>Fix bugs<br>Document the code<br>Create the tests if needed for the code                                           |
-| Quality assurance | Verify documents<br>Test the program<br>Confirm we match the client expectations<br>Test plan delivery                               |
-| Technical Writter | Put itself in user shoes<br>User manual delivery                                                                                     |
+| Role              | Description                                                                                                                           |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Project Manager   | Managment (time, resources)<br>Workload distribution<br> Report to stakeholders<br>Risk anticipation and mitigation                   |
+| Program Manager   | Mock-ups and general design of the software<br>Communication with the client<br>Functional Specifications delivery<br>Risk management |
+| Technical Leader  | Define coding conventions<br>Choose technical tools used<br>Technical Specifications delivery<br>Manages developer tasks              |
+| Software engineer | Write the code<br>Fix bugs<br>Document the code<br>Create the tests if needed for the code                                            |
+| Quality assurance | Verify documents<br>Test the program<br>Confirm we match the client expectations<br>Test plan delivery                                |
+| Technical Writter | Put itself in user shoes<br>User manual delivery                                                                                      |
 
 ---
 
@@ -230,10 +230,9 @@ This project has only one representatives which is Maxime THIZEAU, he would hold
 
 ---
 
-| Role            | Representative           | Expectation                                                              |
-| --------------- | ------------------------ | ------------------------------------------------------------------------ |
-| owner           | Maxime THIZEAU           | Finished project while meeting requirements and proof-tested version one |
-| School director | Franck JEANNIN (ALGOSUP) | Clear documentation and management based on the skills learnt in class   |
+| Role  | Representative | Expectation                                                              |
+| ----- | -------------- | ------------------------------------------------------------------------ |
+| owner | Maxime THIZEAU | Finished project while meeting requirements and proof-tested version one |
 
 ---
 
@@ -293,7 +292,7 @@ The project should be done (version one) before June, 2026.
 This project has many critical tasks which are:
 
 - Each side of the application (Mourners, Undertakers, Admin).
-- The Technical Specifiaction.
+- The Technical Specifiactions.
 
 **Timeline Visualization**:
 
@@ -305,17 +304,17 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-| Date       | Milestones                        |
-| ---------- | --------------------------------- |
-| 07/12/2025 | Functional Specification Delivery |
-| 08/05/2025 | Technical Specification Delivery  |
-| 10/19/2025 | MVP Release                       |
-| 12/03/2025 | Test Plan Delivery                |
-| 12/03/2025 | Test Cases Delivery               |
-| 04/25/2026 | Version One Release               |
-| 05/27/2026 | User Manual Delivery              |
-| 05/30/2026 | Management Artifacts Delivery     |
-| 06/20/2026 | Oral Presentation Delivery        |
+| Date       | Milestones                         |
+| ---------- | ---------------------------------- |
+| 07/12/2025 | Functional Specifications Delivery |
+| 08/05/2025 | Technical Specifications Delivery  |
+| 10/19/2025 | MVP Release                        |
+| 12/03/2025 | Test Plan Delivery                 |
+| 12/03/2025 | Test Cases Delivery                |
+| 04/25/2026 | Version One Release                |
+| 05/27/2026 | User Manual Delivery               |
+| 05/30/2026 | Management Artifacts Delivery      |
+| 06/20/2026 | Oral Presentation Delivery         |
 
 ---
 
@@ -325,7 +324,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 **Task Dependencies**:
 
-- The Functional Specification would be only completed once the Figma (design) and Excalidraw (Wireframe) would be entirely done.
+- The Functional Specifications would be only completed once the Figma (design) and Excalidraw (Wireframe) would be entirely done.
 - The Last Testing phase will start only after the first version is completed.
 - The First Version of the application would need all three sides to be completed.
 
@@ -342,12 +341,12 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 **Assumptions**:
 
-- The team assume undertakers would spead the application as much as possible in their clients.
+- The team assume undertakers would spread the application as much as possible in their clients<sup><a id="7-bis" href="#7">[7]</a></sup>.
 - The team assume the application will be used only by mourners having an account.
 - The team assume deadlines will be met.
 - The team assume connection will be provided by the client.
 - The team assume mourners will have all necessary documents.
-- The team assume Undertakers and client will respect the code of concuct.
+- The team assume Undertakers and clients will respect the code of conduct.
 
 **Constraints**:
 
@@ -355,7 +354,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 - The application can't reach out mourners without passing by undertakers.
 - The application won't be used by everyone.
 - The application isn't free.
-- The application should be developped in a short periiod of time.
+- The application should be developped in a short period of time.
 - The team power is low.
 
 ---
@@ -367,7 +366,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 | Type             | Description                                                    | Likelihood | Impact                                                      | Mitigation                                                                 |
 | ---------------- | -------------------------------------------------------------- | ---------- | ----------------------------------------------------------- | -------------------------------------------------------------------------- |
 | Sickness         | A team member becomes sick.                                    | High       | The project won't be updated while the team member is sick. | Planned more time than necessary to still be on track in case of sickness. |
-| No user          | AfterWords is not appealing enough to consumers.               | Low        | The Product won'y be selled and the project obsolete.       | Having an important and efficient marketing campaign.                      |
+| No user          | AfterWords is not appealing enough to consumers.               | Low        | The Product won't be sold and the project will be obsolete. | Having an important and efficient marketing campaign.                      |
 | Data Leak        | The database leak and private information is lost on internet. | Medium     | AfterWords will lost undertakers and mourners trust.        | Having a solid data privacy and security on the database.                  |
 | Unfunctional API | An API is not accessible from the application.                 | High       | This instance won't be accessible from the application.     | Finding another way to send and retrieve data from them.                   |
 
@@ -376,8 +375,6 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 ## 2. Use Cases and Personas
 
 ### 2.1. Use Cases
-
-<!-- TODO: Add Use Cases, at least 2. And verify accuracy of already existing ones. -->
 
 #### 2.1.1. Creating A New Account
 
@@ -455,7 +452,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 **Basic Flow**:
 
-1. Open a teb with all your documents locally.
+1. Open a tab with all your documents locally.
 2. Select the documents you want to upload.
 3. Drag & drop them into the `Document container`.
 4. Confirm the upload.
@@ -463,7 +460,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 > [!Warning]
 > Alternate Flows:
 >
-> - The document the user want to upload already is uploaded.
+> - The document the user wants to upload already is uploaded.
 > - No document given to the `Document container`.
 
 **Postconditions**:
@@ -502,7 +499,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 **Postconditions**:
 
-- Letter sent to the instance via mail.
+- Letters sent to the instance via e-mail.
 
 ---
 
@@ -521,7 +518,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 **Frustrations**:
 
 - Can't understand how the administration system works anymore.
-- Don't know how to contact efficeietnly all of the instances needed for procedures.
+- Don't know how to contact efficiently all of the instances needed for procedures.
 - Would rather spend time with her family than doing papers.
 
 **Goals**:
@@ -549,7 +546,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 **Goals**:
 
 - Would like to add mourners on a single application that helps them completing procedures.
-- Would like to add other employees to it to have some help.
+- Would like to add other employees<sup><a id="8-bis" href="#8">[8]</a></sup> to it to have some help.
 - Would like to complete procedure for those who wants it.
 
 ---
@@ -566,7 +563,7 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 - Don't know all the procedures needed.
 - Can't pass much time with his family due to the amount of work.
-- have enough to search for every instance needed.
+- Has enough to search for every instance needed.
 
 **Goals**:
 
@@ -582,11 +579,11 @@ The Gantt Chart could be seen in the [Management Artifacts Document](../manageme
 
 ---
 
-The application would be parted in three different parts, for mourners, undertakers, and administrators. Therefore, more page has been designed for all of them.
+The application would be parted in three different parts, for mourners, undertakers, and administrators<sup><a id="9-bis" href="#9">[9]</a></sup>. Therefore, more pages have been designed for all of them.
 
-This section will start with the common redirection page and then will go through each side independently.
+This section will start with the common redirection page<sup><a id="10-bis" href="#10">[10]</a></sup> and then will go through each side independently.
 
-The wireframe (Excalidraw) can also be access as raw file in the [Design Folder](./design/designAfterWords.excalidraw) or via this [read-only link](https://excalidraw.com/#json=rcq1XiBL_v0qxwlxeFciO,e1-z_qXTcy63c2Oqzwb__Q).
+The wireframe (Excalidraw) can also be accessed as raw file in the [Design Folder](./design/designAfterWords.excalidraw) or via this [read-only link](https://excalidraw.com/#json=rcq1XiBL_v0qxwlxeFciO,e1-z_qXTcy63c2Oqzwb__Q).
 
 ---
 
@@ -642,9 +639,9 @@ It would look like this:
 
 **Pages**:
 
-| Name      | Complement | Description                                                                                          |
-| --------- | ---------- | ---------------------------------------------------------------------------------------------------- |
-| Home Page | /          | Center of the navigation between all pages. it also display basic information about the app/mourner. |
+| Name                                                   | Complement | Description                                                                                          |
+| ------------------------------------------------------ | ---------- | ---------------------------------------------------------------------------------------------------- |
+| Home Page<sup><a id="11-bis" href="#11">[11]</a></sup> | /          | Center of the navigation between all pages. it also display basic information about the app/mourner. |
 
 **Visuals**:
 
@@ -658,19 +655,19 @@ It would look like this:
 
 **Pages**:
 
-| Name            | Complement                     | Description                                                                                      |
-| --------------- | ------------------------------ | ------------------------------------------------------------------------------------------------ |
-| Profile Page    | Without Document               | Display information about user and deceased as well as an empty list of documents.               |
-| Profile Page    | With Document                  | Display information about user and deceased as well as a list of documents.                      |
-| Profile Pop-up  | Verification                   | Pop-up to double check before leaving the page.                                                  |
-| Document Pop-up | Cancel                         | Pop-up to double check exiting the document addition.                                            |
-| Document Pop-up | Phase 1 - Empty                | Pop-up with all the list of documents you need to add to your profile. The list is empty.        |
-| Document Pop-up | Phase 1 - In Validation        | Appears when a document is valid and you you haven't close the pop-up.                           |
-| Document Pop-up | Phase 1 - Validated            | Appears when a document is valid and after opening the pop-up a second time.                     |
-| Document Pop-up | Phase 2                        | Pop-up to add documents via drag and drop or file explorer.                                      |
-| Document Pop-up | Phase 2 - Error                | Pop-up displaying an error on the type of document.                                              |
-| Document Pop-up | Phase 2 - New Document         | Pop-up with a form to complete to add a document which is not predefined within the application. |
-| Document Pop-up | Phase 2 - New Document - Error | Pop-up displaying an error of type or field.                                                     |
+| Name                                                        | Complement                                                | Description                                                                                      |
+| ----------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Profile Page                                                | Without Document                                          | Display information about user and deceased as well as an empty list of documents.               |
+| Profile Page                                                | With Document                                             | Display information about user and deceased as well as a list of documents.                      |
+| Profile Pop-up<sup><a id="12-bis" href="#12">[12]</a></sup> | Verification<sup><a id="13-bis" href="#13">[13]</a></sup> | Pop-up to double check before leaving the page.                                                  |
+| Document Pop-up                                             | Cancel                                                    | Pop-up to double check exiting the document addition.                                            |
+| Document Pop-up                                             | Phase 1 - Empty                                           | Pop-up with all the list of documents you need to add to your profile. The list is empty.        |
+| Document Pop-up                                             | Phase 1 - In Validation                                   | Appears when a document is valid and you you haven't close the pop-up.                           |
+| Document Pop-up                                             | Phase 1 - Validated                                       | Appears when a document is valid and after opening the pop-up a second time.                     |
+| Document Pop-up                                             | Phase 2                                                   | Pop-up to add documents via drag and drop or file explorer.                                      |
+| Document Pop-up                                             | Phase 2 - Error                                           | Pop-up displaying an error on the type of document.                                              |
+| Document Pop-up                                             | Phase 2 - New Document                                    | Pop-up with a form to complete to add a document which is not predefined within the application. |
+| Document Pop-up                                             | Phase 2 - New Document - Error                            | Pop-up displaying an error of type or field.                                                     |
 
 **Visuals**:
 
@@ -684,16 +681,16 @@ It would look like this:
 
 **Pages**:
 
-| Name            | Complement             | Description                                                     |
-| --------------- | ---------------------- | --------------------------------------------------------------- |
-| Instance Page   | Your Instances         | Displays Instances linked to the account.                       |
-| Instance Page   | Your Instances - Empty | Page to add instances when none are linked to the account.      |
-| Instance Pop-up | Verification           | Pop-up to double check if the user wants to remove an instance. |
-| Instance Page   | Add Instances          | Page listing all the instances.                                 |
-| Instance Page   | Search                 | Page with a filtered list of instances following user choices.  |
-| Instance Page   | No Result              | Page when no instances match filters.                           |
-| Tags Pop-up     | /                      | Pop-up with all the tags related to instances.                  |
-| Instance Page   | Instance Info          | Description of the instance the user clicked on.                |
+| Name            | Complement             | Description                                                                                 |
+| --------------- | ---------------------- | ------------------------------------------------------------------------------------------- |
+| Instance Page   | Your Instances         | Displays Instances linked to the account.                                                   |
+| Instance Page   | Your Instances - Empty | Page to add instances when none are linked to the account.                                  |
+| Instance Pop-up | Verification           | Pop-up to double check if the user wants to remove an instance.                             |
+| Instance Page   | Add Instances          | Page listing all the instances.                                                             |
+| Instance Page   | Search                 | Page with a filtered list of instances following user choices.                              |
+| Instance Page   | No Result              | Page when no instances match filters.                                                       |
+| Tags Pop-up     | /                      | Pop-up with all the tags<sup><a id="14-bis" href="#14">[14]</a></sup> related to instances. |
+| Instance Page   | Instance Info          | Description of the instance the user clicked on.                                            |
 
 **Visuals**:
 
@@ -747,21 +744,21 @@ It would look like this:
 
 **Pages**:
 
-| Name             | Complement                  | Description                                                                                        |
-| ---------------- | --------------------------- | -------------------------------------------------------------------------------------------------- |
-| Procedure Page   | Introduction                | Describes all the steps the user will need to complete through the procedure.                      |
-| Procedure Page   | Step 1                      | Page to complete all templates for each instances.                                                 |
-| Procedure Page   | Step 1 - Completed          | Page when a template is validated.                                                                 |
-| Procedure Page   | Step 1 - Error              | Page when templates are not completed yet.                                                         |
-| Procedure Page   | Template Completion         | Page with the template and inputs to field missing parts of the template.                          |
-| Procedure Page   | Template Completion - Error | When an input is empty, will appear with a red stroke.                                             |
-| Procedure Page   | Step 2                      | Same as step 1 for another type of instances.                                                      |
-| Procedure Page   | Step 3                      | Same as step 1 for another type of instances.                                                      |
-| Procedure Page   | Step 4                      | Same as step 1 for another type of instances.                                                      |
-| Procedure Page   | Step 5                      | Finalization step, the user needs to validate the procedure to send emails.                        |
-| Procedure Page   | Step 5 - Yes                | Finalization step, same as above. The user can write feedback about AfterWords and/or undertakers. |
-| Procedure Pop-up | Validation                  | Double check before sending emails to all instances.                                               |
-| Procedure Page   | Last Step                   | Showed to inform the procedure is completed.                                                       |
+| Name             | Complement                                                       | Description                                                                                                                                     |
+| ---------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Procedure Page   | Introduction                                                     | Describes all the steps the user will need to complete through the procedure.                                                                   |
+| Procedure Page   | Step 1                                                           | Page to complete all templates for each instances.                                                                                              |
+| Procedure Page   | Step 1 - Completed                                               | Page when a template is validated.                                                                                                              |
+| Procedure Page   | Step 1 - Error                                                   | Page when templates are not completed yet.                                                                                                      |
+| Procedure Page   | Template Completion<sup><a id="15-bis" href="#15">[15]</a></sup> | Page with the template and inputs to field missing parts of the template.                                                                       |
+| Procedure Page   | Template Completion - Error                                      | When an input is empty, will appear with a red stroke.                                                                                          |
+| Procedure Page   | Step 2                                                           | Same as step 1 for another type of instances.                                                                                                   |
+| Procedure Page   | Step 3                                                           | Same as step 1 for another type of instances.                                                                                                   |
+| Procedure Page   | Step 4                                                           | Same as step 1 for another type of instances.                                                                                                   |
+| Procedure Page   | Step 5                                                           | Finalization step, the user needs to validate the procedure to send emails.                                                                     |
+| Procedure Page   | Step 5 - Yes                                                     | Finalization step, same as above. The user can write feedback<sup><a id="16-bis" href="#16">[16]</a></sup> about AfterWords and/or undertakers. |
+| Procedure Pop-up | Validation                                                       | Double check before sending emails to all instances.                                                                                            |
+| Procedure Page   | Last Step                                                        | Showed to inform the procedure is completed.                                                                                                    |
 
 **Visuals**:
 
@@ -782,7 +779,7 @@ This one would be composed of the following sections:
 - [Clients](#3134-clients-section)
 - [Employees](#3135-employees-section)
 
-Each of those are written under and can be access threw the links above.
+Each of those are written under and can be accessed through the links above.
 
 ---
 
@@ -815,7 +812,7 @@ Each of those are written under and can be access threw the links above.
 | Name      | Complement | Description                                                                                |
 | --------- | ---------- | ------------------------------------------------------------------------------------------ |
 | Home Page | Admin      | Display all the information about the company and is the center of all the other sections. |
-| Home Page | Employee   | Center of the other sections, less information display than the admin.                     |
+| Home Page | Employee   | Center of the other sections, less information displayed than the admin.                   |
 
 **Visuals**:
 
@@ -872,7 +869,7 @@ _Employees_:
 | Client Page   | Add Client - Error               | Appears when a field is empty.                                                                                                   |
 | Client Page   | Client Profile                   | Displays all the information about the client that undertakers wrote. A personal message could also be written.                  |
 | Client Page   | Modify Client                    | Same form as Add Client but input fields are already filled.                                                                     |
-| Client Pop-up | Regenerate - Verification        | Douvle check if a password should be regenerated or not.                                                                         |
+| Client Pop-up | Regenerate - Verification        | Double check if a password should be regenerated or not.                                                                         |
 | Client Pop-up | Modify - Verification            | Double check if the modification are correct before validating them.                                                             |
 
 **Visuals**:
@@ -929,7 +926,7 @@ Those can be access via links or on the following section of the document.
 | ------------ | ---------- | --------------------------------------- |
 | Welcome Page | /          | Page to welcome user in.                |
 | Login Page   | /          | Displays a form to fill.                |
-| Login Page   | Error      | Appears when a field is emoty or wrong. |
+| Login Page   | Error      | Appears when a field is empty or wrong. |
 
 **Visuals**:
 
@@ -1159,7 +1156,7 @@ Each of those are accessible below or you can click on them to be redirected ins
 
 ---
 
-Once the undertaker buttin is clicked, the user will be redirected into this side of the application. \
+Once the undertaker button is clicked, the user will be redirected into this side of the application. \
 This one would be composed of the following sections:
 
 - [Login](#3231-login-section)
@@ -1169,7 +1166,7 @@ This one would be composed of the following sections:
 - [Clients](#3235-clients-section)
 - [Employees](#3236-employees-section)
 
-Each of those are written under and can be access threw the links above.
+Each of those are written under and can be access through the links above.
 
 ---
 
@@ -1261,7 +1258,7 @@ Each of those are written under and can be access threw the links above.
 
 ---
 
-Lastly, the administrator part could be access by clicking on the administrator button. \
+Lastly, the administrator part could be accessed by clicking on the administrator button. \
 This section will be composed of the sections listed hereunder:
 
 - [Login](#3241-login-section)
@@ -1271,7 +1268,7 @@ This section will be composed of the sections listed hereunder:
 - [Mourners](#3245-mourners-section)
 - [Profile](#3246-profile-section)
 
-Those can be access via links or on the following section of the document.
+Those can be access via links or on the following sections of the document.
 
 ---
 
@@ -1460,10 +1457,10 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 >
 > - See users account they created.
 > - Access low privacy user database (full name, deceased information).
-> - Add new employees
-> - Manage employees
-> - Add new mourners
-> - Update company inforamtion
+> - Add new employees.
+> - Manage employees.
+> - Add new mourners.
+> - Update company information.
 
 ---
 
@@ -1484,7 +1481,7 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 >
 > - See users account they created.
 > - Access low privacy user database (full name, deceased information).
-> - Add new mourners
+> - Add new mourners.
 
 ---
 
@@ -1547,9 +1544,9 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 | Add Document             | Mourners should add documents to their profile in order to complete the procedure. | Document                       | Documents added to the profile.           | Mourners click on Add Document. They select the intended category. They upload their document. It is added to the profile page and in database.                                      |
 | Delete Document          | Mourners want to remove a document that is not necessary for the procedure.        | Document to remove.            | No document.                              | Mourners Click on remove button on the same line as the document they want to remove. Click on validate on the Pop-up Verification.                                                  |
 | See Document             | Mourners can see in another tab documents they already inputs.                     | Document                       | New Tab with Document's display.          | Click on see button to preview the page. Open a new tab with the document.                                                                                                           |
-| Add Deceased Information | Mourners can precise information about deceased.                                   | Typed information.             | Information in deceased information card. | Click on add infprmation button. Type the information you want to precise. Enter.                                                                                                    |
+| Add Deceased Information | Mourners can precise information about deceased.                                   | Typed information.             | Information in deceased information card. | Click on add information button. Type the information you want to precise. Enter.                                                                                                    |
 | Add Instances            | Mourners should add instances to their profile in order to complete the procedure. | Instances checked.             | List of instances in Instances Page.      | Click on add instances. Add tags. Type instance name. Check instances needed. Click on the Validate button.                                                                          |
-| Remove Instances         | Mourners want to remove an instances not needed to contact.                        | Instance to remove.            | Instance removed.                         | Click on remove button on the same line as the instance they want to remove. Click on validate on the Pop-up Verification.                                                           |
+| Remove Instances         | Mourners want to remove an instance not needed to contact.                         | Instance to remove.            | Instance removed.                         | Click on remove button on the same line as the instance they want to remove. Click on validate on the Pop-up Verification.                                                           |
 | See Instances            | Mourners can see in another tab instances they already inputs.                     | Instance                       | New Tab with Instance's display.          | Click on see button. A new tab open with instance information.                                                                                                                       |
 | Add Letters              | Mourners should add letters to their profile in order to complete the procedure.   | Letters                        | Letters add to the Letters Page.          | Click on add button. Slide to find the good template. Click on Select Button.                                                                                                        |
 | Remove Letters           | Mourners want to remove a letter that is not good enough for them.                 | Letter to remove.              | Letter removed.                           | Click on remove button. The letter is removed from the database and the input cleared.                                                                                               |
@@ -1564,16 +1561,16 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 
 | Feature Name                 | Role     | Description                                                                 | Inputs                              | Outputs                           | Behavior                                                                                                          |
 | ---------------------------- | -------- | --------------------------------------------------------------------------- | ----------------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Sign-up                      | Admin    | Complete a form to create an account                                        | Forms field                         | New account created               | Complete Form. Click on Sign-up.                                                                                  |
-| Login                        | Both     | Access to account.                                                          | Username, password, email.          | Access to account                 | Complete form. Click on Login.                                                                                    |
-| Change profile               | Admin    | Admin can change profile on the application to make it up to date.          | field inputs.                       | Profile page.                     | Click on modify button. Change needed fields. Click on validate button.                                           |
+| Sign-up                      | Admin    | Complete a form to create an account                                        | Forms field.                        | New account created.              | Complete Form. Click on Sign-up.                                                                                  |
+| Login                        | Both     | Access to account.                                                          | Username, password, email.          | Access to account.                | Complete form. Click on Login.                                                                                    |
+| Change profile               | Admin    | Admin can change profile on the application to make it up to date.          | Field inputs.                       | Profile page.                     | Click on modify button. Change needed fields. Click on validate button.                                           |
 | Request Changes on profile   | Employee | Employees can change directly profile page, they need to ask requests.      | Fields to change, modifications.    | Send a request to admin.          | Click on ask for changes button. Check fields you want to modify. Write your suggestion. Click on Request button. |
-| Review Request               | Admin    | Review Employee's suggestions to change the profile page.                   | Employee's request.                 | accept or denied changes.         | Click on review changes. Click on the desired field. Accept or deny changes. Validate choice.                     |
+| Review Request               | Admin    | Review Employee's suggestions to change the profile page.                   | Employee's request.                 | Accept or denied changes.         | Click on review changes. Click on the desired field. Accept or deny changes. Validate choice.                     |
 | Write kind words to mourners | Both     | Undertakers can assess small words to mourners.                             | Typed Text.                         | Text display.                     | Click on Small Words Field. Write your Words. Press Enter.                                                        |
-| Add Client                   | Both     | Undertakers need to create accounts to mourners.                            | Mourners and deceaseds information. | new mourner account.              | Click on add Client Button. Fill the form. Create account.                                                        |
+| Add Client                   | Both     | Undertakers need to create accounts to mourners.                            | Mourners and deceaseds information. | New mourner account.              | Click on add Client Button. Fill the form. Create account.                                                        |
 | Modify Client                | Both     | Undertakers can do mistakes and need to apply changes on clients if needed. | Client Profile.                     | Modified Client Profile.          | Click on the Client Profile. Click on modify Button. Change necessary fields. Validate Choices.                   |
 | View Client Profile          | Both     | Undertakers can access Client information.                                  | Client on list.                     | New page with client information. | Search for your client. Click on its line in the list.                                                            |
-| Regenerate password          | Both     | Password can be forbiden and so regenerated.                                | Regenerate Button.                  | New password.                     | Go on the Client Profile. Click on the regenerate button. Click on Yes in the Pop-up.                             |
+| Regenerate password          | Both     | Password can be forgotten and so regenerated.                               | Regenerate Button.                  | New password.                     | Go on the Client Profile. Click on the regenerate button. Click on Yes in the Pop-up.                             |
 | Add Employee                 | Admin    | Admin undertaker can add employees to lighten his work amount.              | Employees information.              | New Employee Account.             | Click on add Employee button. Fill the form. Click on add new employee button.                                    |
 | Remove Employee              | Admin    | Employees can leave company so employees can be removed.                    | Employee accounts.                  | Empty section.                    | Search for employee. Click on remove button. Click on validate.                                                   |
 | Modify Employee              | Admin    | Admin undertaker can do mistakes and need to correct them.                  | Employee Account.                   | Modified employee account.        | Go to Employee Profile. Click on Modify Employee button. Change needed fields. Click on Validate.                 |
@@ -1586,11 +1583,11 @@ About the application font, AfterWords will entirely use Inter. This font is wid
 | Feature Name                | Description                                                                    | Inputs                             | Outputs                             | Behavior                                                                                                  |
 | --------------------------- | ------------------------------------------------------------------------------ | ---------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | View Application Statistics | Administrator can view the advancement of the application, number of use, ect. | Statistics.                        | Display.                            | Looks for desired statistics. Display them in a page.                                                     |
-| View Undertakers List       | Administrator need to survey undertakers.                                      | Undertakers accounts.              | List of Undertakers.                | Displays undertakers in green if they paid, in orange if they are near due date, in red if they are late. |
+| View Undertakers List       | Administrator needs to survey undertakers.                                     | Undertakers accounts.              | List of Undertakers.                | Displays undertakers in green if they paid, in orange if they are near due date, in red if they are late. |
 | View Undertakers Profile    | Administrator can look at undertaker profiles.                                 | Undertaker account.                | Display                             | Search for the undertaker. Click on the line.                                                             |
-| Request Monthly Fee         | Administrator need to remind undertakers to pay fees.                          | Email address and predefined body. | Email sent.                         | Go to undertaker's profile. Click on Send email button.                                                   |
+| Request Monthly Fee         | Administrator needs to remind undertakers to pay fees.                         | Email address and predefined body. | Email sent.                         | Go to undertaker's profile. Click on Send email button.                                                   |
 | View Mourners List          | Administrators need to survey mourners.                                        | Mourners account.                  | List of Mourners.                   | Collects all Mourners account in database. Display them as a list.                                        |
-| View Mourners Profile       | Administrator can access a precise account.                                    | Mourner Account.                   | New page with mourners information. | Search for the mourner. Click on the line.                                                                |
+| View Mourners Profile       | Administrator can access a precise account.                                    | Mourner account.                   | New page with mourners information. | Search for the mourner. Click on the line.                                                                |
 | Edit Admin Profile          | Administrator can change fields in profile if needed.                          | Admin Profile.                     | Modified Profile.                   | Click on modify button. Change intended fields. Click on validate button.                                 |
 
 ---
@@ -1666,25 +1663,25 @@ graph TD
 
     B --> C[Profile Page]
     B --> D[Clients Page]
-    B --> E[Employees page]
+    B --> E[Employees Page]
 
     C -->|If error| CE[Profile Page Error]
     C -->|If request| CR[Profile Page Request]
     C --> C1[Pop-up Request Selection]
     C1 --> C2[Pop-up Request Category]
-    C2 -->|If accept| C3[Pop-up Request Verification]
+    C2 -->|If accepted| C3[Pop-up Request Verification]
     C2 -->|If denied| C3[Pop-up Request Verification]
 
     D -->|If error| DE[Client Page No Result]
     D -->|If no feedback| DF[Client Page No Feedback]
-    D -->|If no feedback and error| DFE[Client Page No Feedback and No Result]
+    D -->|If no feedback and error| DFE[Client Page No Feedback And No Result]
     D --> D1[Add Client]
     D --> D2[Client Profile]
     D1 -->|If error| D1E[Add Client Error]
     D2 --> D3[Modify Client]
     D2 & D3 --> D4[Pop-up Regenerate Verification]
     D3 --> D3E[Modify Client Error]
-    D3 --> D5[Pop-up Modify verification]
+    D3 --> D5[Pop-up Modify Verification]
 
     E --> E1[Pop-up Remove]
     E --> E2[Pop-up Add]
@@ -1710,14 +1707,14 @@ graph TD
 
     ZD -->|If error| ZDE[Client Page No Result]
     ZD -->|If no feedback| ZDF[Client Page No Feedback]
-    ZD -->|If no feedback and error| ZDFE[Client Page No Feedback and No Result]
+    ZD -->|If no feedback and error| ZDFE[Client Page No Feedback And No Result]
     ZD --> ZD1[Add Client]
     ZD --> ZD2[Client Profile]
     ZD1 -->|If error| ZD1E[Add Client Error]
     ZD2 --> ZD3[Modify Client]
     ZD2 & ZD3 --> ZD4[Pop-up Regenerate Verification]
     ZD3 --> ZD3E[Modify Client Error]
-    ZD3 --> ZD5[Pop-up Modify verification]
+    ZD3 --> ZD5[Pop-up Modify Verification]
   end
 ```
 
@@ -1770,7 +1767,7 @@ Every roles will have different authorization on the application and database.
 
 **Encryption**:
 
-All passwords will be necrypted. When an undertaker creates a new account for a mourner, they should not see the password. This one would be send directly via email to the mourner.
+All passwords will be encrypted. When an undertaker creates a new account for a mourner, they should not see the password. This one would be send directly via email to the mourner.
 
 ---
 
@@ -1778,9 +1775,9 @@ All passwords will be necrypted. When an undertaker creates a new account for a 
 
 ---
 
-This application is a web application and should be compatible on every operating system to touch a wider range of clients/mourners. Moreover, the application would be accessible only for computers as tablets and smartphone aren't relevant enough to fulfill this kind of procedure.
+This application is a web application and should be compatible on every operating system to touch a wider range of clients/mourners. Moreover, the application would be accessible only for computers as tablets and smartphones aren't relevant enough to fulfill this kind of procedure.
 
-In other words, AfterWords should be usable on every operating system, chrome, mozilla firefox, and google. It would be responsible on the following screen sizes:
+In other words, AfterWords should be usable on every operating system, Google Chrome, Mozilla Firefox, and Google. It would be responsible on the following screen sizes:
 
 - 1920×1080px,
 - 1366×768px,
@@ -1797,7 +1794,7 @@ AfterWords should be really performant on two aspects.
 
 First, it needs to load entirely in less than 4 seconds, and to change pages in less than 1. Mourners are already in a difficult time and don't want to spend to much time waiting for the website to load.
 
-Secondly, AfterWords would have to be performant under an important amount of user at the same time. A lot of deceased are identified each day (1,800 deceased a day). In case a huge amount of people dies the same day, the application should not crash under 10,000 users at the same time.
+Secondly, AfterWords would have to be performant under an important amount of users at the same time. A lot of deceased are identified each day (1,800 deceased a day). In case a huge amount of people dies the same day, the application should not crash under 10,000 users at the same time.
 
 ---
 
@@ -1805,7 +1802,7 @@ Secondly, AfterWords would have to be performant under an important amount of us
 
 ---
 
-This application would be a web application, therefore, an internet connecrtion should be provided by the user to acces the website.
+This application would be a web application, therefore, an internet connection should be provided by the user to acces the website.
 
 ---
 
@@ -1813,9 +1810,9 @@ This application would be a web application, therefore, an internet connecrtion 
 
 ---
 
-Concerning the marketing of the application, it would be sold as a subscription plan with three offers. The offers would be mensual, trimestrial and anual. They would respectively cost, ..., ..., and ....
+Concerning the marketing of the application, it would be sold as a subscription plan with three offers. The offers would be mensual, trimestrial and anual. They would respectively cost, €75, €200, and €600.
 
-The application would be promoted by the administrator, Maxime THIZEAU. The promotion would be done by phone call or email exchange to the different underatker companies, firstly in Bourges, Cher, then in a wider region to end to the globality of France.
+The application would be promoted by the administrator, Maxime THIZEAU. The promotion would be done by phone call or email exchange to the different undertaker companies, firstly in Bourges, Cher, then in a wider region to end to the globality of France.
 
 ---
 
@@ -1825,7 +1822,7 @@ The application would be promoted by the administrator, Maxime THIZEAU. The prom
 
 ---
 
-AfterWords would contain templates for mourners to complete. However, it would be too long to describe them all in this specification. Therefore, they would be stored in a subfolder called [templates](./templates/).
+AfterWords would contain templates for mourners to complete. However, it would be too long to describe them all in this specifications. Therefore, they would be stored in a subfolder called [templates](./templates/).
 
 They would be ordered in subcategories which are the following:
 
@@ -1920,7 +1917,7 @@ As well as the deceased papers:
   - Procès-verbaux d’assemblée de copropriété
   - Travaux (factures, devis)
 
-In case the mourner don't know how to get these documents or what they are, more information are displayed in the [documents to get file](./documentsToGet.md).
+In case the mourner don't know how to get these documents or what they are, more information are displayed in the [documents to get file](./appendices/documentsToGet.md).
 
 ---
 
@@ -1928,7 +1925,7 @@ In case the mourner don't know how to get these documents or what they are, more
 
 ---
 
-The procedures are inspired by a physical document that has been translated and reformated into markdown. However, this procedure is too long to put in the Functional Specification at once. Therefore, an appendix was made specialy for the Urgent Procedure.
+The procedures are inspired by a physical document that has been translated and reformated into markdown. However, this procedure is too long to put in the Functional Specifications at once. Therefore, an appendix was made especialy for the Urgent Procedure.
 
 This appendix can be find following [this link](./appendices/urgentProcedureGuide.md) or in the [appendices folder](./appendices/).
 
@@ -1938,7 +1935,7 @@ This appendix can be find following [this link](./appendices/urgentProcedureGuid
 
 ---
 
-The procedures are inspired by a physical document that has been translated and reformated into markdown. However, this procedure is too long to put in the Functional Specification at once. Therefore, an appendix was made specialy for the No Urgent Procedure.
+The procedures are inspired by a physical document that has been translated and reformated into markdown. However, this procedure is too long to put in the Functional Specifications at once. Therefore, an appendix was made especialy for the No Urgent Procedure.
 
 This appendix can be find following [this link](./appendices/noUrgentProcedureGuide.md) or in the [appendices folder](./appendices/).
 
@@ -1948,7 +1945,7 @@ This appendix can be find following [this link](./appendices/noUrgentProcedureGu
 
 ---
 
-AfterWords would have a tag system for the instance search on the mourner sides. The aim of this system is to help users to find their instances more quickly.
+AfterWords would have a tag system for the instance search on the mourner side. The aim of this system is to help users to find their instances more quickly.
 
 The tags will be the following:
 
@@ -2060,7 +2057,7 @@ AfterWords will recquire a lot of third parties. However, as said in the [Constr
 ## 8. Constraints And Limitations
 
 The main constraint for this application is the document sharing between instances. \
-AfterWords means to gather all the instances in one place and to do the communication at the end of a procedure the user hace to complete. However, it could sometime be difficult to contact some instances. They could be only using papers or just not be implemented.
+AfterWords means to gather all the instances in one place and to do the communication at the end of a procedure the user has to complete. However, it could sometime be difficult to contact some instances. They could be only using papers or just not be implemented.
 
 Another limitation of the application is that he could not have all the instances in its database. They are too many of them and some not known. That is why users can request the addition of instances within the application.
 
@@ -2070,24 +2067,24 @@ Another limitation of the application is that he could not have all the instance
 
 ---
 
-| Term                | Definition                                                                               |
-| ------------------- | ---------------------------------------------------------------------------------------- |
-| Mourner             | A user who lost a loved one and is handling administrative tasks via the platform.       |
-| Undertaker          | A professional who manages funerals and assists mourners with administrative procedures. |
-| Administrator       | Person managing the AfterWords platform and overseeing operations.                       |
-| Instance            | An external organization (e.g., bank, insurance, employer) to contact after a death.     |
-| Template            | Prewritten letter models to assist in administrative communications.                     |
-| Letter              | A document sent to an instance to request services or inform about the death.            |
-| Pop-up              | A modal window used in the UI for forms or notifications.                                |
-| Tags                | Keywords associated with instances to help in classification or search.                  |
-| Procedure           | Step-by-step process for mourners to complete all administrative tasks.                  |
-| Client              | Another term for "mourner" in undertaker-facing features.                                |
-| Employee            | A user working for an undertaker company, possibly assisting clients.                    |
-| Home Page           | The dashboard screen shown after login.                                                  |
-| Feedback            | Comments or suggestions provided by the user (mourner) about the experience.             |
-| Verification        | System process to ensure correctness before confirming user actions.                     |
-| Template Completion | The step where a mourner fills in necessary fields in a letter template.                 |
-| Redirection Page    | The initial page that routes users to login or sign-up screens.                          |
+| Id                                 | Term                | Definition                                                                               |
+| ---------------------------------- | ------------------- | ---------------------------------------------------------------------------------------- |
+| <a id="9" href="#9-bis">[9]</a>    | Administrator       | Person managing the AfterWords platform and overseeing operations.                       |
+| <a id="7" href="#7-bis">[7]</a>    | Client              | Another term for "mourner" in undertaker-facing features.                                |
+| <a id="8" href="#8-bis">[8]</a>    | Employee            | A user working for an undertaker company, possibly assisting clients.                    |
+| <a id="16" href="#16-bis">[16]</a> | Feedback            | Comments or suggestions provided by the user (mourner) about the experience.             |
+| <a id="11" href="#11-bis">[11]</a> | Home Page           | The dashboard screen shown after login.                                                  |
+| <a id="3" href="#3-bis">[3]</a>    | Instance            | An external organization (e.g., bank, insurance, employer) to contact after a death.     |
+| <a id="5" href="#5-bis">[5]</a>    | Letter              | A document sent to an instance to request services or inform about the death.            |
+| <a id="1" href="#1-bis">[1]</a>    | Mourner             | A user who lost a loved one and is handling administrative tasks via the platform.       |
+| <a id="12" href="#12-bis">[12]</a> | Pop-up              | A modal window used in the UI for forms or notifications.                                |
+| <a id="6" href="#6-bis">[6]</a>    | Procedure           | Step-by-step process for mourners to complete all administrative tasks.                  |
+| <a id="10" href="#10-bis">[10]</a> | Redirection Page    | The initial page that routes users to login or sign-up screens.                          |
+| <a id="14" href="#14-bis">[14]</a> | Tags                | Keywords associated with instances to help in classification or search.                  |
+| <a id="4" href="#4-bis">[4]</a>    | Template            | Prewritten letter models to assist in administrative communications.                     |
+| <a id="15" href="#15-bis">[15]</a> | Template Completion | The step where a mourner fills in necessary fields in a letter template.                 |
+| <a id="2" href="#2-bis">[2]</a>    | Undertaker          | A professional who manages funerals and assists mourners with administrative procedures. |
+| <a id="13" href="#13-bis">[13]</a> | Verification        | System process to ensure correctness before confirming user actions.                     |
 
 ---
 
@@ -2100,5 +2097,7 @@ Another limitation of the application is that he could not have all the instance
 **Color Hunt**: <https://colorhunt.co>
 
 **Krita**: <https://krita.org/en/>
+
+**DeepAi**: <https://deepai.org/machine-learning-model/text2img>
 
 ---
